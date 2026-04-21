@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snake</title>
+  <style>
+    body{font-family:system-ui,sans-serif;background:#020617;color:#e2e8f0;display:grid;place-items:center;min-height:100vh;margin:0}
+    .app{text-align:center}.row{display:flex;gap:12px;justify-content:center;margin-top:12px}a{color:#fff;background:#334155;padding:10px 14px;border-radius:12px;text-decoration:none}
+    canvas{background:#111827;border:2px solid #334155;border-radius:12px}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <h1>Snake</h1>
+    <p id="score">Puntuación: 0</p>
+    <canvas id="game" width="400" height="400"></canvas>
+    <div class="row"><a href="../../">Volver</a></div>
+  </div>
+  <script>
+    const c=document.getElementById('game'),x=c.getContext('2d'),scoreEl=document.getElementById('score');
+    const size=20,count=20; let snake=[{x:10,y:10}],dir={x:1,y:0},food={x:5,y:5},score=0;
+    document.addEventListener('keydown',e=>{if(e.key==='ArrowUp'&&dir.y!==1)dir={x:0,y:-1}; if(e.key==='ArrowDown'&&dir.y!==-1)dir={x:0,y:1}; if(e.key==='ArrowLeft'&&dir.x!==1)dir={x:-1,y:0}; if(e.key==='ArrowRight'&&dir.x!==-1)dir={x:1,y:0};});
+    function spawnFood(){food={x:Math.floor(Math.random()*count),y:Math.floor(Math.random()*count)}}
+    function reset(){snake=[{x:10,y:10}];dir={x:1,y:0};score=0;scoreEl.textContent='Puntuación: 0';spawnFood();}
+    function tick(){const head={x:(snake[0].x+dir.x+count)%count,y:(snake[0].y+dir.y+count)%count}; if(snake.some(s=>s.x===head.x&&s.y===head.y)){reset(); return;} snake.unshift(head); if(head.x===food.x&&head.y===food.y){score++; scoreEl.textContent='Puntuación: '+score; spawnFood();} else snake.pop(); draw();}
+    function draw(){x.fillStyle='#111827'; x.fillRect(0,0,400,400); x.fillStyle='#22c55e'; snake.forEach(s=>x.fillRect(s.x*size,s.y*size,size-2,size-2)); x.fillStyle='#ef4444'; x.fillRect(food.x*size,food.y*size,size-2,size-2);}
+    reset(); draw(); setInterval(tick,120);
+  </script>
+</body>
+</html>
