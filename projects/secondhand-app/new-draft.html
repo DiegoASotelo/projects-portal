@@ -10,7 +10,7 @@
     .wrap{max-width:560px;margin:0 auto;padding:20px 16px 40px}.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;padding:18px 16px;margin-top:14px}
     h1{font-size:1.8rem;line-height:1.05;margin:0 0 10px} p{color:var(--muted);line-height:1.6;margin:0 0 14px}
     .grid{display:grid;gap:12px}.field label{display:block;font-size:.92rem;margin-bottom:6px;color:#cbd5e1}.field input,.field textarea,.field select{width:100%;padding:13px 14px;border-radius:14px;border:1px solid #2a3b5f;background:var(--input);color:var(--text);font:inherit}.field textarea{min-height:110px;resize:vertical}
-    .upload{border:1px dashed #3b4f78;border-radius:18px;padding:18px;text-align:center;color:var(--muted);background:#0f172a}.actions{display:flex;gap:10px;margin-top:14px}.btn{flex:1;border:none;border-radius:16px;padding:14px 16px;font-weight:800;font-size:1rem}.btn.primary{background:var(--accent);color:#052e16}.btn.secondary{background:#1e293b;color:#e2e8f0}.hint{font-size:.88rem;color:var(--muted);margin-top:8px}
+    .upload{border:1px dashed #3b4f78;border-radius:18px;padding:18px;text-align:center;color:var(--muted);background:#0f172a}.actions{display:flex;gap:10px;margin-top:14px}.btn{flex:1;border:none;border-radius:16px;padding:14px 16px;font-weight:800;font-size:1rem}.btn.primary{background:var(--accent);color:#052e16}.btn.secondary{background:#1e293b;color:#e2e8f0}.hint{font-size:.88rem;color:var(--muted);margin-top:8px}.notice{margin-top:12px;padding:12px 14px;border-radius:14px;font-size:.92rem}.notice.error{background:#3a1720;color:#fecdd3}.notice.warning{background:#3a2d11;color:#fde68a}.notice ul{margin:8px 0 0 18px;padding:0}
   </style>
 </head>
 <body>
@@ -18,23 +18,26 @@
     <section class="card">
       <h1>Nuevo anuncio</h1>
       <p>Sube las fotos y completa solo lo mínimo. La app se encargará del resto del borrador.</p>
-      <div class="upload">Añadir fotos del producto<br><span class="hint">Frontal, etiqueta, talla y defectos visibles si los hay</span></div>
+      <div class="upload">Añadir fotos del producto<br><span class="hint">Frontal, etiqueta, talla y defectos visibles si los hay</span><div style="margin-top:12px"><input name="image" type="file" accept="image/*"></div><div class="hint" data-upload-info></div></div>
     </section>
 
     <section class="card">
-      <div class="grid">
-        <div class="field"><label>Título</label><input placeholder="Ej. Chaqueta vaquera Zara"></div>
-        <div class="field"><label>Descripción</label><textarea placeholder="Describe el artículo brevemente"></textarea></div>
-        <div class="field"><label>Categoría</label><select><option>Ropa</option><option>Libros</option><option>Hogar</option><option>Electrónica</option></select></div>
-        <div class="field"><label>Marca</label><input placeholder="Ej. Zara"></div>
-        <div class="field"><label>Estado</label><select><option>Muy bueno</option><option>Bueno</option><option>Satisfactorio</option></select></div>
-        <div class="field"><label>Precio</label><input type="number" placeholder="20"></div>
-      </div>
+      <form id="new-draft-form" class="grid" data-new-draft-form>
+        <div class="field"><label>Título</label><input name="title" placeholder="Ej. Chaqueta vaquera Zara"></div>
+        <div class="field"><label>Descripción</label><textarea name="description" placeholder="Describe el artículo brevemente"></textarea></div>
+        <div class="field"><label>Categoría</label><select name="category"><option>Ropa</option><option>Libros</option><option>Hogar</option><option>Electrónica</option></select></div>
+        <div class="field"><label>Marca</label><input name="brand" placeholder="Ej. Zara"></div>
+        <div class="field"><label>Estado</label><select name="condition"><option value="very_good">Muy bueno</option><option value="good">Bueno</option><option value="satisfactory">Satisfactorio</option></select></div>
+        <div class="field"><label>Precio</label><input name="price" type="number" placeholder="20"></div>
+      </form>
       <div class="actions">
         <a class="btn secondary" href="./index.html" style="text-decoration:none;text-align:center;display:block;">Guardar borrador</a>
-        <a class="btn primary" href="./review-draft.html" style="text-decoration:none;text-align:center;display:block;">Generar borrador asistido</a>
+        <button class="btn primary" type="submit" form="new-draft-form">Generar borrador asistido</button>
       </div>
+          <div data-form-errors></div>
+      <div data-form-warnings></div>
     </section>
   </main>
+  <script src="/app.js"></script>
 </body>
 </html>
