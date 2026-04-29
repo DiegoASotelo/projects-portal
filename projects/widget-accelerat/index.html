@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Widget Accelerat</title>
+  <style>
+    body{margin:0;font-family:system-ui,sans-serif;background:#0b1020;color:#eef2ff;display:grid;place-items:center;min-height:100vh;padding:24px}
+    .wrap{max-width:900px;width:100%}
+    .card{background:#141b34;border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:24px}
+    h1{margin:0 0 10px} p{color:#aab4d6}
+  </style>
+  <script src="https://acceleratappstorage.blob.core.windows.net/visual-widgets/public/voice-widget/index.js" type="module"></script>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Widget Accelerat</h1>
+      <p>Entorno de prueba real para el widget de voz.</p>
+      <voice-widget
+        mode="dark"
+        widget-title="Defined Agent"
+        voice
+        initial-message="Olá!"
+        sip-server="FU1fd7e8a309a9.accelerat.net"
+        sip-websocket-port="8089"
+        sip-user="FUDE57d645fffb-ws"
+        sip-password="FUDE57d645fffb-ws"
+        sip-ext="1"
+        sip-domain="FU1fd7e8a309a9.accelerat.net"
+      ></voice-widget>
+    </section>
+  </main>
+</body>
+</html>
