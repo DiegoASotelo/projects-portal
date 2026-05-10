@@ -14,9 +14,28 @@ const teamCodeMap = {'ALGERIA':'dz','ARGENTINA':'ar','AUSTRALIA':'au','AUSTRIA':
 const crestUrl = team => teamCodeMap[team] ? `https://flagcdn.com/h40/${teamCodeMap[team]}.png` : '';
 const specialLabels = {golden_baller:'Golden Ballers',contenders:'Contenders',top_keeper:'Top Keepers',defensive_rock:'Defensive Rocks',midfield_maestro:'Midfield Maestro',goal_machine:'Goal Machines',master_rookie:'Master Rookie',official_emblem:'Emblema',official_mascot:'Mascotas',eternos_22:'Eternos 22'};
 const loadState = () => JSON.parse(localStorage.getItem(storageKey) || '{}');
-const saveState = () => localStorage.setItem(storageKey, JSON.stringify(Object.fromEntries(cards.map(card => [card.id, card.owned]))));
+const saveState = () => {
+  const state = Object.fromEntries(cards.map(card => [card.id, card.owned]));
+  localStorage.setItem(storageKey, JSON.stringify(state));
+  downloadBackup(state);
+};
+const downloadBackup = state => {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  let link = document.getElementById('backupLink');
+  if (!link) {
+    link = document.createElement('a');
+    link.id = 'backupLink';
+    link.textContent = 'Descargar backup';
+    link.download = 'we-are-26-hector-backup.json';
+    link.className = 'backup-link';
+    document.querySelector('.controls').appendChild(link);
+  }
+  link.href = url;
+};
 const applyState = baseCards => {
   const state = loadState();
+  downloadBackup(state);
   return baseCards.map(card => ({ ...card, owned: state[card.id] ?? 0, image: card.image || placeholder }));
 };
 const getStatus = card => card.owned > 1 ? 'duplicates' : card.owned === 1 ? 'owned' : 'missing';
@@ -64,6 +83,19 @@ const renderDashboard = () => {
   document.getElementById('duplicateCount').textContent = duplicates;
   document.getElementById('progressPercent').textContent = `${Math.round((owned / total) * 100) || 0}%`;
 };
+const rerenderKeepingPosition = () => {
+  const scrollY = window.scrollY;
+  const rows = [...document.querySelectorAll('.cards-row')].map(row => row.scrollLeft);
+  renderDashboard();
+  renderCards();
+  window.scrollTo(0, scrollY);
+  document.querySelectorAll('.cards-row').forEach((row, i) => { row.scrollLeft = rows[i] || 0; });
+};
+const updateCard = (card, delta) => {
+  card.owned = Math.max(0, card.owned + delta);
+  saveState();
+  rerenderKeepingPosition();
+};
 const renderCards = () => {
   cardsGrid.innerHTML = '';
   buildSections(filteredCards()).forEach(section => {
@@ -88,8 +120,8 @@ const renderCards = () => {
       const img = node.querySelector('.thumb');
       img.src = card.image;
       node.querySelector('.thumb-button').onclick = () => { modalImage.src = card.image; imageModal.showModal(); };
-      node.querySelector('[data-action="increment"]').onclick = () => { card.owned += 1; saveState(); renderDashboard(); renderCards(); };
-      node.querySelector('[data-action="decrement"]').onclick = () => { card.owned = Math.max(0, card.owned - 1); saveState(); renderDashboard(); renderCards(); };
+      node.querySelector('[data-action="increment"]').onclick = () => updateCard(card, 1);
+      node.querySelector('[data-action="decrement"]').onclick = () => updateCard(card, -1);
       row.appendChild(node);
     });
     wrapper.append(head, row);
@@ -97,7 +129,6 @@ const renderCards = () => {
   });
 };
 const fillFilters = () => {
-  const sections = [...new Set(cards.map(getSectionKey))];
   const orderedSections = buildSections(cards).map(s => s.key);
   orderedSections.forEach(key => {
     const option = document.createElement('option');
