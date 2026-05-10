@@ -17,7 +17,7 @@ const loadState = () => JSON.parse(localStorage.getItem(storageKey) || '{}');
 const saveState = () => localStorage.setItem(storageKey, JSON.stringify(Object.fromEntries(cards.map(card => [card.id, card.owned]))));
 const applyState = baseCards => {
   const state = loadState();
-  return baseCards.map(card => ({ ...card, owned: state[card.id] ?? 0, image: placeholder }));
+  return baseCards.map(card => ({ ...card, owned: state[card.id] ?? 0, image: card.image || placeholder }));
 };
 const getStatus = card => card.owned > 1 ? 'duplicates' : card.owned === 1 ? 'owned' : 'missing';
 const getSectionKey = card => {

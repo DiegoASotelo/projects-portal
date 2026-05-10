@@ -6,7 +6,8 @@
     "team": "ARGENTINA",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://images.seeklogo.com/logo-png/38/1/lionel-messi-logo-png_seeklogo-387622.png"
   },
   {
     "id": "fwc26-2",
@@ -15,7 +16,8 @@
     "team": "BRAZIL",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Vinicius_Junior_2024.jpg/320px-Vinicius_Junior_2024.jpg"
   },
   {
     "id": "fwc26-3",
@@ -24,7 +26,8 @@
     "team": "EGYPT",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Mohamed_Salah_2018.jpg/320px-Mohamed_Salah_2018.jpg"
   },
   {
     "id": "fwc26-4",
@@ -33,7 +36,8 @@
     "team": "ENGLAND",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Harry_Kane_2023.jpg/320px-Harry_Kane_2023.jpg"
   },
   {
     "id": "fwc26-5",
@@ -42,7 +46,8 @@
     "team": "FRANCE",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kylian_Mbapp%C3%A9_2022.jpg/320px-Kylian_Mbapp%C3%A9_2022.jpg"
   },
   {
     "id": "fwc26-6",
@@ -51,7 +56,8 @@
     "team": "SOUTH KOREA",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Son_Heung-min_2022.jpg/320px-Son_Heung-min_2022.jpg"
   },
   {
     "id": "fwc26-7",
@@ -60,7 +66,8 @@
     "team": "NORWAY",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Erling_Haaland_2023.jpg/320px-Erling_Haaland_2023.jpg"
   },
   {
     "id": "fwc26-8",
@@ -69,7 +76,8 @@
     "team": "PORTUGAL",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/320px-Cristiano_Ronaldo_2018.jpg"
   },
   {
     "id": "fwc26-9",
@@ -78,7 +86,8 @@
     "team": "SPAIN",
     "type": "golden_baller",
     "subtype": "golden_baller",
-    "owned": 0
+    "owned": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Lamine_Yamal_2024.jpg/320px-Lamine_Yamal_2024.jpg"
   },
   {
     "id": "fwc26-10",
