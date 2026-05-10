@@ -501,7 +501,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/55.png"
   },
   {
     "id": "fwc26-56",
@@ -510,7 +511,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/56.png"
   },
   {
     "id": "fwc26-57",
@@ -519,7 +521,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/57.png"
   },
   {
     "id": "fwc26-58",
@@ -528,7 +531,8 @@
     "team": "BELGIUM",
     "type": "base",
     "subtype": "fan_favourite",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/58.png"
   },
   {
     "id": "fwc26-59",
@@ -537,7 +541,8 @@
     "team": "BELGIUM",
     "type": "base",
     "subtype": "team_crest",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/59.png"
   },
   {
     "id": "fwc26-60",
@@ -546,7 +551,8 @@
     "team": "BELGIUM",
     "type": "base",
     "subtype": "icon",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/60.png"
   },
   {
     "id": "fwc26-61",
@@ -555,7 +561,8 @@
     "team": "BELGIUM",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/61.png"
   },
   {
     "id": "fwc26-62",
@@ -564,7 +571,8 @@
     "team": "BELGIUM",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/62.png"
   },
   {
     "id": "fwc26-63",
@@ -573,7 +581,8 @@
     "team": "BELGIUM",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/63.png"
   },
   {
     "id": "fwc26-64",
