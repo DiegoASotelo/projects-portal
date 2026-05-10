@@ -5622,7 +5622,8 @@
     "team": "FIFA",
     "type": "official_emblem",
     "subtype": "official_emblem",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/special/624.png"
   },
   {
     "id": "fwc26-625",
@@ -5658,7 +5659,8 @@
     "team": "ARGENTINA",
     "type": "eternos_22",
     "subtype": "eternos_22",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/special/628.png"
   },
   {
     "id": "fwc26-629",
@@ -5667,7 +5669,8 @@
     "team": "ARGENTINA",
     "type": "eternos_22",
     "subtype": "eternos_22",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/special/629.png"
   },
   {
     "id": "fwc26-630",
@@ -5676,6 +5679,7 @@
     "team": "ARGENTINA",
     "type": "eternos_22",
     "subtype": "eternos_22",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/special/630.png"
   }
 ]
