@@ -13,11 +13,21 @@ const placeholder = './placeholder-card.svg';
 const teamCodeMap = {'ALGERIA':'dz','ARGENTINA':'ar','AUSTRALIA':'au','AUSTRIA':'at','BELGIUM':'be','BRAZIL':'br','CANADA':'ca','CAPE VERDE':'cv','COLOMBIA':'co','CROATIA':'hr','CURAÇAO':'cw','ECUADOR':'ec','EGYPT':'eg','ENGLAND':'gb-eng','FRANCE':'fr','GERMANY':'de','GHANA':'gh','HAITI':'ht','IRAN':'ir','IVORY COAST':'ci','JAPAN':'jp','JORDAN':'jo','KOREA REPUBLIC':'kr','MEXICO':'mx','MOROCCO':'ma','NETHERLANDS':'nl','NEW ZEALAND':'nz','NORWAY':'no','PANAMA':'pa','PARAGUAY':'py','PORTUGAL':'pt','QATAR':'qa','SAUDI ARABIA':'sa','SCOTLAND':'gb-sct','SENEGAL':'sn','SOUTH AFRICA':'za','SPAIN':'es','SWITZERLAND':'ch','TUNISIA':'tn','UNITED STATES':'us','URUGUAY':'uy','UZBEKISTAN':'uz'};
 const crestUrl = team => teamCodeMap[team] ? `https://flagcdn.com/h40/${teamCodeMap[team]}.png` : '';
 const specialLabels = {golden_baller:'Golden Ballers',contenders:'Contenders',top_keeper:'Top Keepers',defensive_rock:'Defensive Rocks',midfield_maestro:'Midfield Maestro',goal_machine:'Goal Machines',master_rookie:'Master Rookie',official_emblem:'Emblema',official_mascot:'Mascotas',eternos_22:'Eternos 22'};
-const loadState = () => JSON.parse(localStorage.getItem(storageKey) || '{}');
-const saveState = () => {
+const apiUrl = 'https://projects-portal.pages.dev/__/we-are-26/state';
+const loadState = async () => {
+  try {
+    const res = await fetch(apiUrl);
+    if (res.ok) return await res.json();
+  } catch {}
+  return JSON.parse(localStorage.getItem(storageKey) || '{}');
+};
+const saveState = async () => {
   const state = Object.fromEntries(cards.map(card => [card.id, card.owned]));
   localStorage.setItem(storageKey, JSON.stringify(state));
   downloadBackup(state);
+  try {
+    await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(state) });
+  } catch {}
 };
 const downloadBackup = state => {
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
@@ -33,8 +43,7 @@ const downloadBackup = state => {
   }
   link.href = url;
 };
-const applyState = baseCards => {
-  const state = loadState();
+const applyState = (baseCards, state) => {
   downloadBackup(state);
   return baseCards.map(card => ({ ...card, owned: state[card.id] ?? 0, image: card.image || placeholder }));
 };
@@ -91,9 +100,9 @@ const rerenderKeepingPosition = () => {
   window.scrollTo(0, scrollY);
   document.querySelectorAll('.cards-row').forEach((row, i) => { row.scrollLeft = rows[i] || 0; });
 };
-const updateCard = (card, delta) => {
+const updateCard = async (card, delta) => {
   card.owned = Math.max(0, card.owned + delta);
-  saveState();
+  await saveState();
   rerenderKeepingPosition();
 };
 const renderCards = () => {
@@ -142,4 +151,4 @@ const fillFilters = () => {
 ['input','change'].forEach(evt => [search,teamFilter,typeFilter,statusFilter].forEach(el => el.addEventListener(evt, renderCards)));
 closeModal.onclick = () => imageModal.close();
 imageModal.addEventListener('click', e => { if (e.target === imageModal) imageModal.close(); });
-fetch('./data/cards.json').then(r => r.json()).then(data => { cards = applyState(data); fillFilters(); renderDashboard(); renderCards(); });
+Promise.all([fetch('./data/cards.json').then(r => r.json()), loadState()]).then(([data, state]) => { cards = applyState(data, state); fillFilters(); renderDashboard(); renderCards(); });
