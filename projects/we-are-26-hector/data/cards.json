@@ -96,7 +96,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "fan_favourite",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/10.png"
   },
   {
     "id": "fwc26-11",
@@ -105,7 +106,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "team_crest",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/11.png"
   },
   {
     "id": "fwc26-12",
@@ -114,7 +116,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "icon",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/12.png"
   },
   {
     "id": "fwc26-13",
@@ -123,7 +126,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/13.png"
   },
   {
     "id": "fwc26-14",
@@ -132,7 +136,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/14.png"
   },
   {
     "id": "fwc26-15",
@@ -141,7 +146,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/15.png"
   },
   {
     "id": "fwc26-16",
@@ -150,7 +156,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/16.png"
   },
   {
     "id": "fwc26-17",
@@ -159,7 +166,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/17.png"
   },
   {
     "id": "fwc26-18",
@@ -168,7 +176,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/18.png"
   },
   {
     "id": "fwc26-19",
@@ -177,7 +186,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/19.png"
   },
   {
     "id": "fwc26-20",
@@ -186,7 +196,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/20.png"
   },
   {
     "id": "fwc26-21",
@@ -195,7 +206,8 @@
     "team": "ALGERIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/21.png"
   },
   {
     "id": "fwc26-22",
@@ -204,7 +216,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "fan_favourite",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/22.png"
   },
   {
     "id": "fwc26-23",
@@ -213,7 +226,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "team_crest",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/23.png"
   },
   {
     "id": "fwc26-24",
@@ -222,7 +236,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "icon",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/24.png"
   },
   {
     "id": "fwc26-25",
@@ -231,7 +246,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/25.png"
   },
   {
     "id": "fwc26-26",
@@ -240,7 +256,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/26.png"
   },
   {
     "id": "fwc26-27",
@@ -249,7 +266,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/27.png"
   },
   {
     "id": "fwc26-28",
@@ -258,7 +276,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/28.png"
   },
   {
     "id": "fwc26-29",
@@ -267,7 +286,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/29.png"
   },
   {
     "id": "fwc26-30",
@@ -276,7 +296,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/30.png"
   },
   {
     "id": "fwc26-31",
@@ -285,7 +306,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/31.png"
   },
   {
     "id": "fwc26-32",
@@ -294,7 +316,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/32.png"
   },
   {
     "id": "fwc26-33",
@@ -303,7 +326,8 @@
     "team": "ARGENTINA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/33.png"
   },
   {
     "id": "fwc26-34",
@@ -312,7 +336,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "fan_favourite",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/34.png"
   },
   {
     "id": "fwc26-35",
@@ -321,7 +346,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "team_crest",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/35.png"
   },
   {
     "id": "fwc26-36",
@@ -330,7 +356,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "icon",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/36.png"
   },
   {
     "id": "fwc26-37",
@@ -339,7 +366,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/37.png"
   },
   {
     "id": "fwc26-38",
@@ -348,7 +376,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/38.png"
   },
   {
     "id": "fwc26-39",
@@ -357,7 +386,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/39.png"
   },
   {
     "id": "fwc26-40",
@@ -366,7 +396,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/40.png"
   },
   {
     "id": "fwc26-41",
@@ -375,7 +406,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/41.png"
   },
   {
     "id": "fwc26-42",
@@ -384,7 +416,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/42.png"
   },
   {
     "id": "fwc26-43",
@@ -393,7 +426,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/43.png"
   },
   {
     "id": "fwc26-44",
@@ -402,7 +436,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/44.png"
   },
   {
     "id": "fwc26-45",
@@ -411,7 +446,8 @@
     "team": "AUSTRALIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/45.png"
   },
   {
     "id": "fwc26-46",
@@ -420,7 +456,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "fan_favourite",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/46.png"
   },
   {
     "id": "fwc26-47",
@@ -429,7 +466,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "team_crest",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/47.png"
   },
   {
     "id": "fwc26-48",
@@ -438,7 +476,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "icon",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/48.png"
   },
   {
     "id": "fwc26-49",
@@ -447,7 +486,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/49.png"
   },
   {
     "id": "fwc26-50",
@@ -456,7 +496,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/50.png"
   },
   {
     "id": "fwc26-51",
@@ -465,7 +506,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/51.png"
   },
   {
     "id": "fwc26-52",
@@ -474,7 +516,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/52.png"
   },
   {
     "id": "fwc26-53",
@@ -483,7 +526,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/53.png"
   },
   {
     "id": "fwc26-54",
@@ -492,7 +536,8 @@
     "team": "AUSTRIA",
     "type": "base",
     "subtype": "standard",
-    "owned": 0
+    "owned": 0,
+    "image": "./assets/cards/54.png"
   },
   {
     "id": "fwc26-55",
