@@ -1,0 +1,4655 @@
+[
+  {
+    "id": "fwc26-10",
+    "number": 10,
+    "name": "RAYAN AÏT-NOURI",
+    "team": null,
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-11",
+    "number": 11,
+    "name": "TEAM CREST",
+    "team": null,
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-12",
+    "number": 12,
+    "name": "RIYAD MAHREZ",
+    "team": null,
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-13",
+    "number": 13,
+    "name": "ALEXIS GUENDOUZ",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-14",
+    "number": 14,
+    "name": "RAMY BENSEBAINI",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-15",
+    "number": 15,
+    "name": "YOUCEF ATAL",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-16",
+    "number": 16,
+    "name": "AÏSSA MANDI",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-17",
+    "number": 17,
+    "name": "NABIL BENTALEB",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-18",
+    "number": 18,
+    "name": "SAÏD BENRAHMA",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-19",
+    "number": 19,
+    "name": "AMINE GOUIRI",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-20",
+    "number": 20,
+    "name": "MOHAMED AMOURA",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-21",
+    "number": 21,
+    "name": "BAGHDAD BOUNEDJAH",
+    "team": null,
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-22",
+    "number": 22,
+    "name": "JULIÁN ÁLVAREZ",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-23",
+    "number": 23,
+    "name": "TEAM CREST",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-24",
+    "number": 24,
+    "name": "LIONEL MESSI",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-25",
+    "number": 25,
+    "name": "EMILIANO MARTÍNEZ",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-26",
+    "number": 26,
+    "name": "NAHUEL MOLINA",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-27",
+    "number": 27,
+    "name": "CRISTIAN ROMERO",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-28",
+    "number": 28,
+    "name": "NICOLÁS OTAMENDI",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-29",
+    "number": 29,
+    "name": "ENZO FERNÁNDEZ",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-30",
+    "number": 30,
+    "name": "ALEXIS MAC ALLISTER",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-31",
+    "number": 31,
+    "name": "RODRIGO DE PAUL",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-32",
+    "number": 32,
+    "name": "GIULIANO SIMEONE",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-33",
+    "number": 33,
+    "name": "LAUTARO MARTÍNEZ",
+    "team": "ARGENTINA (ARG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-34",
+    "number": 34,
+    "name": "HARRY SOUTTAR",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-35",
+    "number": 35,
+    "name": "TEAM CREST",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-36",
+    "number": 36,
+    "name": "MATHEW RYAN",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-37",
+    "number": 37,
+    "name": "ALESSANDRO CIRCATI",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-38",
+    "number": 38,
+    "name": "JORDAN BOS",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-39",
+    "number": 39,
+    "name": "LEWIS MILLER",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-40",
+    "number": 40,
+    "name": "MILOS DEGENEK",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-41",
+    "number": 41,
+    "name": "JACKSON IRVINE",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-42",
+    "number": 42,
+    "name": "RILEY MCGREE",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-43",
+    "number": 43,
+    "name": "AIDEN O'NEILL",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-44",
+    "number": 44,
+    "name": "CONNOR METCALFE",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-45",
+    "number": 45,
+    "name": "CRAIG GOODWIN",
+    "team": "AUSTRALIA (AUS)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-46",
+    "number": 46,
+    "name": "MARKO ARNAUTOVIĆ",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-47",
+    "number": 47,
+    "name": "TEAM CREST",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-48",
+    "number": 48,
+    "name": "DAVID ALABA",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-49",
+    "number": 49,
+    "name": "ALEXANDER SCHLAGER",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-50",
+    "number": 50,
+    "name": "KEVIN DANSO",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-51",
+    "number": 51,
+    "name": "PHILIPP LIENHART",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-52",
+    "number": 52,
+    "name": "KONRAD LAIMER",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-53",
+    "number": 53,
+    "name": "NICOLAS SEIWALD",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-54",
+    "number": 54,
+    "name": "MARCEL SABITZER",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-55",
+    "number": 55,
+    "name": "FLORIAN GRILLITSCH",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-56",
+    "number": 56,
+    "name": "CHRISTOPH BAUMGARTNER",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-57",
+    "number": 57,
+    "name": "MICHAEL GREGORITSCH",
+    "team": "AUSTRIA (AUT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-58",
+    "number": 58,
+    "name": "YOURI TIELEMANS",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-59",
+    "number": 59,
+    "name": "TEAM CREST",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-60",
+    "number": 60,
+    "name": "KEVIN DE BRUYNE",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-61",
+    "number": 61,
+    "name": "THIBAUT COURTOIS",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-62",
+    "number": 62,
+    "name": "ARTHUR THEATE",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-63",
+    "number": 63,
+    "name": "TIMOTHY CASTAGNE",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-64",
+    "number": 64,
+    "name": "MAXIM DE CUYPER",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-65",
+    "number": 65,
+    "name": "AMADOU ONANA",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-66",
+    "number": 66,
+    "name": "JÉRÉMY DOKU",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-67",
+    "number": 67,
+    "name": "CHARLES DE KETELAERE",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-68",
+    "number": 68,
+    "name": "LEANDRO TROSSARD",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-69",
+    "number": 69,
+    "name": "ROMELU LUKAKU",
+    "team": "BELGIUM (BEL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-70",
+    "number": 70,
+    "name": "MARQUINHOS",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-71",
+    "number": 71,
+    "name": "TEAM CREST",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-72",
+    "number": 72,
+    "name": "VINÍCIUS JÚNIOR",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-73",
+    "number": 73,
+    "name": "ALISSON",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-74",
+    "number": 74,
+    "name": "DANILO",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-75",
+    "number": 75,
+    "name": "ÉDER MILITÃO",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-76",
+    "number": 76,
+    "name": "GABRIEL MAGALHÃES",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-77",
+    "number": 77,
+    "name": "CASEMIRO",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-78",
+    "number": 78,
+    "name": "BRUNO GUIMARÃES",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-79",
+    "number": 79,
+    "name": "RODRYGO",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-80",
+    "number": 80,
+    "name": "MATHEUS CUNHA",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-81",
+    "number": 81,
+    "name": "RAPHINHA",
+    "team": "BRAZIL (BRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-82",
+    "number": 82,
+    "name": "JONATHAN DAVID",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-83",
+    "number": 83,
+    "name": "TEAM CREST",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-84",
+    "number": 84,
+    "name": "ALPHONSO DAVIES",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-85",
+    "number": 85,
+    "name": "DAYNE ST. CLAIR",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-86",
+    "number": 86,
+    "name": "RICHIE LARYEA",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-87",
+    "number": 87,
+    "name": "DEREK CORNELIUS",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-88",
+    "number": 88,
+    "name": "STEPHEN EUSTÁQUIO",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-89",
+    "number": 89,
+    "name": "ISMAËL KONÉ",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-90",
+    "number": 90,
+    "name": "JONATHAN OSORIO",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-91",
+    "number": 91,
+    "name": "JACOB SHAFFELBURG",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-92",
+    "number": 92,
+    "name": "TAJON BUCHANAN",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-93",
+    "number": 93,
+    "name": "CYLE LARIN",
+    "team": "CANADA (CAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-94",
+    "number": 94,
+    "name": "VOZINHA",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-95",
+    "number": 95,
+    "name": "TEAM CREST",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-96",
+    "number": 96,
+    "name": "RYAN MENDES",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-97",
+    "number": 97,
+    "name": "LOGAN COSTA",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-98",
+    "number": 98,
+    "name": "PICO",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-99",
+    "number": 99,
+    "name": "STEVEN MOREIRA",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-100",
+    "number": 100,
+    "name": "JOÃO PAULO",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-101",
+    "number": 101,
+    "name": "KEVIN PINA",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-102",
+    "number": 102,
+    "name": "JAMIRO MONTEIRO",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-103",
+    "number": 103,
+    "name": "YANNICK SEMEDO",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-104",
+    "number": 104,
+    "name": "JOVANE CABRAL",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-105",
+    "number": 105,
+    "name": "DAILON LIVRAMENTO",
+    "team": "CAPE VERDE (CPV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-106",
+    "number": 106,
+    "name": "LUIS DÍAZ",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-107",
+    "number": 107,
+    "name": "TEAM CREST",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-108",
+    "number": 108,
+    "name": "JAMES RODRÍGUEZ",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-109",
+    "number": 109,
+    "name": "CAMILO VARGAS",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-110",
+    "number": 110,
+    "name": "DÁVINSON SÁNCHEZ",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-111",
+    "number": 111,
+    "name": "YERRY MINA",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-112",
+    "number": 112,
+    "name": "DANIEL MUÑOZ",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-113",
+    "number": 113,
+    "name": "JEFFERSON LERMA",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-114",
+    "number": 114,
+    "name": "RICHARD RÍOS",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-115",
+    "number": 115,
+    "name": "JUAN FERNANDO QUINTERO",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-116",
+    "number": 116,
+    "name": "JHON ARIAS",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-117",
+    "number": 117,
+    "name": "LUIS SUÁREZ",
+    "team": "COLOMBIA (COL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-118",
+    "number": 118,
+    "name": "IVAN PERIŠIĆ",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-119",
+    "number": 119,
+    "name": "TEAM CREST",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-120",
+    "number": 120,
+    "name": "LUKA MODRIĆ",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-121",
+    "number": 121,
+    "name": "DOMINIK LIVAKOVIĆ",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-122",
+    "number": 122,
+    "name": "DUJE ĆALETA-CAR",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-123",
+    "number": 123,
+    "name": "JOŠKO GVARDIOL",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-124",
+    "number": 124,
+    "name": "JOSIP STANIŠIĆ",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-125",
+    "number": 125,
+    "name": "MATEO KOVAČIĆ",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-126",
+    "number": 126,
+    "name": "LOVRO MAJER",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-127",
+    "number": 127,
+    "name": "MARIO PAŠALIĆ",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-128",
+    "number": 128,
+    "name": "ANTE BUDIMIR",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-129",
+    "number": 129,
+    "name": "ANDREJ KRAMARIĆ",
+    "team": "CROATIA (CRO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-130",
+    "number": 130,
+    "name": "JURIËN GAARI",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-131",
+    "number": 131,
+    "name": "TEAM CREST",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-132",
+    "number": 132,
+    "name": "LEANDRO BACUNA",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-133",
+    "number": 133,
+    "name": "ELOY ROOM",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-134",
+    "number": 134,
+    "name": "SHEREL FLORANUS",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-135",
+    "number": 135,
+    "name": "ROSHON VAN EIJMA",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-136",
+    "number": 136,
+    "name": "ARMANDO OBISPO",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-137",
+    "number": 137,
+    "name": "LIVANO COMENENCIA",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-138",
+    "number": 138,
+    "name": "JUNINHO BACUNA",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-139",
+    "number": 139,
+    "name": "KENJI GORRÉ",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-140",
+    "number": 140,
+    "name": "SONTJE HANSEN",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-141",
+    "number": 141,
+    "name": "JEARL MARGARITHA",
+    "team": "CURAÇAO (CUW)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-142",
+    "number": 142,
+    "name": "MOISÉS CAICEDO",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-143",
+    "number": 143,
+    "name": "TEAM CREST",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-144",
+    "number": 144,
+    "name": "ENNER VALENCIA",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-145",
+    "number": 145,
+    "name": "HERNÁN GALÍNDEZ",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-146",
+    "number": 146,
+    "name": "PIERO HINCAPIÉ",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-147",
+    "number": 147,
+    "name": "PERVIS ESTUPIÑÁN",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-148",
+    "number": 148,
+    "name": "WILLIAN PACHO",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-149",
+    "number": 149,
+    "name": "ÁNGELO PRECIADO",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-150",
+    "number": 150,
+    "name": "JOEL ORDÓÑEZ",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-151",
+    "number": 151,
+    "name": "ALAN FRANCO",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-152",
+    "number": 152,
+    "name": "GONZALO PLATA",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-153",
+    "number": 153,
+    "name": "KEVIN RODRÍGUEZ",
+    "team": "ECUADOR (ECU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-154",
+    "number": 154,
+    "name": "OMAR MARMOUSH",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-155",
+    "number": 155,
+    "name": "TEAM CREST",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-156",
+    "number": 156,
+    "name": "MOHAMED SALAH",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-157",
+    "number": 157,
+    "name": "MOHAMED EL SHENAWY",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-158",
+    "number": 158,
+    "name": "MOHAMED HANY",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-159",
+    "number": 159,
+    "name": "MOHAMED ABDELMONEM",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-160",
+    "number": 160,
+    "name": "RAMY RABIA",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-161",
+    "number": 161,
+    "name": "MARWAN  ATTIA",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-162",
+    "number": 162,
+    "name": "ZIZO",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-163",
+    "number": 163,
+    "name": "HAMDY FATHY",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-164",
+    "number": 164,
+    "name": "MOSTAFA MOHAMED",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-165",
+    "number": 165,
+    "name": "TRÉZÉGUET",
+    "team": "EGYPT (EGY)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-166",
+    "number": 166,
+    "name": "JUDE BELLINGHAM",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-167",
+    "number": 167,
+    "name": "TEAM CREST",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-168",
+    "number": 168,
+    "name": "HARRY KANE",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-169",
+    "number": 169,
+    "name": "JORDAN PICKFORD",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-170",
+    "number": 170,
+    "name": "REECE JAMES",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-171",
+    "number": 171,
+    "name": "JOHN STONES",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-172",
+    "number": 172,
+    "name": "DECLAN RICE",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-173",
+    "number": 173,
+    "name": "JORDAN HENDERSON",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-174",
+    "number": 174,
+    "name": "PHIL FODEN",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-175",
+    "number": 175,
+    "name": "BUKAYO SAKA",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-176",
+    "number": 176,
+    "name": "COLE PALMER",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-177",
+    "number": 177,
+    "name": "MARCUS RASHFORD",
+    "team": "ENGLAND (ENG)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-178",
+    "number": 178,
+    "name": "OUSMANE DEMBÉLÉ",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-179",
+    "number": 179,
+    "name": "TEAM CREST",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-180",
+    "number": 180,
+    "name": "KYLIAN MBAPPÉ",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-181",
+    "number": 181,
+    "name": "MIKE MAIGNAN",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-182",
+    "number": 182,
+    "name": "WILLIAM SALIBA",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-183",
+    "number": 183,
+    "name": "JULES KOUNDÉ",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-184",
+    "number": 184,
+    "name": "THÉO HERNÁNDEZ",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-185",
+    "number": 185,
+    "name": "AURÉLIEN TCHOUAMÉNI",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-186",
+    "number": 186,
+    "name": "EDUARDO CAMAVINGA",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-187",
+    "number": 187,
+    "name": "BRADLEY BARCOLA",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-188",
+    "number": 188,
+    "name": "MARCUS THURAM",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-189",
+    "number": 189,
+    "name": "RANDAL KOLO MUANI",
+    "team": "FRANCE (FRA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-190",
+    "number": 190,
+    "name": "JAMAL MUSIALA",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-191",
+    "number": 191,
+    "name": "TEAM CREST",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-192",
+    "number": 192,
+    "name": "JOSHUA KIMMICH",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-193",
+    "number": 193,
+    "name": "MARC-ANDRÉ TER STEGEN",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-194",
+    "number": 194,
+    "name": "ANTONIO RÜDIGER",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-195",
+    "number": 195,
+    "name": "JONATHAN TAH",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-196",
+    "number": 196,
+    "name": "FELIX NMECHA",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-197",
+    "number": 197,
+    "name": "LEON GORETZKA",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-198",
+    "number": 198,
+    "name": "FLORIAN WIRTZ",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-199",
+    "number": 199,
+    "name": "SERGE GNABRY",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-200",
+    "number": 200,
+    "name": "KAI HAVERTZ",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-201",
+    "number": 201,
+    "name": "LEROY SANÉ",
+    "team": "GERMANY (GER)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-202",
+    "number": 202,
+    "name": "THOMAS PARTEY",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-203",
+    "number": 203,
+    "name": "TEAM CREST",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-204",
+    "number": 204,
+    "name": "MOHAMMED KUDUS",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-205",
+    "number": 205,
+    "name": "LAWRENCE ATI ZIGI",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-206",
+    "number": 206,
+    "name": "ALIDU SEIDU",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-207",
+    "number": 207,
+    "name": "ALEXANDER DJIKU",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-208",
+    "number": 208,
+    "name": "GIDEON MENSAH",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-209",
+    "number": 209,
+    "name": "CALEB YIRENKYI",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-210",
+    "number": 210,
+    "name": "ABDUL ISSAHAKU FATAWU",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-211",
+    "number": 211,
+    "name": "KAMALDEEN SULEMANA",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-212",
+    "number": 212,
+    "name": "JORDAN AYEW",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-213",
+    "number": 213,
+    "name": "ANTOINE SEMENYO",
+    "team": "GHANA (GHA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-214",
+    "number": 214,
+    "name": "FRANTZDY PIERROT",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-215",
+    "number": 215,
+    "name": "TEAM CREST",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-216",
+    "number": 216,
+    "name": "DUCKENS NAZON",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-217",
+    "number": 217,
+    "name": "JHONY PLACIDE",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-218",
+    "number": 218,
+    "name": "RICARDO ADÉ",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-219",
+    "number": 219,
+    "name": "CARLENS ARCUS",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-220",
+    "number": 220,
+    "name": "HANNES DELCROIX",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-221",
+    "number": 221,
+    "name": "LEVERTON PIERRE",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-222",
+    "number": 222,
+    "name": "DANLEY JEAN JACQUES",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-223",
+    "number": 223,
+    "name": "JEAN-RICNER BELLEGARDE",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-224",
+    "number": 224,
+    "name": "RUBEN PROVIDENCE",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-225",
+    "number": 225,
+    "name": "DON DEEDSON LOUICIUS",
+    "team": "HAITI (HAI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-226",
+    "number": 226,
+    "name": "MEHDI TAREMI",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-227",
+    "number": 227,
+    "name": "TEAM CREST",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-228",
+    "number": 228,
+    "name": "SARDAR AZMOUN",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-229",
+    "number": 229,
+    "name": "ALIREZA BEIRANVAND",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-230",
+    "number": 230,
+    "name": "SHOJA KHALILZADEH",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-231",
+    "number": 231,
+    "name": "MILAD MOHAMMADI",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-232",
+    "number": 232,
+    "name": "RAMIN REZAEIAN",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-233",
+    "number": 233,
+    "name": "HOSSEIN KANAANI",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-234",
+    "number": 234,
+    "name": "SAEID EZATOLAHI",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-235",
+    "number": 235,
+    "name": "SAMAN GHODDOS",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-236",
+    "number": 236,
+    "name": "MOHAMMAD MOHEBI",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-237",
+    "number": 237,
+    "name": "ALIREZA JAHANBAKHSH",
+    "team": "IRAN (IRN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-238",
+    "number": 238,
+    "name": "FRANCK KESSIÉ",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-239",
+    "number": 239,
+    "name": "TEAM CREST",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-240",
+    "number": 240,
+    "name": "SÉBASTIEN HALLER",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-241",
+    "number": 241,
+    "name": "YAHIA FOFANA",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-242",
+    "number": 242,
+    "name": "GHISLAIN KONAN",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-243",
+    "number": 243,
+    "name": "ODILON KOSSOUNOU",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-244",
+    "number": 244,
+    "name": "EVAN N'DICKA",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-245",
+    "number": 245,
+    "name": "WILFRIED SINGO",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-246",
+    "number": 246,
+    "name": "IBRAHIM SANGARÉ",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-247",
+    "number": 247,
+    "name": "NICOLAS PÉPÉ",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-248",
+    "number": 248,
+    "name": "SIMON ADINGRA",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-249",
+    "number": 249,
+    "name": "OUMAR DIAKITÉ",
+    "team": "IVORY COAST (CIV)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-250",
+    "number": 250,
+    "name": "TAKUMI MINAMINO",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-251",
+    "number": 251,
+    "name": "TEAM CREST",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-252",
+    "number": 252,
+    "name": "TAKEFUSA KUBO",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-253",
+    "number": 253,
+    "name": "ZION SUZUKI",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-254",
+    "number": 254,
+    "name": "TSUYOSHI WATANABE",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-255",
+    "number": 255,
+    "name": "KAISHU SANO",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-256",
+    "number": 256,
+    "name": "AO TANAKA",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-257",
+    "number": 257,
+    "name": "DAICHI KAMADA",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-258",
+    "number": 258,
+    "name": "SHUTO MACHINO",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-259",
+    "number": 259,
+    "name": "AYASE UEDA",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-260",
+    "number": 260,
+    "name": "RITSU DOAN",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-261",
+    "number": 261,
+    "name": "KEITO NAKAMURA",
+    "team": "JAPAN (JPN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-262",
+    "number": 262,
+    "name": "YAZAN AL-NAIMAT",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-263",
+    "number": 263,
+    "name": "TEAM CREST",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-264",
+    "number": 264,
+    "name": "MUSA AL-TAAMARI",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-265",
+    "number": 265,
+    "name": "YAZEED ABULAILA",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-266",
+    "number": 266,
+    "name": "MOHAMMAD ABU HASHISH",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-267",
+    "number": 267,
+    "name": "YAZAN AL-ARAB",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-268",
+    "number": 268,
+    "name": "ABDALLAH NASIB",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-269",
+    "number": 269,
+    "name": "IBRAHIM SAADEH",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-270",
+    "number": 270,
+    "name": "NIZAR AL-RASHDAN",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-271",
+    "number": 271,
+    "name": "NOOR AL-RAWABDEH",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-272",
+    "number": 272,
+    "name": "MAHMOUD AL-MARDI",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-273",
+    "number": 273,
+    "name": "ALI OLWAN",
+    "team": "JORDAN (JOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-274",
+    "number": 274,
+    "name": "MINJAE KIM",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-275",
+    "number": 275,
+    "name": "TEAM CREST",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-276",
+    "number": 276,
+    "name": "HEUNGMIN SON",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-277",
+    "number": 277,
+    "name": "HYEONWOO JO",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-278",
+    "number": 278,
+    "name": "YOUNGWOO SEOL",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-279",
+    "number": 279,
+    "name": "YUMIN CHO",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-280",
+    "number": 280,
+    "name": "TAESEOK LEE",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-281",
+    "number": 281,
+    "name": "INBEOM HWANG",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-282",
+    "number": 282,
+    "name": "JAESUNG LEE",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-283",
+    "number": 283,
+    "name": "KANGIN LEE",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-284",
+    "number": 284,
+    "name": "HYEONGYU OH",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-285",
+    "number": 285,
+    "name": "HEECHAN HWANG",
+    "team": "KOREA REPUBLIC (KOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-286",
+    "number": 286,
+    "name": "EDSON ÁLVAREZ",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-287",
+    "number": 287,
+    "name": "TEAM CREST",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-288",
+    "number": 288,
+    "name": "RAÚL JIMÉNEZ",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-289",
+    "number": 289,
+    "name": "LUIS MALAGÓN",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-290",
+    "number": 290,
+    "name": "JORGE SÁNCHEZ",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-291",
+    "number": 291,
+    "name": "JOHAN  VÁSQUEZ",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-292",
+    "number": 292,
+    "name": "CÉSAR MONTES",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-293",
+    "number": 293,
+    "name": "JESÚS GALLARDO",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-294",
+    "number": 294,
+    "name": "CARLOS RODRÍGUEZ",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-295",
+    "number": 295,
+    "name": "ORBELÍN PINEDA",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-296",
+    "number": 296,
+    "name": "HIRVING LOZANO",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-297",
+    "number": 297,
+    "name": "SANTIAGO GIMÉNEZ",
+    "team": "MEXICO (MEX)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-298",
+    "number": 298,
+    "name": "YOUSSEF EN-NESYRI",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-299",
+    "number": 299,
+    "name": "TEAM CREST",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-300",
+    "number": 300,
+    "name": "ACHRAF HAKIMI",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-301",
+    "number": 301,
+    "name": "YASSINE BOUNOU",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-302",
+    "number": 302,
+    "name": "NOUSSAIR MAZRAOUI",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-303",
+    "number": 303,
+    "name": "NAYEF AGUERD",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-304",
+    "number": 304,
+    "name": "SOFYAN AMRABAT",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-305",
+    "number": 305,
+    "name": "ELIESSE BEN SEGHIR",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-306",
+    "number": 306,
+    "name": "ISMAEL SAIBARI",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-307",
+    "number": 307,
+    "name": "BRAHIM DÍAZ",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-308",
+    "number": 308,
+    "name": "ABDE EZZALZOULI",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-309",
+    "number": 309,
+    "name": "AYOUB EL KAABI",
+    "team": "MOROCCO (MAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-310",
+    "number": 310,
+    "name": "MEMPHIS DEPAY",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-311",
+    "number": 311,
+    "name": "TEAM CREST",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-312",
+    "number": 312,
+    "name": "VIRGIL VAN DIJK",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-313",
+    "number": 313,
+    "name": "BART VERBRUGGEN",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-314",
+    "number": 314,
+    "name": "NATHAN AKÉ",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-315",
+    "number": 315,
+    "name": "JEREMY FRIMPONG",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-316",
+    "number": 316,
+    "name": "DENZEL DUMFRIES",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-317",
+    "number": 317,
+    "name": "TIJJANI REIJNDERS",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-318",
+    "number": 318,
+    "name": "RYAN GRAVENBERCH",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-319",
+    "number": 319,
+    "name": "CODY GAKPO",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-320",
+    "number": 320,
+    "name": "DONYELL MALEN",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-321",
+    "number": 321,
+    "name": "WOUT WEGHORST",
+    "team": "NETHERLANDS (NED)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-322",
+    "number": 322,
+    "name": "MARKO STAMENIC",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-323",
+    "number": 323,
+    "name": "TEAM CREST",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-324",
+    "number": 324,
+    "name": "CHRIS WOOD",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-325",
+    "number": 325,
+    "name": "MAX CROCOMBE",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-326",
+    "number": 326,
+    "name": "MICHAEL BOXALL",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-327",
+    "number": 327,
+    "name": "LIBERATO CACACE",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-328",
+    "number": 328,
+    "name": "TIM PAYNE",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-329",
+    "number": 329,
+    "name": "TYLER BINDON",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-330",
+    "number": 330,
+    "name": "JOE BELL",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-331",
+    "number": 331,
+    "name": "SARPREET SINGH",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-332",
+    "number": 332,
+    "name": "MATT GARBETT",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-333",
+    "number": 333,
+    "name": "ELIJAH JUST",
+    "team": "NEW ZEALAND (NZL)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-334",
+    "number": 334,
+    "name": "MARTIN ØDEGAARD",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-335",
+    "number": 335,
+    "name": "TEAM CREST",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-336",
+    "number": 336,
+    "name": "ERLING HAALAND",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-337",
+    "number": 337,
+    "name": "ØRJAN NYLAND",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-338",
+    "number": 338,
+    "name": "JULIAN RYERSON",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-339",
+    "number": 339,
+    "name": "KRISTOFFER VASSBAKK AJER",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-340",
+    "number": 340,
+    "name": "DAVID MØLLER WOLFE",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-341",
+    "number": 341,
+    "name": "SANDER BERGE",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-342",
+    "number": 342,
+    "name": "PATRICK BERG",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-343",
+    "number": 343,
+    "name": "ANTONIO NUSA",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-344",
+    "number": 344,
+    "name": "OSCAR BOBB",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-345",
+    "number": 345,
+    "name": "ALEXANDER SØRLOTH",
+    "team": "NORWAY (NOR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-346",
+    "number": 346,
+    "name": "MICHAEL AMIR MURILLO",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-347",
+    "number": 347,
+    "name": "TEAM CREST",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-348",
+    "number": 348,
+    "name": "ANÍBAL GODOY",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-349",
+    "number": 349,
+    "name": "ORLANDO MOSQUERA",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-350",
+    "number": 350,
+    "name": "ANDRÉS ANDRADE",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-351",
+    "number": 351,
+    "name": "FIDEL ESCOBAR",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-352",
+    "number": 352,
+    "name": "CRISTIAN MARTÍNEZ",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-353",
+    "number": 353,
+    "name": "ADALBERTO CARRASQUILLA",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-354",
+    "number": 354,
+    "name": "ÉDGAR BÁRCENAS",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-355",
+    "number": 355,
+    "name": "JOSÉ FAJARDO",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-356",
+    "number": 356,
+    "name": "ISMAEL DÍAZ",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-357",
+    "number": 357,
+    "name": "JOSÉ LUIZ RODRÍGUEZ",
+    "team": "PANAMA (PAN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-358",
+    "number": 358,
+    "name": "GUSTAVO GÓMEZ",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-359",
+    "number": 359,
+    "name": "TEAM CREST",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-360",
+    "number": 360,
+    "name": "MIGUEL ALMIRÓN",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-361",
+    "number": 361,
+    "name": "ROBERTO FERNÁNDEZ",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-362",
+    "number": 362,
+    "name": "JUAN JOSÉ CÁCERES",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-363",
+    "number": 363,
+    "name": "OMAR ALDERETE",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-364",
+    "number": 364,
+    "name": "JÚNIOR ALONSO",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-365",
+    "number": 365,
+    "name": "ANDRÉS CUBAS",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-366",
+    "number": 366,
+    "name": "MATHÍAS VILLASANTI",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-367",
+    "number": 367,
+    "name": "JULIO ENCISO",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-368",
+    "number": 368,
+    "name": "RAMÓN SOSA",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-369",
+    "number": 369,
+    "name": "ANTONIO SANABRIA",
+    "team": "PARAGUAY (PAR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-370",
+    "number": 370,
+    "name": "VITINHA",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-371",
+    "number": 371,
+    "name": "TEAM CREST",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-372",
+    "number": 372,
+    "name": "CRISTIANO RONALDO",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-373",
+    "number": 373,
+    "name": "DIOGO COSTA",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-374",
+    "number": 374,
+    "name": "RÚBEN DIAS",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-375",
+    "number": 375,
+    "name": "NUNO MENDES",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-376",
+    "number": 376,
+    "name": "BERNARDO SILVA",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-377",
+    "number": 377,
+    "name": "BRUNO FERNANDES",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-378",
+    "number": 378,
+    "name": "RÚBEN NEVES",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-379",
+    "number": 379,
+    "name": "FRANCISCO CONCEIÇÃO",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-380",
+    "number": 380,
+    "name": "PEDRO NETO",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-381",
+    "number": 381,
+    "name": "RAFAEL LEÃO",
+    "team": "PORTUGAL (POR)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-382",
+    "number": 382,
+    "name": "FALMOEZ ALI",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-383",
+    "number": 383,
+    "name": "TEAM CREST",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-384",
+    "number": 384,
+    "name": "HASAN AL-HAYDOS",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-385",
+    "number": 385,
+    "name": "MESHAAL BARSHAM",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-386",
+    "number": 386,
+    "name": "BOUALEM KHOUKHI",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-387",
+    "number": 387,
+    "name": "LUCAS MENDES",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-388",
+    "number": 388,
+    "name": "PEDRO MIGUEL",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-389",
+    "number": 389,
+    "name": "HOMAM AL-AMIN",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-390",
+    "number": 390,
+    "name": "AHMED FATHI",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-391",
+    "number": 391,
+    "name": "EDMÍLSON JUNIOR",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-392",
+    "number": 392,
+    "name": "AHMED AL-GANEHI",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-393",
+    "number": 393,
+    "name": "AKRAM HASSAN AFIF",
+    "team": "QATAR (QAT)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-394",
+    "number": 394,
+    "name": "FERAS ALBRIKAN",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-395",
+    "number": 395,
+    "name": "TEAM CREST",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-396",
+    "number": 396,
+    "name": "SALEM ALDAWSARI",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-397",
+    "number": 397,
+    "name": "NAWAF ALAQIDI",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-398",
+    "number": 398,
+    "name": "HASSAN ALTAMBAKTI",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-399",
+    "number": 399,
+    "name": "JEHAD THIKRI",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-400",
+    "number": 400,
+    "name": "SAUD ABDULHAMID",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-401",
+    "number": 401,
+    "name": "NASSER ALDAWSARI",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-402",
+    "number": 402,
+    "name": "ABDULLAH ALKHAIBARI",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-403",
+    "number": 403,
+    "name": "MUSAB ALJUWAYR",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-404",
+    "number": 404,
+    "name": "SALEH ABU ALSHAMAT",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-405",
+    "number": 405,
+    "name": "SALEH ALSHEHRI",
+    "team": "SAUDI ARABIA (KSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-406",
+    "number": 406,
+    "name": "SCOTT MCTOMINAY",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-407",
+    "number": 407,
+    "name": "TEAM CREST",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-408",
+    "number": 408,
+    "name": "ANDREW ROBERTSON",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-409",
+    "number": 409,
+    "name": "ANGUS GUNN",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-410",
+    "number": 410,
+    "name": "KIERAN TIERNEY",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-411",
+    "number": 411,
+    "name": "GRANT HANLEY",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-412",
+    "number": 412,
+    "name": "BILLY GILMOUR",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-413",
+    "number": 413,
+    "name": "LEWIS FERGUSON",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-414",
+    "number": 414,
+    "name": "RYAN CHRISTIE",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-415",
+    "number": 415,
+    "name": "JOHN MCGINN",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-416",
+    "number": 416,
+    "name": "BEN GANNON-DOAK",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-417",
+    "number": 417,
+    "name": "CHÉ ADAMS",
+    "team": "SCOTLAND (SCO)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-418",
+    "number": 418,
+    "name": "KALIDOU KOULIBALY",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-419",
+    "number": 419,
+    "name": "TEAM CREST",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-420",
+    "number": 420,
+    "name": "SADIO MANÉ",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-421",
+    "number": 421,
+    "name": "EDOUARD MENDY",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-422",
+    "number": 422,
+    "name": "MOUSSA NIAKHATÉ",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-423",
+    "number": 423,
+    "name": "EL HADJI MALICK DIOUF",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-424",
+    "number": 424,
+    "name": "IDRISSA GANA GUEYE",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-425",
+    "number": 425,
+    "name": "PAPE MATAR SARR",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-426",
+    "number": 426,
+    "name": "ILIMAN NDIAYE",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-427",
+    "number": 427,
+    "name": "KRÉPIN DIATTA",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-428",
+    "number": 428,
+    "name": "ISMAÏLA SARR",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-429",
+    "number": 429,
+    "name": "NICOLAS JACKSON",
+    "team": "SENEGAL (SEN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-430",
+    "number": 430,
+    "name": "LYLE FOSTER",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-431",
+    "number": 431,
+    "name": "TEAM CREST",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-432",
+    "number": 432,
+    "name": "RONWEN WILLIAMS",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-433",
+    "number": 433,
+    "name": "SIYABONGA NGEZANA",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-434",
+    "number": 434,
+    "name": "AUBREY MODIBA",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-435",
+    "number": 435,
+    "name": "MBEKEZELI MBOKAZI",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-436",
+    "number": 436,
+    "name": "KHULISO MUDAU",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-437",
+    "number": 437,
+    "name": "TEBOHO MOKOENA",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-438",
+    "number": 438,
+    "name": "YAYA SITHOLE",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-439",
+    "number": 439,
+    "name": "THEMBA ZWANE",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-440",
+    "number": 440,
+    "name": "OSWIN APPOLLIS",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-441",
+    "number": 441,
+    "name": "IQRAAM RAYNERS",
+    "team": "SOUTH AFRICA (RSA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-442",
+    "number": 442,
+    "name": "LAMINE YAMAL",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-443",
+    "number": 443,
+    "name": "TEAM CREST",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-444",
+    "number": 444,
+    "name": "RODRI",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-445",
+    "number": 445,
+    "name": "UNAI SIMÓN",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-446",
+    "number": 446,
+    "name": "ROBIN LE NORMAND",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-447",
+    "number": 447,
+    "name": "DEAN HUIJSEN",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-448",
+    "number": 448,
+    "name": "MARC CUCURELLA",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-449",
+    "number": 449,
+    "name": "MARTÍN ZUBIMENDI",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-450",
+    "number": 450,
+    "name": "PEDRI",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-451",
+    "number": 451,
+    "name": "FABIÁN RUIZ",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-452",
+    "number": 452,
+    "name": "NICO WILLIAMS",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-453",
+    "number": 453,
+    "name": "MIKEL OYARZABAL",
+    "team": "SPAIN (ESP)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-454",
+    "number": 454,
+    "name": "MANUEL AKANJI",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-455",
+    "number": 455,
+    "name": "TEAM CREST",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-456",
+    "number": 456,
+    "name": "GRANIT XHAKA",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-457",
+    "number": 457,
+    "name": "GREGOR KOBEL",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-458",
+    "number": 458,
+    "name": "NICO ELVEDI",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-459",
+    "number": 459,
+    "name": "RICARDO RODRÍGUEZ",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-460",
+    "number": 460,
+    "name": "SILVAN WIDMER",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-461",
+    "number": 461,
+    "name": "DENIS ZAKARIA",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-462",
+    "number": 462,
+    "name": "REMO FREULER",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-463",
+    "number": 463,
+    "name": "BREEL EMBOLO",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-464",
+    "number": 464,
+    "name": "RUBÉN VARGAS",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-465",
+    "number": 465,
+    "name": "DAN NDOYE",
+    "team": "SWITZERLAND (SUI)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-466",
+    "number": 466,
+    "name": "FERJANI SASSI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-467",
+    "number": 467,
+    "name": "TEAM CREST",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-468",
+    "number": 468,
+    "name": "ELLYES SKHIRI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-469",
+    "number": 469,
+    "name": "AYMEN DAHMEN",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-470",
+    "number": 470,
+    "name": "MONTASSAR TALBI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-471",
+    "number": 471,
+    "name": "YASSINE MERIAH",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-472",
+    "number": 472,
+    "name": "ALI ABDI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-473",
+    "number": 473,
+    "name": "AÏSSA LAÏDOUNI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-474",
+    "number": 474,
+    "name": "HANNIBAL MEJBRI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-475",
+    "number": 475,
+    "name": "NAÏM SLITI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-476",
+    "number": 476,
+    "name": "ELIAS ACHOURI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-477",
+    "number": 477,
+    "name": "HAZEM MASTOURI",
+    "team": "TUNISIA (TUN)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-478",
+    "number": 478,
+    "name": "WESTON MCKENNIE",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-479",
+    "number": 479,
+    "name": "TEAM CREST",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-480",
+    "number": 480,
+    "name": "CHRISTIAN PULISIC",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-481",
+    "number": 481,
+    "name": "MATT FREESE",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-482",
+    "number": 482,
+    "name": "CHRIS RICHARDS",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-483",
+    "number": 483,
+    "name": "TIM REAM",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-484",
+    "number": 484,
+    "name": "ANTONEE ROBINSON",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-485",
+    "number": 485,
+    "name": "TANNER TESSMANN",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-486",
+    "number": 486,
+    "name": "TYLER ADAMS",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-487",
+    "number": 487,
+    "name": "TIMOTHY WEAH",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-488",
+    "number": 488,
+    "name": "MALIK TILLMAN",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-489",
+    "number": 489,
+    "name": "FOLARIN BALOGUN",
+    "team": "UNITED STATES (USA)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-490",
+    "number": 490,
+    "name": "JOSÉ MARÍA GIMÉNEZ",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-491",
+    "number": 491,
+    "name": "TEAM CREST",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-492",
+    "number": 492,
+    "name": "FEDERICO VALVERDE",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-493",
+    "number": 493,
+    "name": "SERGIO ROCHET",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-494",
+    "number": 494,
+    "name": "RONALD ARAÚJO",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-495",
+    "number": 495,
+    "name": "SEBASTIÁN CÁCERES",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-496",
+    "number": 496,
+    "name": "MATHÍAS OLIVERA",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-497",
+    "number": 497,
+    "name": "NAHITAN NÁNDEZ",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-498",
+    "number": 498,
+    "name": "RODRIGO BENTANCUR",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-499",
+    "number": 499,
+    "name": "MANUEL UGARTE",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-500",
+    "number": 500,
+    "name": "FACUNDO PELLISTRI",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-501",
+    "number": 501,
+    "name": "DARWIN NÚÑEZ",
+    "team": "URUGUAY (URU)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-502",
+    "number": 502,
+    "name": "ABDUKODIR KHUSANOV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-503",
+    "number": 503,
+    "name": "TEAM CREST",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-504",
+    "number": 504,
+    "name": "ELDOR SHOMURODOV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-505",
+    "number": 505,
+    "name": "UTKIR YUSUPOV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-506",
+    "number": 506,
+    "name": "FARRUKH SAYFIEV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-507",
+    "number": 507,
+    "name": "SHERZOD NASRULLAEV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-508",
+    "number": 508,
+    "name": "HUSNIDDIN ALIQULOV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-509",
+    "number": 509,
+    "name": "RUSTAM ASHURMATOV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-510",
+    "number": 510,
+    "name": "KHOJIAKBAR ALIJONOV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-511",
+    "number": 511,
+    "name": "ODILJON HAMROBEKOV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-512",
+    "number": 512,
+    "name": "OTABEK SHUKUROV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-513",
+    "number": 513,
+    "name": "ABBOSBEK FAYZULLAEV",
+    "team": "UZBEKISTAN (UZB)",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-514",
+    "number": 514,
+    "name": "NCL/JAM/RCD",
+    "team": "9 YAMAL (ESP)",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-515",
+    "number": 515,
+    "name": "SUR/BOL/IRQ",
+    "team": "9 YAMAL (ESP)",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-516",
+    "number": 516,
+    "name": "ITA/NIR/WAL/BIH",
+    "team": "9 YAMAL (ESP)",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-517",
+    "number": 517,
+    "name": "UKR/SWE/POL/ALB",
+    "team": "9 YAMAL (ESP)",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-518",
+    "number": 518,
+    "name": "TUR/ROU/SVK/KOS",
+    "team": "9 YAMAL (ESP)",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-519",
+    "number": 519,
+    "name": "DEN/MKD/CZE/IRL",
+    "team": "9 YAMAL (ESP)",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-624",
+    "number": 624,
+    "name": "OFFICIAL EMBLEM",
+    "team": "623 CUBARSÍ (ESP)",
+    "type": "official_emblem",
+    "subtype": "official_emblem",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-625",
+    "number": 625,
+    "name": "MAPLE™",
+    "team": "623 CUBARSÍ (ESP)",
+    "type": "official_mascot",
+    "subtype": "official_mascot",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-626",
+    "number": 626,
+    "name": "CLUTCH™",
+    "team": "623 CUBARSÍ (ESP)",
+    "type": "official_mascot",
+    "subtype": "official_mascot",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-627",
+    "number": 627,
+    "name": "ZAYU™",
+    "team": "623 CUBARSÍ (ESP)",
+    "type": "official_mascot",
+    "subtype": "official_mascot",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-628",
+    "number": 628,
+    "name": "DEFENDERS",
+    "team": "623 CUBARSÍ (ESP)",
+    "type": "eternos_22",
+    "subtype": "eternos_22",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-629",
+    "number": 629,
+    "name": "MIDFIELDERS",
+    "team": "623 CUBARSÍ (ESP)",
+    "type": "eternos_22",
+    "subtype": "eternos_22",
+    "owned": 0
+  },
+  {
+    "id": "fwc26-630",
+    "number": 630,
+    "name": "FORWARDS",
+    "team": "623 CUBARSÍ (ESP)",
+    "type": "eternos_22",
+    "subtype": "eternos_22",
+    "owned": 0
+  }
+]
