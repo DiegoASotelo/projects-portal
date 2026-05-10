@@ -10,10 +10,9 @@ const modalImage = document.getElementById('modalImage');
 const closeModal = document.getElementById('closeModal');
 let cards = [];
 const placeholder = './placeholder-card.svg';
-const sectionOrder = ['golden_baller','base','contenders','top_keeper','defensive_rock','midfield_maestro','goal_machine','master_rookie','official_emblem','official_mascot','eternos_22'];
-const specialLabels = {golden_baller:'Golden Ballers',contenders:'Contenders',top_keeper:'Top Keepers',defensive_rock:'Defensive Rocks',midfield_maestro:'Midfield Maestro',goal_machine:'Goal Machines',master_rookie:'Master Rookie',official_emblem:'Emblema',official_mascot:'Mascotas',eternos_22:'Eternos 22'};
 const teamCodeMap = {'ALGERIA':'dz','ARGENTINA':'ar','AUSTRALIA':'au','AUSTRIA':'at','BELGIUM':'be','BRAZIL':'br','CANADA':'ca','CAPE VERDE':'cv','COLOMBIA':'co','CROATIA':'hr','CURAÇAO':'cw','ECUADOR':'ec','EGYPT':'eg','ENGLAND':'gb-eng','FRANCE':'fr','GERMANY':'de','GHANA':'gh','HAITI':'ht','IRAN':'ir','IVORY COAST':'ci','JAPAN':'jp','JORDAN':'jo','KOREA REPUBLIC':'kr','MEXICO':'mx','MOROCCO':'ma','NETHERLANDS':'nl','NEW ZEALAND':'nz','NORWAY':'no','PANAMA':'pa','PARAGUAY':'py','PORTUGAL':'pt','QATAR':'qa','SAUDI ARABIA':'sa','SCOTLAND':'gb-sct','SENEGAL':'sn','SOUTH AFRICA':'za','SPAIN':'es','SWITZERLAND':'ch','TUNISIA':'tn','UNITED STATES':'us','URUGUAY':'uy','UZBEKISTAN':'uz'};
 const crestUrl = team => teamCodeMap[team] ? `https://flagcdn.com/h40/${teamCodeMap[team]}.png` : '';
+const specialLabels = {golden_baller:'Golden Ballers',contenders:'Contenders',top_keeper:'Top Keepers',defensive_rock:'Defensive Rocks',midfield_maestro:'Midfield Maestro',goal_machine:'Goal Machines',master_rookie:'Master Rookie',official_emblem:'Emblema',official_mascot:'Mascotas',eternos_22:'Eternos 22'};
 const loadState = () => JSON.parse(localStorage.getItem(storageKey) || '{}');
 const saveState = () => localStorage.setItem(storageKey, JSON.stringify(Object.fromEntries(cards.map(card => [card.id, card.owned]))));
 const applyState = baseCards => {
@@ -21,7 +20,19 @@ const applyState = baseCards => {
   return baseCards.map(card => ({ ...card, owned: state[card.id] ?? 0, image: placeholder }));
 };
 const getStatus = card => card.owned > 1 ? 'duplicates' : card.owned === 1 ? 'owned' : 'missing';
-const getSectionKey = card => card.type === 'base' ? card.team : card.type;
+const getSectionKey = card => {
+  if (card.number <= 9) return 'golden_baller';
+  if (card.number <= 513) return card.team;
+  if (card.number <= 549) return 'contenders';
+  if (card.number <= 558) return 'top_keeper';
+  if (card.number <= 567) return 'defensive_rock';
+  if (card.number <= 585) return 'midfield_maestro';
+  if (card.number <= 607) return 'goal_machine';
+  if (card.number <= 623) return 'master_rookie';
+  if (card.number === 624) return 'official_emblem';
+  if (card.number <= 627) return 'official_mascot';
+  return 'eternos_22';
+};
 const getSectionLabel = key => specialLabels[key] || key;
 const filteredCards = () => cards.filter(card => {
   const q = search.value.trim().toLowerCase();
@@ -37,9 +48,12 @@ const buildSections = list => {
     if (!map.has(key)) map.set(key, []);
     map.get(key).push(card);
   });
-  const teamSections = [...map.keys()].filter(key => !sectionOrder.includes(key)).sort();
-  const ordered = ['golden_baller', ...teamSections, 'contenders','top_keeper','defensive_rock','midfield_maestro','goal_machine','master_rookie','official_emblem','official_mascot','eternos_22'];
-  return ordered.filter(key => map.has(key)).map(key => ({ key, items: map.get(key) }));
+  const ordered = [];
+  if (map.has('golden_baller')) ordered.push('golden_baller');
+  const teamSections = [...map.keys()].filter(key => !['golden_baller','contenders','top_keeper','defensive_rock','midfield_maestro','goal_machine','master_rookie','official_emblem','official_mascot','eternos_22'].includes(key)).sort((a,b) => map.get(a)[0].number - map.get(b)[0].number);
+  ordered.push(...teamSections);
+  ['contenders','top_keeper','defensive_rock','midfield_maestro','goal_machine','master_rookie','official_emblem','official_mascot','eternos_22'].forEach(key => { if (map.has(key)) ordered.push(key); });
+  return ordered.map(key => ({ key, items: map.get(key).sort((a,b) => a.number - b.number) }));
 };
 const renderDashboard = () => {
   const total = cards.length;
@@ -53,12 +67,13 @@ const renderDashboard = () => {
 const renderCards = () => {
   cardsGrid.innerHTML = '';
   buildSections(filteredCards()).forEach(section => {
+    const owned = section.items.filter(card => card.owned > 0).length;
     const wrapper = document.createElement('section');
     wrapper.className = 'group';
     const head = document.createElement('div');
     head.className = 'group-head';
     const crest = crestUrl(section.key);
-    head.innerHTML = `<div class="group-title">${crest ? `<img class="crest" src="${crest}" alt="${section.key}">` : '<span class="crest crest-fallback">★</span>'}<div><h2>${getSectionLabel(section.key)}</h2><p>${section.items.length} cards</p></div></div>`;
+    head.innerHTML = `<div class="group-title">${crest ? `<img class="crest" src="${crest}" alt="${section.key}">` : '<span class="crest crest-fallback">★</span>'}<div><h2>${getSectionLabel(section.key)}</h2><p>${owned} de ${section.items.length}</p></div></div>`;
     const row = document.createElement('div');
     row.className = 'cards-row';
     section.items.forEach(card => {
@@ -83,7 +98,8 @@ const renderCards = () => {
 };
 const fillFilters = () => {
   const sections = [...new Set(cards.map(getSectionKey))];
-  sections.sort((a,b) => getSectionLabel(a).localeCompare(getSectionLabel(b))).forEach(key => {
+  const orderedSections = buildSections(cards).map(s => s.key);
+  orderedSections.forEach(key => {
     const option = document.createElement('option');
     option.value = key; option.textContent = getSectionLabel(key); teamFilter.appendChild(option);
   });
