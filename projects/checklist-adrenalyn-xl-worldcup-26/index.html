@@ -15,13 +15,14 @@
     <div class="login-card">
       <p class="eyebrow">Checklist Adrenaline XL WorlCup 26</p>
       <h1>Accede a tu checklist</h1>
-      <p class="sub">Cada usuario tendrá su propia checklist. De momento queda lista la base con Google o email y contraseña.</p>
+      <p class="sub">Base multiusuario lista para evolucionar a plataforma de pago.</p>
       <div id="googleLoginButton" class="google-login-slot"></div>
       <form id="emailLoginForm" class="login-form">
         <input id="emailInput" type="email" placeholder="tu@email.com" autocomplete="email" required>
         <input id="passwordInput" type="password" placeholder="Contraseña" autocomplete="current-password" required>
         <button type="submit">Entrar / crear usuario</button>
       </form>
+      <p class="seed-note">Admin inicial: <strong>admin@checklist.local</strong> / <strong>admin1234</strong></p>
       <p id="loginMessage" class="login-message"></p>
     </div>
   </section>
@@ -31,36 +32,58 @@
       <div>
         <p class="eyebrow">Cromo Sector</p>
         <h1>Checklist Adrenaline XL WorlCup 26</h1>
-        <p class="sub">Seguimiento de tu colección FIFA World Cup 2026 Adrenalyn XL</p>
+        <p class="sub">Seguimiento multiusuario de la colección FIFA World Cup 2026 Adrenalyn XL</p>
       </div>
       <div class="session-box">
         <span id="currentUser"></span>
-        <button id="logoutButton" type="button">Salir</button>
+        <div class="session-actions">
+          <button id="adminLink" type="button" hidden>Admin</button>
+          <button id="logoutButton" type="button">Salir</button>
+        </div>
       </div>
     </header>
-    <section class="dashboard" id="dashboard">
-      <article><span>Tengo</span><strong id="ownedCount">0</strong></article>
-      <article><span>Me faltan</span><strong id="missingCount">0</strong></article>
-      <article><span>Repetidas</span><strong id="duplicateCount">0</strong></article>
-      <article><span>Completado</span><strong id="progressPercent">0%</strong></article>
+
+    <section id="appView">
+      <section class="dashboard" id="dashboard">
+        <article><span>Tengo</span><strong id="ownedCount">0</strong></article>
+        <article><span>Me faltan</span><strong id="missingCount">0</strong></article>
+        <article><span>Repetidas</span><strong id="duplicateCount">0</strong></article>
+        <article><span>Completado</span><strong id="progressPercent">0%</strong></article>
+      </section>
+      <section class="controls">
+        <input id="search" type="search" placeholder="Buscar por número, nombre o equipo">
+        <select id="teamFilter"><option value="">Todas las secciones</option></select>
+        <select id="typeFilter"><option value="">Todos los tipos</option></select>
+        <select id="statusFilter">
+          <option value="">Todos los estados</option>
+          <option value="owned">Tengo</option>
+          <option value="missing">Me faltan</option>
+          <option value="duplicates">Repetidas</option>
+        </select>
+      </section>
+      <section class="legend">
+        <span><i class="dot owned"></i>Tengo</span>
+        <span><i class="dot missing"></i>Me falta</span>
+        <span><i class="dot duplicate"></i>Repetida</span>
+        <span id="backupSlot"></span>
+      </section>
+      <main><div id="cardsGrid"></div></main>
     </section>
-    <section class="controls">
-      <input id="search" type="search" placeholder="Buscar por número, nombre o equipo">
-      <select id="teamFilter"><option value="">Todas las secciones</option></select>
-      <select id="typeFilter"><option value="">Todos los tipos</option></select>
-      <select id="statusFilter">
-        <option value="">Todos los estados</option>
-        <option value="owned">Tengo</option>
-        <option value="missing">Me faltan</option>
-        <option value="duplicates">Repetidas</option>
-      </select>
+
+    <section id="adminView" class="admin-view" hidden>
+      <div class="admin-toolbar">
+        <h2>Panel de usuarios</h2>
+        <button id="backToAppButton" type="button">Volver</button>
+      </div>
+      <form id="createUserForm" class="admin-create-user">
+        <input id="adminEmailInput" type="email" placeholder="nuevo@email.com" required>
+        <input id="adminPasswordInput" type="password" placeholder="Contraseña inicial" required>
+        <input id="adminPlanInput" type="text" placeholder="Plan, ej. basic">
+        <button type="submit">Crear usuario</button>
+      </form>
+      <p id="adminMessage" class="login-message"></p>
+      <div id="adminTable" class="admin-table"></div>
     </section>
-    <section class="legend">
-      <span><i class="dot owned"></i>Tengo</span>
-      <span><i class="dot missing"></i>Me falta</span>
-      <span><i class="dot duplicate"></i>Repetida</span>
-    </section>
-    <main><div id="cardsGrid"></div></main>
   </div>
 
   <template id="cardTemplate">
