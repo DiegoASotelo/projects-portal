@@ -1,9 +1,12 @@
 const STORAGE_KEY = 'checklist-adrenalyn-xl-worldcup-26';
 const USERS_KEY = `${STORAGE_KEY}:users`;
 const SESSION_KEY = `${STORAGE_KEY}:session`;
+const runtimeConfig = window.CHECKLIST_SUPABASE_CONFIG || {};
 const CONFIG = {
-  googleClientId: 'GOOGLE_CLIENT_ID_PENDING',
-  backendMode: 'mock'
+  googleClientId: runtimeConfig.googleClientId || 'GOOGLE_CLIENT_ID_PENDING',
+  backendMode: runtimeConfig.url && runtimeConfig.anonKey ? 'supabase' : 'mock',
+  supabaseUrl: runtimeConfig.url || '',
+  supabaseAnonKey: runtimeConfig.anonKey || ''
 };
 
 const state = {
