@@ -10,7 +10,18 @@ const modalImage = document.getElementById('modalImage');
 const closeModal = document.getElementById('closeModal');
 let cards = [];
 const placeholder = './placeholder-card.svg';
-const teamCodeMap = {'ALGERIA':'dz','ARGENTINA':'ar','AUSTRALIA':'au','AUSTRIA':'at','BELGIUM':'be','BRAZIL':'br','CANADA':'ca','CAPE VERDE':'cv','COLOMBIA':'co','CROATIA':'hr','CURAÇAO':'cw','ECUADOR':'ec','EGYPT':'eg','ENGLAND':'gb-eng','FRANCE':'fr','GERMANY':'de','GHANA':'gh','HAITI':'ht','IRAN':'ir','IVORY COAST':'ci','JAPAN':'jp','JORDAN':'jo','KOREA REPUBLIC':'kr','MEXICO':'mx','MOROCCO':'ma','NETHERLANDS':'nl','NEW ZEALAND':'nz','NORWAY':'no','PANAMA':'pa','PARAGUAY':'py','PORTUGAL':'pt','QATAR':'qa','SAUDI ARABIA':'sa','SCOTLAND':'gb-sct','SENEGAL':'sn','SOUTH AFRICA':'za','SPAIN':'es','SWITZERLAND':'ch','TUNISIA':'tn','UNITED STATES':'us','URUGUAY':'uy','UZBEKISTAN':'uz'};
+const goldenImageMap = {
+  1: './assets/golden-drive/1.jpg',
+  2: './assets/golden-drive/2.jpg',
+  3: './assets/golden-drive/3.jpg',
+  4: './assets/golden-drive/4.jpg',
+  5: './assets/golden-drive/5.jpg',
+  6: './assets/golden-drive/6.jpg',
+  7: './assets/golden-drive/7.jpg',
+  8: './assets/golden-drive/8.jpg',
+  9: './assets/golden-drive/9.jpg'
+};
+const teamCodeMap = {'ALGERIA':'dz','ARGENTINA':'ar','AUSTRALIA':'au','AUSTRIA':'at','BELGIUM':'be','BRAZIL':'br','CANADA':'ca','CAPE VERDE':'cv','COLOMBIA':'co','CROATIA':'hr','CURACAO':'cw','ECUADOR':'ec','EGYPT':'eg','ENGLAND':'gb-eng','FRANCE':'fr','GERMANY':'de','GHANA':'gh','HAITI':'ht','IRAN':'ir','IVORY COAST':'ci','JAPAN':'jp','JORDAN':'jo','SOUTH KOREA':'kr','MEXICO':'mx','MOROCCO':'ma','NETHERLANDS':'nl','NEW ZEALAND':'nz','NORWAY':'no','PANAMA':'pa','PARAGUAY':'py','PORTUGAL':'pt','QATAR':'qa','SAUDI ARABIA':'sa','SCOTLAND':'gb-sct','SENEGAL':'sn','SOUTH AFRICA':'za','SPAIN':'es','SWITZERLAND':'ch','TUNISIA':'tn','UNITED STATES':'us','URUGUAY':'uy','UZBEKISTAN':'uz'};
 const crestUrl = team => teamCodeMap[team] ? `https://flagcdn.com/h40/${teamCodeMap[team]}.png` : '';
 const specialLabels = {golden_baller:'Golden Ballers',contenders:'Contenders',top_keeper:'Top Keepers',defensive_rock:'Defensive Rocks',midfield_maestro:'Midfield Maestro',goal_machine:'Goal Machines',master_rookie:'Master Rookie',official_emblem:'Emblema',official_mascot:'Mascotas',eternos_22:'Eternos 22'};
 const apiUrl = 'https://german-state.tycoty.workers.dev/we-are-26/state';
@@ -43,9 +54,10 @@ const downloadBackup = state => {
   }
   link.href = url;
 };
+const resolveCardImage = card => goldenImageMap[card.number] || card.image || placeholder;
 const applyState = (baseCards, state) => {
   downloadBackup(state);
-  return baseCards.map(card => ({ ...card, owned: state[card.id] ?? 0, image: card.image || placeholder }));
+  return baseCards.map(card => ({ ...card, owned: state[card.id] ?? 0, image: resolveCardImage(card) }));
 };
 const getStatus = card => card.owned > 1 ? 'duplicates' : card.owned === 1 ? 'owned' : 'missing';
 const getSectionKey = card => {
@@ -127,6 +139,8 @@ const renderCards = () => {
       node.querySelector('.team').textContent = card.team;
       node.querySelector('.meta').textContent = card.subtype.replaceAll('_', ' ');
       const img = node.querySelector('.thumb');
+      img.loading = 'lazy';
+      img.decoding = 'async';
       img.src = card.image;
       node.querySelector('.thumb-button').onclick = () => { modalImage.src = card.image; imageModal.showModal(); };
       node.querySelector('[data-action="increment"]').onclick = () => updateCard(card, 1);
