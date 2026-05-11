@@ -1,0 +1,6302 @@
+[
+  {
+    "id": "fwc26-1",
+    "number": 1,
+    "name": "LIONEL MESSI",
+    "team": "ARGENTINA",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/1.jpg"
+  },
+  {
+    "id": "fwc26-2",
+    "number": 2,
+    "name": "VINICIUS JUNIOR",
+    "team": "BRAZIL",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/2.jpg"
+  },
+  {
+    "id": "fwc26-3",
+    "number": 3,
+    "name": "MOHAMED SALAH",
+    "team": "EGYPT",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/3.jpg"
+  },
+  {
+    "id": "fwc26-4",
+    "number": 4,
+    "name": "HARRY KANE",
+    "team": "ENGLAND",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/4.jpg"
+  },
+  {
+    "id": "fwc26-5",
+    "number": 5,
+    "name": "KYLIAN MBAPPE",
+    "team": "FRANCE",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/5.jpg"
+  },
+  {
+    "id": "fwc26-6",
+    "number": 6,
+    "name": "SON HEUNG-MIN",
+    "team": "SOUTH KOREA",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/6.jpg"
+  },
+  {
+    "id": "fwc26-7",
+    "number": 7,
+    "name": "ERLING HAALAND",
+    "team": "NORWAY",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/7.jpg"
+  },
+  {
+    "id": "fwc26-8",
+    "number": 8,
+    "name": "CRISTIANO RONALDO",
+    "team": "PORTUGAL",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/8.jpg"
+  },
+  {
+    "id": "fwc26-9",
+    "number": 9,
+    "name": "LAMINE YAMAL",
+    "team": "SPAIN",
+    "type": "golden_baller",
+    "subtype": "golden_baller",
+    "owned": 0,
+    "image": "./assets/golden-drive/9.jpg"
+  },
+  {
+    "id": "fwc26-10",
+    "number": 10,
+    "name": "RAVAN AIT-NOURI",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/10.jpg"
+  },
+  {
+    "id": "fwc26-11",
+    "number": 11,
+    "name": "Team Crest",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/11.jpg"
+  },
+  {
+    "id": "fwc26-12",
+    "number": 12,
+    "name": "RIYAD MAHREZ",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/12.jpg"
+  },
+  {
+    "id": "fwc26-13",
+    "number": 13,
+    "name": "ALEXIS QUENDOUZ",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/13.jpg"
+  },
+  {
+    "id": "fwc26-14",
+    "number": 14,
+    "name": "RAMV BENSEBAINI",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/14.jpg"
+  },
+  {
+    "id": "fwc26-15",
+    "number": 15,
+    "name": "YOUSEF ATAL",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/15.jpg"
+  },
+  {
+    "id": "fwc26-16",
+    "number": 16,
+    "name": "AISSA MANDI",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/16.jpg"
+  },
+  {
+    "id": "fwc26-17",
+    "number": 17,
+    "name": "NABIL BENTALEB",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/17.jpg"
+  },
+  {
+    "id": "fwc26-18",
+    "number": 18,
+    "name": "SAID BENRAHMA",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/18.jpg"
+  },
+  {
+    "id": "fwc26-19",
+    "number": 19,
+    "name": "AMINE GOUIRI",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/19.jpg"
+  },
+  {
+    "id": "fwc26-20",
+    "number": 20,
+    "name": "MOHAMED AMOURA",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/20.jpg"
+  },
+  {
+    "id": "fwc26-21",
+    "number": 21,
+    "name": "BAQHDAD BOUNEDJAH",
+    "team": "ALGERIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/21.jpg"
+  },
+  {
+    "id": "fwc26-22",
+    "number": 22,
+    "name": "JULIÁN ÁLVAREZ",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/22.jpg"
+  },
+  {
+    "id": "fwc26-23",
+    "number": 23,
+    "name": "Team Crest",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/23.jpg"
+  },
+  {
+    "id": "fwc26-24",
+    "number": 24,
+    "name": "LIONEL MESSI",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/24.jpg"
+  },
+  {
+    "id": "fwc26-25",
+    "number": 25,
+    "name": "EMILIANO MARTÍNEZ",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/25.jpg"
+  },
+  {
+    "id": "fwc26-26",
+    "number": 26,
+    "name": "NAHUEL MOLINA",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/26.jpg"
+  },
+  {
+    "id": "fwc26-27",
+    "number": 27,
+    "name": "CRISTIAN ROMERO",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/27.jpg"
+  },
+  {
+    "id": "fwc26-28",
+    "number": 28,
+    "name": "NICOLAS OTAMENDI",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/28.jpg"
+  },
+  {
+    "id": "fwc26-29",
+    "number": 29,
+    "name": "ENZO FERNANDEZ",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/29.jpg"
+  },
+  {
+    "id": "fwc26-30",
+    "number": 30,
+    "name": "ALEXIS MAC ALLISTER",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/30.jpg"
+  },
+  {
+    "id": "fwc26-31",
+    "number": 31,
+    "name": "RODRIGO DE PAUL",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/31.jpg"
+  },
+  {
+    "id": "fwc26-32",
+    "number": 32,
+    "name": "GIULIANO SIMEONE",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/32.jpg"
+  },
+  {
+    "id": "fwc26-33",
+    "number": 33,
+    "name": "LAUTARO MARTÍNEZ",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/33.jpg"
+  },
+  {
+    "id": "fwc26-34",
+    "number": 34,
+    "name": "HARRY SOUTTAR",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/34.jpg"
+  },
+  {
+    "id": "fwc26-35",
+    "number": 35,
+    "name": "Team Crest",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/35.jpg"
+  },
+  {
+    "id": "fwc26-36",
+    "number": 36,
+    "name": "MATHEW RYAN",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/36.jpg"
+  },
+  {
+    "id": "fwc26-37",
+    "number": 37,
+    "name": "ALESSANDAO CIRCATI",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/37.jpg"
+  },
+  {
+    "id": "fwc26-38",
+    "number": 38,
+    "name": "JORDAN BOS",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/38.jpg"
+  },
+  {
+    "id": "fwc26-39",
+    "number": 39,
+    "name": "LEWIS MILL",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/39.jpg"
+  },
+  {
+    "id": "fwc26-40",
+    "number": 40,
+    "name": "MILOS DEGENEK",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/40.jpg"
+  },
+  {
+    "id": "fwc26-41",
+    "number": 41,
+    "name": "JACKSON IRVINE",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/41.jpg"
+  },
+  {
+    "id": "fwc26-42",
+    "number": 42,
+    "name": "RILEY MCGREE",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/42.jpg"
+  },
+  {
+    "id": "fwc26-43",
+    "number": 43,
+    "name": "AIDEN O’NEILL",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/43.jpg"
+  },
+  {
+    "id": "fwc26-44",
+    "number": 44,
+    "name": "CONNOR METCALFE",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/44.jpg"
+  },
+  {
+    "id": "fwc26-45",
+    "number": 45,
+    "name": "CRAIG GOODWIN",
+    "team": "AUSTRALIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/45.jpg"
+  },
+  {
+    "id": "fwc26-46",
+    "number": 46,
+    "name": "MARKO ARNAUTOVIC",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/46.jpg"
+  },
+  {
+    "id": "fwc26-47",
+    "number": 47,
+    "name": "Team Crest",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/47.jpg"
+  },
+  {
+    "id": "fwc26-48",
+    "number": 48,
+    "name": "DAVID ALABA",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/48.jpg"
+  },
+  {
+    "id": "fwc26-49",
+    "number": 49,
+    "name": "ALEXANDER SCHLAGER",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/49.jpg"
+  },
+  {
+    "id": "fwc26-50",
+    "number": 50,
+    "name": "KEVIN DANSO",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/50.jpg"
+  },
+  {
+    "id": "fwc26-51",
+    "number": 51,
+    "name": "PHILIPP LIENHART",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/51.jpg"
+  },
+  {
+    "id": "fwc26-52",
+    "number": 52,
+    "name": "KONRAD LLAIMER",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/52.jpg"
+  },
+  {
+    "id": "fwc26-53",
+    "number": 53,
+    "name": "NICOLAS SEIWALD",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/53.jpg"
+  },
+  {
+    "id": "fwc26-54",
+    "number": 54,
+    "name": "MARCEL SABITZER",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/54.jpg"
+  },
+  {
+    "id": "fwc26-55",
+    "number": 55,
+    "name": "FLORIAN GRILLITSCH",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/55.jpg"
+  },
+  {
+    "id": "fwc26-56",
+    "number": 56,
+    "name": "CHRISTOPH BAUMGARTNER",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/56.jpg"
+  },
+  {
+    "id": "fwc26-57",
+    "number": 57,
+    "name": "MICHAEL GREGORITSCH",
+    "team": "AUSTRIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/57.jpg"
+  },
+  {
+    "id": "fwc26-58",
+    "number": 58,
+    "name": "YOURI TIELEMANS",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/58.jpg"
+  },
+  {
+    "id": "fwc26-59",
+    "number": 59,
+    "name": "Team Crest",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/59.jpg"
+  },
+  {
+    "id": "fwc26-60",
+    "number": 60,
+    "name": "KEVIN DE BRUYNE",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/60.jpg"
+  },
+  {
+    "id": "fwc26-61",
+    "number": 61,
+    "name": "THIBAUT COURTOIS",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/61.jpg"
+  },
+  {
+    "id": "fwc26-62",
+    "number": 62,
+    "name": "ARTHUR THEATE",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/62.jpg"
+  },
+  {
+    "id": "fwc26-63",
+    "number": 63,
+    "name": "TIMOTHY CASTAGNE",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/63.jpg"
+  },
+  {
+    "id": "fwc26-64",
+    "number": 64,
+    "name": "MAXIM DE CUYPER",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/64.jpg"
+  },
+  {
+    "id": "fwc26-65",
+    "number": 65,
+    "name": "AMADOU ONANA",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/65.jpg"
+  },
+  {
+    "id": "fwc26-66",
+    "number": 66,
+    "name": "JEREMY DOKU",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/66.jpg"
+  },
+  {
+    "id": "fwc26-67",
+    "number": 67,
+    "name": "CHARLES DE KETELAERE",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/67.jpg"
+  },
+  {
+    "id": "fwc26-68",
+    "number": 68,
+    "name": "LEANDRO TROSSARD",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/68.jpg"
+  },
+  {
+    "id": "fwc26-69",
+    "number": 69,
+    "name": "ROMELU LUKAKU",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/69.jpg"
+  },
+  {
+    "id": "fwc26-70",
+    "number": 70,
+    "name": "MARQUINHOS",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/70.jpg"
+  },
+  {
+    "id": "fwc26-71",
+    "number": 71,
+    "name": "Team Crest",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/71.jpg"
+  },
+  {
+    "id": "fwc26-72",
+    "number": 72,
+    "name": "VINICIUS JUNIOR",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/72.jpg"
+  },
+  {
+    "id": "fwc26-73",
+    "number": 73,
+    "name": "ALISSON",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/73.jpg"
+  },
+  {
+    "id": "fwc26-74",
+    "number": 74,
+    "name": "DANILO",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/74.jpg"
+  },
+  {
+    "id": "fwc26-75",
+    "number": 75,
+    "name": "EDER MILITAO",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/75.jpg"
+  },
+  {
+    "id": "fwc26-76",
+    "number": 76,
+    "name": "GABRIEL MAGALHAES",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/76.jpg"
+  },
+  {
+    "id": "fwc26-77",
+    "number": 77,
+    "name": "CASEMIRO",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/77.jpg"
+  },
+  {
+    "id": "fwc26-78",
+    "number": 78,
+    "name": "BRUNO GUIMARAES",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/78.jpg"
+  },
+  {
+    "id": "fwc26-79",
+    "number": 79,
+    "name": "RODRYGO",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/79.jpg"
+  },
+  {
+    "id": "fwc26-80",
+    "number": 80,
+    "name": "MATHEUS CUNHA",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/80.jpg"
+  },
+  {
+    "id": "fwc26-81",
+    "number": 81,
+    "name": "RAPHINHA",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/81.jpg"
+  },
+  {
+    "id": "fwc26-82",
+    "number": 82,
+    "name": "JONATHAN DAVID",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/82.jpg"
+  },
+  {
+    "id": "fwc26-83",
+    "number": 83,
+    "name": "Team Crest",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/83.jpg"
+  },
+  {
+    "id": "fwc26-84",
+    "number": 84,
+    "name": "ALPHONSO DAVIES",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/84.jpg"
+  },
+  {
+    "id": "fwc26-85",
+    "number": 85,
+    "name": "DAVNE ST. CLAIR",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/85.jpg"
+  },
+  {
+    "id": "fwc26-86",
+    "number": 86,
+    "name": "RICHIE LARVEA",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/86.jpg"
+  },
+  {
+    "id": "fwc26-87",
+    "number": 87,
+    "name": "DEREK CORNELIUS",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/87.jpg"
+  },
+  {
+    "id": "fwc26-88",
+    "number": 88,
+    "name": "STEPHEN EUSTAQUIO",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/88.jpg"
+  },
+  {
+    "id": "fwc26-89",
+    "number": 89,
+    "name": "ISMAEL KONE",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/89.jpg"
+  },
+  {
+    "id": "fwc26-90",
+    "number": 90,
+    "name": "JONATHAN OSORIO",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/90.jpg"
+  },
+  {
+    "id": "fwc26-91",
+    "number": 91,
+    "name": "JACOB SHAFFELBURG",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/91.jpg"
+  },
+  {
+    "id": "fwc26-92",
+    "number": 92,
+    "name": "TAJON BUCHANAN",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/92.jpg"
+  },
+  {
+    "id": "fwc26-93",
+    "number": 93,
+    "name": "CVLE LARIN",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/93.jpg"
+  },
+  {
+    "id": "fwc26-94",
+    "number": 94,
+    "name": "VOZINHA",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/94.jpg"
+  },
+  {
+    "id": "fwc26-95",
+    "number": 95,
+    "name": "Team Crest",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/95.jpg"
+  },
+  {
+    "id": "fwc26-96",
+    "number": 96,
+    "name": "RYAN MENDES",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/96.jpg"
+  },
+  {
+    "id": "fwc26-97",
+    "number": 97,
+    "name": "LOGAN COSTA",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/97.jpg"
+  },
+  {
+    "id": "fwc26-98",
+    "number": 98,
+    "name": "PICO",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/98.jpg"
+  },
+  {
+    "id": "fwc26-99",
+    "number": 99,
+    "name": "STEVEN MOREIRA",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/99.jpg"
+  },
+  {
+    "id": "fwc26-100",
+    "number": 100,
+    "name": "JOAO PAULO",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/100.jpg"
+  },
+  {
+    "id": "fwc26-101",
+    "number": 101,
+    "name": "KEVIN PINA",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/101.jpg"
+  },
+  {
+    "id": "fwc26-102",
+    "number": 102,
+    "name": "JAMIRO MONTEIRO",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/102.jpg"
+  },
+  {
+    "id": "fwc26-103",
+    "number": 103,
+    "name": "YANNICK SEMEDO",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/103.jpg"
+  },
+  {
+    "id": "fwc26-104",
+    "number": 104,
+    "name": "JOVANE CABRAL",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/104.jpg"
+  },
+  {
+    "id": "fwc26-105",
+    "number": 105,
+    "name": "DAILON LIVRAMENTO",
+    "team": "CAPE VERDE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/105.jpg"
+  },
+  {
+    "id": "fwc26-106",
+    "number": 106,
+    "name": "LUIS DÍAZ",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/106.jpg"
+  },
+  {
+    "id": "fwc26-107",
+    "number": 107,
+    "name": "Team Crest",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/107.jpg"
+  },
+  {
+    "id": "fwc26-108",
+    "number": 108,
+    "name": "JAMES RODRÍGUEZ",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/108.jpg"
+  },
+  {
+    "id": "fwc26-109",
+    "number": 109,
+    "name": "CAMILO VARGAS",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/109.jpg"
+  },
+  {
+    "id": "fwc26-110",
+    "number": 110,
+    "name": "DAVINSON SÁNCHEZ",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/110.jpg"
+  },
+  {
+    "id": "fwc26-111",
+    "number": 111,
+    "name": "YERRY MINA",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/111.jpg"
+  },
+  {
+    "id": "fwc26-112",
+    "number": 112,
+    "name": "DANIEL MUÑOZ",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/112.jpg"
+  },
+  {
+    "id": "fwc26-113",
+    "number": 113,
+    "name": "JEFFERSON LERMA",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/113.jpg"
+  },
+  {
+    "id": "fwc26-114",
+    "number": 114,
+    "name": "RICHARD RIOS",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/114.jpg"
+  },
+  {
+    "id": "fwc26-115",
+    "number": 115,
+    "name": "JUAN FERNANDO QUINTERO",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/115.jpg"
+  },
+  {
+    "id": "fwc26-116",
+    "number": 116,
+    "name": "JHON ARIAS",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/116.jpg"
+  },
+  {
+    "id": "fwc26-117",
+    "number": 117,
+    "name": "LUIS SUAREZ",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/117.jpg"
+  },
+  {
+    "id": "fwc26-118",
+    "number": 118,
+    "name": "IVAN PERISIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/118.jpg"
+  },
+  {
+    "id": "fwc26-119",
+    "number": 119,
+    "name": "Team Crest",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/119.jpg"
+  },
+  {
+    "id": "fwc26-120",
+    "number": 120,
+    "name": "LUKA MODRIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/120.jpg"
+  },
+  {
+    "id": "fwc26-121",
+    "number": 121,
+    "name": "DOMINIK LIVAKOVIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/121.jpg"
+  },
+  {
+    "id": "fwc26-122",
+    "number": 122,
+    "name": "DUJE CALETA-CAR",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/122.jpg"
+  },
+  {
+    "id": "fwc26-123",
+    "number": 123,
+    "name": "JOSKO GVARDIOL",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/123.jpg"
+  },
+  {
+    "id": "fwc26-124",
+    "number": 124,
+    "name": "JOSIP STANISIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/124.jpg"
+  },
+  {
+    "id": "fwc26-125",
+    "number": 125,
+    "name": "MATEO KOVACIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/125.jpg"
+  },
+  {
+    "id": "fwc26-126",
+    "number": 126,
+    "name": "LOVRO MAJER",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/126.jpg"
+  },
+  {
+    "id": "fwc26-127",
+    "number": 127,
+    "name": "MARIO PASALIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/127.jpg"
+  },
+  {
+    "id": "fwc26-128",
+    "number": 128,
+    "name": "ANTE BUDIMIR",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/128.jpg"
+  },
+  {
+    "id": "fwc26-129",
+    "number": 129,
+    "name": "ANDREJ KRAMARIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/129.jpg"
+  },
+  {
+    "id": "fwc26-130",
+    "number": 130,
+    "name": "JURIEN GAARI",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/130.jpg"
+  },
+  {
+    "id": "fwc26-131",
+    "number": 131,
+    "name": "Team Crest",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/131.jpg"
+  },
+  {
+    "id": "fwc26-132",
+    "number": 132,
+    "name": "LEANDRO BACUNA",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/132.jpg"
+  },
+  {
+    "id": "fwc26-133",
+    "number": 133,
+    "name": "ELOY ROOM",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/133.jpg"
+  },
+  {
+    "id": "fwc26-134",
+    "number": 134,
+    "name": "SHEREL FLORANUS",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/134.jpg"
+  },
+  {
+    "id": "fwc26-135",
+    "number": 135,
+    "name": "ROSHON VAN ELJMA",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/135.jpg"
+  },
+  {
+    "id": "fwc26-136",
+    "number": 136,
+    "name": "ARMANDO OBISPO",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/136.jpg"
+  },
+  {
+    "id": "fwc26-137",
+    "number": 137,
+    "name": "LIVANO COMENENCIA",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/137.jpg"
+  },
+  {
+    "id": "fwc26-138",
+    "number": 138,
+    "name": "JUNINHO BACUNA",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/138.jpg"
+  },
+  {
+    "id": "fwc26-139",
+    "number": 139,
+    "name": "KENJI GORRE",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/139.jpg"
+  },
+  {
+    "id": "fwc26-140",
+    "number": 140,
+    "name": "SONTJE HANSEN",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/140.jpg"
+  },
+  {
+    "id": "fwc26-141",
+    "number": 141,
+    "name": "JEARL MARGARITHA",
+    "team": "CURACAO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/141.jpg"
+  },
+  {
+    "id": "fwc26-142",
+    "number": 142,
+    "name": "MOISÉS CAICEDO",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/142.jpg"
+  },
+  {
+    "id": "fwc26-143",
+    "number": 143,
+    "name": "Team Crest",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/143.jpg"
+  },
+  {
+    "id": "fwc26-144",
+    "number": 144,
+    "name": "ENNER VALENCIA",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/144.jpg"
+  },
+  {
+    "id": "fwc26-145",
+    "number": 145,
+    "name": "HERNÁN GALÍNDEZ",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/145.jpg"
+  },
+  {
+    "id": "fwc26-146",
+    "number": 146,
+    "name": "PIERO HINCAPIE",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/146.jpg"
+  },
+  {
+    "id": "fwc26-147",
+    "number": 147,
+    "name": "PERVIS ESTUPIÑÁN",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/147.jpg"
+  },
+  {
+    "id": "fwc26-148",
+    "number": 148,
+    "name": "WILLIAN PACHO",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/148.jpg"
+  },
+  {
+    "id": "fwc26-149",
+    "number": 149,
+    "name": "ÁNGELO PRECIADO",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/149.jpg"
+  },
+  {
+    "id": "fwc26-150",
+    "number": 150,
+    "name": "JOEL ORDÓÑEZ",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/150.jpg"
+  },
+  {
+    "id": "fwc26-151",
+    "number": 151,
+    "name": "ALAN FRANCO",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/151.jpg"
+  },
+  {
+    "id": "fwc26-152",
+    "number": 152,
+    "name": "GONZALO PLATA",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/152.jpg"
+  },
+  {
+    "id": "fwc26-153",
+    "number": 153,
+    "name": "KEVIN RODRÍGUEZ",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/153.jpg"
+  },
+  {
+    "id": "fwc26-154",
+    "number": 154,
+    "name": "OMAR MARMOUSH",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/154.jpg"
+  },
+  {
+    "id": "fwc26-155",
+    "number": 155,
+    "name": "Team Crest",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/155.jpg"
+  },
+  {
+    "id": "fwc26-156",
+    "number": 156,
+    "name": "MOHAMED SALAH",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/156.jpg"
+  },
+  {
+    "id": "fwc26-157",
+    "number": 157,
+    "name": "MOHAMED EL SHENAWY",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/157.jpg"
+  },
+  {
+    "id": "fwc26-158",
+    "number": 158,
+    "name": "MOHAMED HANY",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/158.jpg"
+  },
+  {
+    "id": "fwc26-159",
+    "number": 159,
+    "name": "MOHAMED ABDELMONEM",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/159.jpg"
+  },
+  {
+    "id": "fwc26-160",
+    "number": 160,
+    "name": "RAMY RABIA",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/160.jpg"
+  },
+  {
+    "id": "fwc26-161",
+    "number": 161,
+    "name": "MARWAN ATTIA",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/161.jpg"
+  },
+  {
+    "id": "fwc26-162",
+    "number": 162,
+    "name": "ZIZO",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/162.jpg"
+  },
+  {
+    "id": "fwc26-163",
+    "number": 163,
+    "name": "HAMDY FATHY",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/163.jpg"
+  },
+  {
+    "id": "fwc26-164",
+    "number": 164,
+    "name": "MOSTAFA MOHAMED",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/164.jpg"
+  },
+  {
+    "id": "fwc26-165",
+    "number": 165,
+    "name": "TREZEGUET",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/165.jpg"
+  },
+  {
+    "id": "fwc26-166",
+    "number": 166,
+    "name": "JUDE BELLINGHAM",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/166.jpg"
+  },
+  {
+    "id": "fwc26-167",
+    "number": 167,
+    "name": "Team Crest",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/167.jpg"
+  },
+  {
+    "id": "fwc26-168",
+    "number": 168,
+    "name": "HARRY KANE",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/168.jpg"
+  },
+  {
+    "id": "fwc26-169",
+    "number": 169,
+    "name": "JORDAN PICKFORD",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/169.jpg"
+  },
+  {
+    "id": "fwc26-170",
+    "number": 170,
+    "name": "REECE JAMES",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/170.jpg"
+  },
+  {
+    "id": "fwc26-171",
+    "number": 171,
+    "name": "JOHN STONES",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/171.jpg"
+  },
+  {
+    "id": "fwc26-172",
+    "number": 172,
+    "name": "DECLAN RICE",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/172.jpg"
+  },
+  {
+    "id": "fwc26-173",
+    "number": 173,
+    "name": "JORDAN HENDERSON",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/173.jpg"
+  },
+  {
+    "id": "fwc26-174",
+    "number": 174,
+    "name": "PHIL FODEN",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/174.jpg"
+  },
+  {
+    "id": "fwc26-175",
+    "number": 175,
+    "name": "BUKAYO SAKA",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/175.jpg"
+  },
+  {
+    "id": "fwc26-176",
+    "number": 176,
+    "name": "COLE PALMER",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/176.jpg"
+  },
+  {
+    "id": "fwc26-177",
+    "number": 177,
+    "name": "MARCUS RASHFORD",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/177.jpg"
+  },
+  {
+    "id": "fwc26-178",
+    "number": 178,
+    "name": "OUSMANE DEMBELE",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/178.jpg"
+  },
+  {
+    "id": "fwc26-179",
+    "number": 179,
+    "name": "Team Crest",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/179.jpg"
+  },
+  {
+    "id": "fwc26-180",
+    "number": 180,
+    "name": "KYLIAN MBAPPÉ",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/180.jpg"
+  },
+  {
+    "id": "fwc26-181",
+    "number": 181,
+    "name": "MIKE MAIGNAN",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/181.jpg"
+  },
+  {
+    "id": "fwc26-182",
+    "number": 182,
+    "name": "WILLIAM SALIBA",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/182.jpg"
+  },
+  {
+    "id": "fwc26-183",
+    "number": 183,
+    "name": "JULES KOUNDE",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/183.jpg"
+  },
+  {
+    "id": "fwc26-184",
+    "number": 184,
+    "name": "THEO HERNANDEZ",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/184.jpg"
+  },
+  {
+    "id": "fwc26-185",
+    "number": 185,
+    "name": "AURELIEN TCHOUAMENI",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/185.jpg"
+  },
+  {
+    "id": "fwc26-186",
+    "number": 186,
+    "name": "EDUARDO CAMAVINGA",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/186.jpg"
+  },
+  {
+    "id": "fwc26-187",
+    "number": 187,
+    "name": "BRADLEY BARCOLA",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/187.jpg"
+  },
+  {
+    "id": "fwc26-188",
+    "number": 188,
+    "name": "MARCUS THURAM",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/188.jpg"
+  },
+  {
+    "id": "fwc26-189",
+    "number": 189,
+    "name": "RANDAL KOLO MUANI",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/189.jpg"
+  },
+  {
+    "id": "fwc26-190",
+    "number": 190,
+    "name": "JAMAL MUSIALA",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/190.jpg"
+  },
+  {
+    "id": "fwc26-191",
+    "number": 191,
+    "name": "Team Crest",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/191.jpg"
+  },
+  {
+    "id": "fwc26-192",
+    "number": 192,
+    "name": "JOSHUA KIMMICH",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/192.jpg"
+  },
+  {
+    "id": "fwc26-193",
+    "number": 193,
+    "name": "MARC-ANDRE TER STEGEN",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/193.jpg"
+  },
+  {
+    "id": "fwc26-194",
+    "number": 194,
+    "name": "ANTONIO RUDIGER",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/194.jpg"
+  },
+  {
+    "id": "fwc26-195",
+    "number": 195,
+    "name": "JONATHAN TAH",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/195.jpg"
+  },
+  {
+    "id": "fwc26-196",
+    "number": 196,
+    "name": "FELIX NMECHA",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/196.jpg"
+  },
+  {
+    "id": "fwc26-197",
+    "number": 197,
+    "name": "LEON GORETZKA",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/197.jpg"
+  },
+  {
+    "id": "fwc26-198",
+    "number": 198,
+    "name": "FLORIAN WIRTZ",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/198.jpg"
+  },
+  {
+    "id": "fwc26-199",
+    "number": 199,
+    "name": "SERGE GNABRY",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/199.jpg"
+  },
+  {
+    "id": "fwc26-200",
+    "number": 200,
+    "name": "KAI HAVERTZ",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/200.jpg"
+  },
+  {
+    "id": "fwc26-201",
+    "number": 201,
+    "name": "LEROY SANÉ",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/201.jpg"
+  },
+  {
+    "id": "fwc26-202",
+    "number": 202,
+    "name": "THOMAS PARTEY",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/202.jpg"
+  },
+  {
+    "id": "fwc26-203",
+    "number": 203,
+    "name": "Team Crest",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/203.jpg"
+  },
+  {
+    "id": "fwc26-204",
+    "number": 204,
+    "name": "MOHAMMED KUDUS",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/204.jpg"
+  },
+  {
+    "id": "fwc26-205",
+    "number": 205,
+    "name": "LAWRENCE ATI ZIGI",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/205.jpg"
+  },
+  {
+    "id": "fwc26-206",
+    "number": 206,
+    "name": "ALIDU SEIDU",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/206.jpg"
+  },
+  {
+    "id": "fwc26-207",
+    "number": 207,
+    "name": "ALEXANDER DJIKU",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/207.jpg"
+  },
+  {
+    "id": "fwc26-208",
+    "number": 208,
+    "name": "GIDEON MENSAH",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/208.jpg"
+  },
+  {
+    "id": "fwc26-209",
+    "number": 209,
+    "name": "CALEB VIRENKVI",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/209.jpg"
+  },
+  {
+    "id": "fwc26-210",
+    "number": 210,
+    "name": "ABDUL ISSAHAKU FATAWU",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/210.jpg"
+  },
+  {
+    "id": "fwc26-211",
+    "number": 211,
+    "name": "KAMALDEEN SULEMANA",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/211.jpg"
+  },
+  {
+    "id": "fwc26-212",
+    "number": 212,
+    "name": "JORDAN AVEW",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/212.jpg"
+  },
+  {
+    "id": "fwc26-213",
+    "number": 213,
+    "name": "ANTOINE SEMENYO",
+    "team": "GHANA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/213.jpg"
+  },
+  {
+    "id": "fwc26-214",
+    "number": 214,
+    "name": "FRANTZDY PIERROT",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/214.jpg"
+  },
+  {
+    "id": "fwc26-215",
+    "number": 215,
+    "name": "Team Crest",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/215.jpg"
+  },
+  {
+    "id": "fwc26-216",
+    "number": 216,
+    "name": "DUCKENS NAZON",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/216.jpg"
+  },
+  {
+    "id": "fwc26-217",
+    "number": 217,
+    "name": "JOHNY PLACIDE",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/217.jpg"
+  },
+  {
+    "id": "fwc26-218",
+    "number": 218,
+    "name": "RICARDO ADE",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/218.jpg"
+  },
+  {
+    "id": "fwc26-219",
+    "number": 219,
+    "name": "CARLENS ARCUS",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/219.jpg"
+  },
+  {
+    "id": "fwc26-220",
+    "number": 220,
+    "name": "HANNES DELCROIX",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/220.jpg"
+  },
+  {
+    "id": "fwc26-221",
+    "number": 221,
+    "name": "LEVERTON PIERRE",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/221.jpg"
+  },
+  {
+    "id": "fwc26-222",
+    "number": 222,
+    "name": "DANLEY JEAN JACQUES",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/222.jpg"
+  },
+  {
+    "id": "fwc26-223",
+    "number": 223,
+    "name": "JEAN-RICNER BELLEGARDE",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/223.jpg"
+  },
+  {
+    "id": "fwc26-224",
+    "number": 224,
+    "name": "RUBEN PROVIDENCE",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/224.jpg"
+  },
+  {
+    "id": "fwc26-225",
+    "number": 225,
+    "name": "DON DEEDSON LOUICIUS",
+    "team": "HAITI",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/225.jpg"
+  },
+  {
+    "id": "fwc26-226",
+    "number": 226,
+    "name": "MEHDI TAREMI",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/226.jpg"
+  },
+  {
+    "id": "fwc26-227",
+    "number": 227,
+    "name": "Team Crest",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/227.jpg"
+  },
+  {
+    "id": "fwc26-228",
+    "number": 228,
+    "name": "SARDAR AZMOUN",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/228.jpg"
+  },
+  {
+    "id": "fwc26-229",
+    "number": 229,
+    "name": "ALIREZA BEIRANVAND",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/229.jpg"
+  },
+  {
+    "id": "fwc26-230",
+    "number": 230,
+    "name": "SHOJA KHALILZADEH",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/230.jpg"
+  },
+  {
+    "id": "fwc26-231",
+    "number": 231,
+    "name": "MILAD MOHAMMADI",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/231.jpg"
+  },
+  {
+    "id": "fwc26-232",
+    "number": 232,
+    "name": "RAMIN RREZAEIAN",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/232.jpg"
+  },
+  {
+    "id": "fwc26-233",
+    "number": 233,
+    "name": "HOSSEIN KANAANI",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/233.jpg"
+  },
+  {
+    "id": "fwc26-234",
+    "number": 234,
+    "name": "SAEID EZATOLAHI",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/234.jpg"
+  },
+  {
+    "id": "fwc26-235",
+    "number": 235,
+    "name": "SAMAN GHODDOS",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/235.jpg"
+  },
+  {
+    "id": "fwc26-236",
+    "number": 236,
+    "name": "MOHAMMAD MOHEBI",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/236.jpg"
+  },
+  {
+    "id": "fwc26-237",
+    "number": 237,
+    "name": "ALIREZA JAHANBAKHSH",
+    "team": "IRAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/237.jpg"
+  },
+  {
+    "id": "fwc26-238",
+    "number": 238,
+    "name": "FRANCK KESSIE",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/238.jpg"
+  },
+  {
+    "id": "fwc26-239",
+    "number": 239,
+    "name": "Team Crest",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/239.jpg"
+  },
+  {
+    "id": "fwc26-240",
+    "number": 240,
+    "name": "SEBASTIEN HALLER",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/240.jpg"
+  },
+  {
+    "id": "fwc26-241",
+    "number": 241,
+    "name": "YAHIA FOFANA",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/241.jpg"
+  },
+  {
+    "id": "fwc26-242",
+    "number": 242,
+    "name": "GHISLAIN KONAN",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/242.jpg"
+  },
+  {
+    "id": "fwc26-243",
+    "number": 243,
+    "name": "ODILON KOSSOUNOU",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/243.jpg"
+  },
+  {
+    "id": "fwc26-244",
+    "number": 244,
+    "name": "EVAN N'DICKA",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/244.jpg"
+  },
+  {
+    "id": "fwc26-245",
+    "number": 245,
+    "name": "WILFRIED SINGO",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/245.jpg"
+  },
+  {
+    "id": "fwc26-246",
+    "number": 246,
+    "name": "IBRAHIM SANGARE",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/246.jpg"
+  },
+  {
+    "id": "fwc26-247",
+    "number": 247,
+    "name": "NICOLAS PEPE",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/247.jpg"
+  },
+  {
+    "id": "fwc26-248",
+    "number": 248,
+    "name": "SIMON ADINGRA",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/248.jpg"
+  },
+  {
+    "id": "fwc26-249",
+    "number": 249,
+    "name": "OUMAR DIAKITE",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/249.jpg"
+  },
+  {
+    "id": "fwc26-250",
+    "number": 250,
+    "name": "TAKUMI MINAMINO",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/250.jpg"
+  },
+  {
+    "id": "fwc26-251",
+    "number": 251,
+    "name": "Team Crest",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/251.jpg"
+  },
+  {
+    "id": "fwc26-252",
+    "number": 252,
+    "name": "TAKEFUSA KUBO",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/252.jpg"
+  },
+  {
+    "id": "fwc26-253",
+    "number": 253,
+    "name": "ZION SUZUKI",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/253.jpg"
+  },
+  {
+    "id": "fwc26-254",
+    "number": 254,
+    "name": "TSUVOSHI WATANABE",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/254.jpg"
+  },
+  {
+    "id": "fwc26-255",
+    "number": 255,
+    "name": "KAISHU SANO",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/255.jpg"
+  },
+  {
+    "id": "fwc26-256",
+    "number": 256,
+    "name": "AO TANAKA",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/256.jpg"
+  },
+  {
+    "id": "fwc26-257",
+    "number": 257,
+    "name": "DAICHI KAMADA",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/257.jpg"
+  },
+  {
+    "id": "fwc26-258",
+    "number": 258,
+    "name": "RITSU DOAN",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/258.jpg"
+  },
+  {
+    "id": "fwc26-259",
+    "number": 259,
+    "name": "KEITO NAKAMURA",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/259.jpg"
+  },
+  {
+    "id": "fwc26-260",
+    "number": 260,
+    "name": "SHUTO MACHINO",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/260.jpg"
+  },
+  {
+    "id": "fwc26-261",
+    "number": 261,
+    "name": "AVASE UEDA",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/261.jpg"
+  },
+  {
+    "id": "fwc26-262",
+    "number": 262,
+    "name": "VAZAN AL-NAIMAT",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/262.jpg"
+  },
+  {
+    "id": "fwc26-263",
+    "number": 263,
+    "name": "Team Crest",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/263.jpg"
+  },
+  {
+    "id": "fwc26-264",
+    "number": 264,
+    "name": "MUSA AL-TAAMARI",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/264.jpg"
+  },
+  {
+    "id": "fwc26-265",
+    "number": 265,
+    "name": "VAZEED ABULAILA",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/265.jpg"
+  },
+  {
+    "id": "fwc26-266",
+    "number": 266,
+    "name": "MOHAMMAD ABU HASHISH",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/266.jpg"
+  },
+  {
+    "id": "fwc26-267",
+    "number": 267,
+    "name": "YAZAN AL-ARAB",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/267.jpg"
+  },
+  {
+    "id": "fwc26-268",
+    "number": 268,
+    "name": "ABDALLAH NASIB",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/268.jpg"
+  },
+  {
+    "id": "fwc26-269",
+    "number": 269,
+    "name": "IBRAHIM SAADEH",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/269.jpg"
+  },
+  {
+    "id": "fwc26-270",
+    "number": 270,
+    "name": "NIZAR AL-RASHDAN",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/270.jpg"
+  },
+  {
+    "id": "fwc26-271",
+    "number": 271,
+    "name": "NOOR AL-RAWABDEH",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/271.jpg"
+  },
+  {
+    "id": "fwc26-272",
+    "number": 272,
+    "name": "MAHMOUD AL-MARDI",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/272.jpg"
+  },
+  {
+    "id": "fwc26-273",
+    "number": 273,
+    "name": "ALI OLWAN",
+    "team": "JORDAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/273.jpg"
+  },
+  {
+    "id": "fwc26-274",
+    "number": 274,
+    "name": "MIN-JAE KIM",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/274.jpg"
+  },
+  {
+    "id": "fwc26-275",
+    "number": 275,
+    "name": "Team Crest",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/275.jpg"
+  },
+  {
+    "id": "fwc26-276",
+    "number": 276,
+    "name": "HEUNG-MIN SON",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/276.jpg"
+  },
+  {
+    "id": "fwc26-277",
+    "number": 277,
+    "name": "HYEON-WOO JO",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/277.jpg"
+  },
+  {
+    "id": "fwc26-278",
+    "number": 278,
+    "name": "YOUNG-WOO SEOL",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/278.jpg"
+  },
+  {
+    "id": "fwc26-279",
+    "number": 279,
+    "name": "YU-MIN CHO",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/279.jpg"
+  },
+  {
+    "id": "fwc26-280",
+    "number": 280,
+    "name": "TAE-SEOK LEE",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/280.jpg"
+  },
+  {
+    "id": "fwc26-281",
+    "number": 281,
+    "name": "IN-BEOM HWANG",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/281.jpg"
+  },
+  {
+    "id": "fwc26-282",
+    "number": 282,
+    "name": "JAE-SUNG LEE",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/282.jpg"
+  },
+  {
+    "id": "fwc26-283",
+    "number": 283,
+    "name": "KANG-IN LEE",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/283.jpg"
+  },
+  {
+    "id": "fwc26-284",
+    "number": 284,
+    "name": "HVEON-GYU OH",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/284.jpg"
+  },
+  {
+    "id": "fwc26-285",
+    "number": 285,
+    "name": "HEE-CHAN HWANG",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/285.jpg"
+  },
+  {
+    "id": "fwc26-286",
+    "number": 286,
+    "name": "EDSON ÁLVAREZ",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/286.jpg"
+  },
+  {
+    "id": "fwc26-287",
+    "number": 287,
+    "name": "Team Crest",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/287.jpg"
+  },
+  {
+    "id": "fwc26-288",
+    "number": 288,
+    "name": "RAÚL JIMÉNEZ",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/288.jpg"
+  },
+  {
+    "id": "fwc26-289",
+    "number": 289,
+    "name": "LUIS MALAGÓN",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/289.jpg"
+  },
+  {
+    "id": "fwc26-290",
+    "number": 290,
+    "name": "ISRAEL REYES",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/290.jpg"
+  },
+  {
+    "id": "fwc26-291",
+    "number": 291,
+    "name": "JOHAN VÁSQUEZ",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/291.jpg"
+  },
+  {
+    "id": "fwc26-292",
+    "number": 292,
+    "name": "CÉSAR MONTES",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/292.jpg"
+  },
+  {
+    "id": "fwc26-293",
+    "number": 293,
+    "name": "JESÚS GALLARDO",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/293.jpg"
+  },
+  {
+    "id": "fwc26-294",
+    "number": 294,
+    "name": "CARLOS RODRÍGUEZ",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/294.jpg"
+  },
+  {
+    "id": "fwc26-295",
+    "number": 295,
+    "name": "ORBELÍN PINEDA",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/295.jpg"
+  },
+  {
+    "id": "fwc26-296",
+    "number": 296,
+    "name": "HIRVING LOZANO",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/296.jpg"
+  },
+  {
+    "id": "fwc26-297",
+    "number": 297,
+    "name": "SANTIAGO GIMÉNEZ",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/297.jpg"
+  },
+  {
+    "id": "fwc26-298",
+    "number": 298,
+    "name": "YOUSSEF EN-NESYRI",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/298.jpg"
+  },
+  {
+    "id": "fwc26-299",
+    "number": 299,
+    "name": "Team Crest",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/299.jpg"
+  },
+  {
+    "id": "fwc26-300",
+    "number": 300,
+    "name": "ACHRAF HAKIMI",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/300.jpg"
+  },
+  {
+    "id": "fwc26-301",
+    "number": 301,
+    "name": "VASSINE BOUNOU",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/301.jpg"
+  },
+  {
+    "id": "fwc26-302",
+    "number": 302,
+    "name": "NOUSSAIR MAZRAQUI",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/302.jpg"
+  },
+  {
+    "id": "fwc26-303",
+    "number": 303,
+    "name": "NAVEF AGUERO",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/303.jpg"
+  },
+  {
+    "id": "fwc26-304",
+    "number": 304,
+    "name": "SOFYAN AMRABAT",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/304.jpg"
+  },
+  {
+    "id": "fwc26-305",
+    "number": 305,
+    "name": "ELIESSE BEN SEGHIR",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/305.jpg"
+  },
+  {
+    "id": "fwc26-306",
+    "number": 306,
+    "name": "ISMAEL SAIBARI",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/306.jpg"
+  },
+  {
+    "id": "fwc26-307",
+    "number": 307,
+    "name": "BRAHIM DÍAZ",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/307.jpg"
+  },
+  {
+    "id": "fwc26-308",
+    "number": 308,
+    "name": "ABDE EZZALZOULI",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/308.jpg"
+  },
+  {
+    "id": "fwc26-309",
+    "number": 309,
+    "name": "AVOUB EL KAABI",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/309.jpg"
+  },
+  {
+    "id": "fwc26-310",
+    "number": 310,
+    "name": "MEMPHIS DEPAY",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/310.jpg"
+  },
+  {
+    "id": "fwc26-311",
+    "number": 311,
+    "name": "Team Crest",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/311.jpg"
+  },
+  {
+    "id": "fwc26-312",
+    "number": 312,
+    "name": "VIRGIL VAN DIJK",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/312.jpg"
+  },
+  {
+    "id": "fwc26-313",
+    "number": 313,
+    "name": "BART VERBRUGGEN",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/313.jpg"
+  },
+  {
+    "id": "fwc26-314",
+    "number": 314,
+    "name": "NATHAN AKE",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/314.jpg"
+  },
+  {
+    "id": "fwc26-315",
+    "number": 315,
+    "name": "JEREMIE FRIMPONG",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/315.jpg"
+  },
+  {
+    "id": "fwc26-316",
+    "number": 316,
+    "name": "DENZEL DUMFRIES",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/316.jpg"
+  },
+  {
+    "id": "fwc26-317",
+    "number": 317,
+    "name": "TIJANI REIJNDERS",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/317.jpg"
+  },
+  {
+    "id": "fwc26-318",
+    "number": 318,
+    "name": "RYAN GRAVENBERCH",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/318.jpg"
+  },
+  {
+    "id": "fwc26-319",
+    "number": 319,
+    "name": "CODY GAKPO",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/319.jpg"
+  },
+  {
+    "id": "fwc26-320",
+    "number": 320,
+    "name": "DONYELL MALEN",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/320.jpg"
+  },
+  {
+    "id": "fwc26-321",
+    "number": 321,
+    "name": "WOUT WEGHORST",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/321.jpg"
+  },
+  {
+    "id": "fwc26-322",
+    "number": 322,
+    "name": "MARKO STAMENIC",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/322.jpg"
+  },
+  {
+    "id": "fwc26-323",
+    "number": 323,
+    "name": "Team Crest",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/323.jpg"
+  },
+  {
+    "id": "fwc26-324",
+    "number": 324,
+    "name": "CHRIS WOOD",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/324.jpg"
+  },
+  {
+    "id": "fwc26-325",
+    "number": 325,
+    "name": "MAX CROGOMBE",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/325.jpg"
+  },
+  {
+    "id": "fwc26-326",
+    "number": 326,
+    "name": "MICHAEL BOXALL",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/326.jpg"
+  },
+  {
+    "id": "fwc26-327",
+    "number": 327,
+    "name": "LIBERATO CACACE",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/327.jpg"
+  },
+  {
+    "id": "fwc26-328",
+    "number": 328,
+    "name": "TIM PAYNE",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/328.jpg"
+  },
+  {
+    "id": "fwc26-329",
+    "number": 329,
+    "name": "FINN SURMAN",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/329.jpg"
+  },
+  {
+    "id": "fwc26-330",
+    "number": 330,
+    "name": "JOE BELL",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/330.jpg"
+  },
+  {
+    "id": "fwc26-331",
+    "number": 331,
+    "name": "SARPREET SINGH",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/331.jpg"
+  },
+  {
+    "id": "fwc26-332",
+    "number": 332,
+    "name": "MATT GARBETT",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/332.jpg"
+  },
+  {
+    "id": "fwc26-333",
+    "number": 333,
+    "name": "ELIJAH JUST",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/333.jpg"
+  },
+  {
+    "id": "fwc26-334",
+    "number": 334,
+    "name": "MARTIN ODEGAARD",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/334.jpg"
+  },
+  {
+    "id": "fwc26-335",
+    "number": 335,
+    "name": "Team Crest",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/335.jpg"
+  },
+  {
+    "id": "fwc26-336",
+    "number": 336,
+    "name": "ERLING HAALAND",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/336.jpg"
+  },
+  {
+    "id": "fwc26-337",
+    "number": 337,
+    "name": "ORJAN NYLAND",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/337.jpg"
+  },
+  {
+    "id": "fwc26-338",
+    "number": 338,
+    "name": "JULIAN RYERSON",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/338.jpg"
+  },
+  {
+    "id": "fwc26-339",
+    "number": 339,
+    "name": "KRISTOFFER VASSBAKK AJER",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/339.jpg"
+  },
+  {
+    "id": "fwc26-340",
+    "number": 340,
+    "name": "DAVID MOLLER WOLFE",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/340.jpg"
+  },
+  {
+    "id": "fwc26-341",
+    "number": 341,
+    "name": "SANDER BERGE",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/341.jpg"
+  },
+  {
+    "id": "fwc26-342",
+    "number": 342,
+    "name": "PATRICK BERG",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/342.jpg"
+  },
+  {
+    "id": "fwc26-343",
+    "number": 343,
+    "name": "ANTONIO NUSA",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/343.jpg"
+  },
+  {
+    "id": "fwc26-344",
+    "number": 344,
+    "name": "OSCAR BOBB",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/344.jpg"
+  },
+  {
+    "id": "fwc26-345",
+    "number": 345,
+    "name": "ALEXANDER SORLOTH",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/345.jpg"
+  },
+  {
+    "id": "fwc26-346",
+    "number": 346,
+    "name": "MICHAEL AMIR MURILLO",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/346.jpg"
+  },
+  {
+    "id": "fwc26-347",
+    "number": 347,
+    "name": "Team Crest",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/347.jpg"
+  },
+  {
+    "id": "fwc26-348",
+    "number": 348,
+    "name": "ANIBAL GODOY",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/348.jpg"
+  },
+  {
+    "id": "fwc26-349",
+    "number": 349,
+    "name": "ORLANDO MOSQUERA",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/349.jpg"
+  },
+  {
+    "id": "fwc26-350",
+    "number": 350,
+    "name": "ANDRÉS ANDRADE",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/350.jpg"
+  },
+  {
+    "id": "fwc26-351",
+    "number": 351,
+    "name": "FIDEL ESCOBAR",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/351.jpg"
+  },
+  {
+    "id": "fwc26-352",
+    "number": 352,
+    "name": "CRISTIAN MARTÍNEZ",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/352.jpg"
+  },
+  {
+    "id": "fwc26-353",
+    "number": 353,
+    "name": "ADALBERTO CARRASQUILLA",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/353.jpg"
+  },
+  {
+    "id": "fwc26-354",
+    "number": 354,
+    "name": "EDGAR BARCENAS",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/354.jpg"
+  },
+  {
+    "id": "fwc26-355",
+    "number": 355,
+    "name": "JOSÉ FAJARDO",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/355.jpg"
+  },
+  {
+    "id": "fwc26-356",
+    "number": 356,
+    "name": "ISMAEL DÍAZ",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/356.jpg"
+  },
+  {
+    "id": "fwc26-357",
+    "number": 357,
+    "name": "JOSE LUIZ RODRÍGUEZ",
+    "team": "PANAMA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/357.jpg"
+  },
+  {
+    "id": "fwc26-358",
+    "number": 358,
+    "name": "GUSTAVO GÓMEZ",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/358.jpg"
+  },
+  {
+    "id": "fwc26-359",
+    "number": 359,
+    "name": "Team Crest",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/359.jpg"
+  },
+  {
+    "id": "fwc26-360",
+    "number": 360,
+    "name": "MIGUEL ALMIRÓN",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/360.jpg"
+  },
+  {
+    "id": "fwc26-361",
+    "number": 361,
+    "name": "ROBERTO FERNÁNDEZ",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/361.jpg"
+  },
+  {
+    "id": "fwc26-362",
+    "number": 362,
+    "name": "JUAN JOSÉ CÁCERES",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/362.jpg"
+  },
+  {
+    "id": "fwc26-363",
+    "number": 363,
+    "name": "OMAR ALDERETE",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/363.jpg"
+  },
+  {
+    "id": "fwc26-364",
+    "number": 364,
+    "name": "JUNIOR ALONSO",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/364.jpg"
+  },
+  {
+    "id": "fwc26-365",
+    "number": 365,
+    "name": "ANDRÉS CUBAS",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/365.jpg"
+  },
+  {
+    "id": "fwc26-366",
+    "number": 366,
+    "name": "MATHIAS VILLASANTI",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/366.jpg"
+  },
+  {
+    "id": "fwc26-367",
+    "number": 367,
+    "name": "JULIO ENCISO",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/367.jpg"
+  },
+  {
+    "id": "fwc26-368",
+    "number": 368,
+    "name": "RAMÓN SOSA",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/368.jpg"
+  },
+  {
+    "id": "fwc26-369",
+    "number": 369,
+    "name": "ANTONIO SANABRIA",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/369.jpg"
+  },
+  {
+    "id": "fwc26-370",
+    "number": 370,
+    "name": "VITINHA",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/370.jpg"
+  },
+  {
+    "id": "fwc26-371",
+    "number": 371,
+    "name": "Team Crest",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/371.jpg"
+  },
+  {
+    "id": "fwc26-372",
+    "number": 372,
+    "name": "CRISTIANO RONALDO",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/372.jpg"
+  },
+  {
+    "id": "fwc26-373",
+    "number": 373,
+    "name": "DIOGO COSTA",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/373.jpg"
+  },
+  {
+    "id": "fwc26-374",
+    "number": 374,
+    "name": "RUBEN DIAS",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/374.jpg"
+  },
+  {
+    "id": "fwc26-375",
+    "number": 375,
+    "name": "NUNO MENDES",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/375.jpg"
+  },
+  {
+    "id": "fwc26-376",
+    "number": 376,
+    "name": "BERNARDO SILVA",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/376.jpg"
+  },
+  {
+    "id": "fwc26-377",
+    "number": 377,
+    "name": "BRUNO FERNANDES",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/377.jpg"
+  },
+  {
+    "id": "fwc26-378",
+    "number": 378,
+    "name": "RUBEN NEVES",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/378.jpg"
+  },
+  {
+    "id": "fwc26-379",
+    "number": 379,
+    "name": "FRANCISCO CONCEICAO",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/379.jpg"
+  },
+  {
+    "id": "fwc26-380",
+    "number": 380,
+    "name": "PEDRO NETO",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/380.jpg"
+  },
+  {
+    "id": "fwc26-381",
+    "number": 381,
+    "name": "RAFAEL LEAO",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/381.jpg"
+  },
+  {
+    "id": "fwc26-382",
+    "number": 382,
+    "name": "ALMOEZ ALI",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/382.jpg"
+  },
+  {
+    "id": "fwc26-383",
+    "number": 383,
+    "name": "Team Crest",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/383.jpg"
+  },
+  {
+    "id": "fwc26-384",
+    "number": 384,
+    "name": "HASAN AL-HAYDOS",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/384.jpg"
+  },
+  {
+    "id": "fwc26-385",
+    "number": 385,
+    "name": "MESHAAL BARSHAM",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/385.jpg"
+  },
+  {
+    "id": "fwc26-386",
+    "number": 386,
+    "name": "BOUALEM KHOUKHI",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/386.jpg"
+  },
+  {
+    "id": "fwc26-387",
+    "number": 387,
+    "name": "LUCAS MENDES",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/387.jpg"
+  },
+  {
+    "id": "fwc26-388",
+    "number": 388,
+    "name": "PEDRO MIGUEL",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/388.jpg"
+  },
+  {
+    "id": "fwc26-389",
+    "number": 389,
+    "name": "HOMAM AL-AMIN",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/389.jpg"
+  },
+  {
+    "id": "fwc26-390",
+    "number": 390,
+    "name": "AHMED FATHI",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/390.jpg"
+  },
+  {
+    "id": "fwc26-391",
+    "number": 391,
+    "name": "EDMILSON JUNIOR",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/391.jpg"
+  },
+  {
+    "id": "fwc26-392",
+    "number": 392,
+    "name": "AHMED AL-GANEHI",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/392.jpg"
+  },
+  {
+    "id": "fwc26-393",
+    "number": 393,
+    "name": "AKRAM HASSAN AFIF",
+    "team": "QATAR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/393.jpg"
+  },
+  {
+    "id": "fwc26-394",
+    "number": 394,
+    "name": "FERAS ALBRIKAN",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/394.jpg"
+  },
+  {
+    "id": "fwc26-395",
+    "number": 395,
+    "name": "Team Crest",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/395.jpg"
+  },
+  {
+    "id": "fwc26-396",
+    "number": 396,
+    "name": "SALEM ALDAWSARI",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/396.jpg"
+  },
+  {
+    "id": "fwc26-397",
+    "number": 397,
+    "name": "NAWAF ALAQIDI",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/397.jpg"
+  },
+  {
+    "id": "fwc26-398",
+    "number": 398,
+    "name": "HASSAN ALTAMBAKTI",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/398.jpg"
+  },
+  {
+    "id": "fwc26-399",
+    "number": 399,
+    "name": "JEHAD THIKRI",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/399.jpg"
+  },
+  {
+    "id": "fwc26-400",
+    "number": 400,
+    "name": "SAUD ABDULHAMID",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/400.jpg"
+  },
+  {
+    "id": "fwc26-401",
+    "number": 401,
+    "name": "NASSER ALDAWSARI",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/401.jpg"
+  },
+  {
+    "id": "fwc26-402",
+    "number": 402,
+    "name": "ABDULLAH ALKHAIBARI",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/402.jpg"
+  },
+  {
+    "id": "fwc26-403",
+    "number": 403,
+    "name": "MUSAB ALJUWAYR",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/403.jpg"
+  },
+  {
+    "id": "fwc26-404",
+    "number": 404,
+    "name": "SALEH ABU ALSHAMAT",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/404.jpg"
+  },
+  {
+    "id": "fwc26-405",
+    "number": 405,
+    "name": "SALEH ALSHEHERI",
+    "team": "SAUDI ARABIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/405.jpg"
+  },
+  {
+    "id": "fwc26-406",
+    "number": 406,
+    "name": "SCOTT MCTOMINAY",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/406.jpg"
+  },
+  {
+    "id": "fwc26-407",
+    "number": 407,
+    "name": "Team Crest",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/407.jpg"
+  },
+  {
+    "id": "fwc26-408",
+    "number": 408,
+    "name": "ANDREW ROBERTSON",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/408.jpg"
+  },
+  {
+    "id": "fwc26-409",
+    "number": 409,
+    "name": "ANGUS GUNN",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/409.jpg"
+  },
+  {
+    "id": "fwc26-410",
+    "number": 410,
+    "name": "KIERAN TIERNEY",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/410.jpg"
+  },
+  {
+    "id": "fwc26-411",
+    "number": 411,
+    "name": "GRANT HANLEY",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/411.jpg"
+  },
+  {
+    "id": "fwc26-412",
+    "number": 412,
+    "name": "BILLY GILMOUR",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/412.jpg"
+  },
+  {
+    "id": "fwc26-413",
+    "number": 413,
+    "name": "LEWIS FERGUSON",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/413.jpg"
+  },
+  {
+    "id": "fwc26-414",
+    "number": 414,
+    "name": "RYAN CHRISTIE",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/414.jpg"
+  },
+  {
+    "id": "fwc26-415",
+    "number": 415,
+    "name": "JOHN MCGINN",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/415.jpg"
+  },
+  {
+    "id": "fwc26-416",
+    "number": 416,
+    "name": "BEN GANNON-DOAK",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/416.jpg"
+  },
+  {
+    "id": "fwc26-417",
+    "number": 417,
+    "name": "CHE ADAMS",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/417.jpg"
+  },
+  {
+    "id": "fwc26-418",
+    "number": 418,
+    "name": "KALIDOU KOULIBALY",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/418.jpg"
+  },
+  {
+    "id": "fwc26-419",
+    "number": 419,
+    "name": "Team Crest",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/419.jpg"
+  },
+  {
+    "id": "fwc26-420",
+    "number": 420,
+    "name": "SADIO MANE",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/420.jpg"
+  },
+  {
+    "id": "fwc26-421",
+    "number": 421,
+    "name": "EDOUARD MENDY",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/421.jpg"
+  },
+  {
+    "id": "fwc26-422",
+    "number": 422,
+    "name": "MOUSSA NIAKHATE",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/422.jpg"
+  },
+  {
+    "id": "fwc26-423",
+    "number": 423,
+    "name": "EL HADJI MALICK DIOUF",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/423.jpg"
+  },
+  {
+    "id": "fwc26-424",
+    "number": 424,
+    "name": "IDRISSA GANA GUEYE",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/424.jpg"
+  },
+  {
+    "id": "fwc26-425",
+    "number": 425,
+    "name": "PAPE MATAR SARR",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/425.jpg"
+  },
+  {
+    "id": "fwc26-426",
+    "number": 426,
+    "name": "ILIMAN NDIAYE",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/426.jpg"
+  },
+  {
+    "id": "fwc26-427",
+    "number": 427,
+    "name": "KREPIN DIATTA",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/427.jpg"
+  },
+  {
+    "id": "fwc26-428",
+    "number": 428,
+    "name": "ISMAILA SARR",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/428.jpg"
+  },
+  {
+    "id": "fwc26-429",
+    "number": 429,
+    "name": "NICOLAS JACKSON",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/429.jpg"
+  },
+  {
+    "id": "fwc26-430",
+    "number": 430,
+    "name": "LVLE FOSTER",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/430.jpg"
+  },
+  {
+    "id": "fwc26-431",
+    "number": 431,
+    "name": "Team Crest",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/431.jpg"
+  },
+  {
+    "id": "fwc26-432",
+    "number": 432,
+    "name": "RONWEN WILLIAMS",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/432.jpg"
+  },
+  {
+    "id": "fwc26-433",
+    "number": 433,
+    "name": "SIYABONGA NGEZANA",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/433.jpg"
+  },
+  {
+    "id": "fwc26-434",
+    "number": 434,
+    "name": "AUBREY MODIBA",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/434.jpg"
+  },
+  {
+    "id": "fwc26-435",
+    "number": 435,
+    "name": "MBEKEZELI MBOKAZI",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/435.jpg"
+  },
+  {
+    "id": "fwc26-436",
+    "number": 436,
+    "name": "KHULISO MUDAU",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/436.jpg"
+  },
+  {
+    "id": "fwc26-437",
+    "number": 437,
+    "name": "TEBOHO MOKOENA",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/437.jpg"
+  },
+  {
+    "id": "fwc26-438",
+    "number": 438,
+    "name": "YAYA SITHOLE",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/438.jpg"
+  },
+  {
+    "id": "fwc26-439",
+    "number": 439,
+    "name": "THEMBA ZWANE",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/439.jpg"
+  },
+  {
+    "id": "fwc26-440",
+    "number": 440,
+    "name": "OSWIN APPOLLIS",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/440.jpg"
+  },
+  {
+    "id": "fwc26-441",
+    "number": 441,
+    "name": "IQRAAM RAYNERS",
+    "team": "SOUTH AFRICA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/441.jpg"
+  },
+  {
+    "id": "fwc26-442",
+    "number": 442,
+    "name": "LAMINE YAMAL",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/442.jpg"
+  },
+  {
+    "id": "fwc26-443",
+    "number": 443,
+    "name": "Team Crest",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/443.jpg"
+  },
+  {
+    "id": "fwc26-444",
+    "number": 444,
+    "name": "RODRI",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/444.jpg"
+  },
+  {
+    "id": "fwc26-445",
+    "number": 445,
+    "name": "UNAI SIMÓN",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/445.jpg"
+  },
+  {
+    "id": "fwc26-446",
+    "number": 446,
+    "name": "ROBIN LE NORMAND",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/446.jpg"
+  },
+  {
+    "id": "fwc26-447",
+    "number": 447,
+    "name": "DEAN HUIJSEN",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/447.jpg"
+  },
+  {
+    "id": "fwc26-448",
+    "number": 448,
+    "name": "MARC CUCURELLA",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/448.jpg"
+  },
+  {
+    "id": "fwc26-449",
+    "number": 449,
+    "name": "MARTÍN ZUBIMENDI",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/449.jpg"
+  },
+  {
+    "id": "fwc26-450",
+    "number": 450,
+    "name": "PEDRI",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/450.jpg"
+  },
+  {
+    "id": "fwc26-451",
+    "number": 451,
+    "name": "FABIÁN RUIZ",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/451.jpg"
+  },
+  {
+    "id": "fwc26-452",
+    "number": 452,
+    "name": "NICO WILLIAMS",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/452.jpg"
+  },
+  {
+    "id": "fwc26-453",
+    "number": 453,
+    "name": "MIKEL OYARZABAL",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/453.jpg"
+  },
+  {
+    "id": "fwc26-454",
+    "number": 454,
+    "name": "MANUEL AKANJI",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/454.jpg"
+  },
+  {
+    "id": "fwc26-455",
+    "number": 455,
+    "name": "Team Crest",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/455.jpg"
+  },
+  {
+    "id": "fwc26-456",
+    "number": 456,
+    "name": "GRANIT XHAKA",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/456.jpg"
+  },
+  {
+    "id": "fwc26-457",
+    "number": 457,
+    "name": "GREGOR KOBEL",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/457.jpg"
+  },
+  {
+    "id": "fwc26-458",
+    "number": 458,
+    "name": "NICO ELVEDI",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/458.jpg"
+  },
+  {
+    "id": "fwc26-459",
+    "number": 459,
+    "name": "RICARDO RODRIGUEZ",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/459.jpg"
+  },
+  {
+    "id": "fwc26-460",
+    "number": 460,
+    "name": "SILVAN WIDMER",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/460.jpg"
+  },
+  {
+    "id": "fwc26-461",
+    "number": 461,
+    "name": "DENIS ZAKARIA",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/461.jpg"
+  },
+  {
+    "id": "fwc26-462",
+    "number": 462,
+    "name": "REMO FREULER",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/462.jpg"
+  },
+  {
+    "id": "fwc26-463",
+    "number": 463,
+    "name": "BREEL EMBOLO",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/463.jpg"
+  },
+  {
+    "id": "fwc26-464",
+    "number": 464,
+    "name": "RUBEN VARGAS",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/464.jpg"
+  },
+  {
+    "id": "fwc26-465",
+    "number": 465,
+    "name": "DAN NDOYE",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/465.jpg"
+  },
+  {
+    "id": "fwc26-466",
+    "number": 466,
+    "name": "FERJANI SASSI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/466.jpg"
+  },
+  {
+    "id": "fwc26-467",
+    "number": 467,
+    "name": "Team Crest",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/467.jpg"
+  },
+  {
+    "id": "fwc26-468",
+    "number": 468,
+    "name": "ELLYES SKHIRI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/468.jpg"
+  },
+  {
+    "id": "fwc26-469",
+    "number": 469,
+    "name": "AYMEN DAHMEN",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/469.jpg"
+  },
+  {
+    "id": "fwc26-470",
+    "number": 470,
+    "name": "MONTASSAR TALBI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/470.jpg"
+  },
+  {
+    "id": "fwc26-471",
+    "number": 471,
+    "name": "VASSINE MERIAH",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/471.jpg"
+  },
+  {
+    "id": "fwc26-472",
+    "number": 472,
+    "name": "ALI ABDI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/472.jpg"
+  },
+  {
+    "id": "fwc26-473",
+    "number": 473,
+    "name": "AISSA LAIDOUNI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/473.jpg"
+  },
+  {
+    "id": "fwc26-474",
+    "number": 474,
+    "name": "HANNIBAL MEJBRI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/474.jpg"
+  },
+  {
+    "id": "fwc26-475",
+    "number": 475,
+    "name": "NAIM SLITI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/475.jpg"
+  },
+  {
+    "id": "fwc26-476",
+    "number": 476,
+    "name": "ELIAS ACHOURI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/476.jpg"
+  },
+  {
+    "id": "fwc26-477",
+    "number": 477,
+    "name": "HAZEM MASTOURI",
+    "team": "TUNISIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/477.jpg"
+  },
+  {
+    "id": "fwc26-478",
+    "number": 478,
+    "name": "WESTON MCKENNIE",
+    "team": "USA",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/478.jpg"
+  },
+  {
+    "id": "fwc26-479",
+    "number": 479,
+    "name": "Team Crest",
+    "team": "USA",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/479.jpg"
+  },
+  {
+    "id": "fwc26-480",
+    "number": 480,
+    "name": "CHRISTIAN PULISIC",
+    "team": "USA",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/480.jpg"
+  },
+  {
+    "id": "fwc26-481",
+    "number": 481,
+    "name": "MATT FREESE",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/481.jpg"
+  },
+  {
+    "id": "fwc26-482",
+    "number": 482,
+    "name": "CHRIS RICHARDS",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/482.jpg"
+  },
+  {
+    "id": "fwc26-483",
+    "number": 483,
+    "name": "TIM REAM",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/483.jpg"
+  },
+  {
+    "id": "fwc26-484",
+    "number": 484,
+    "name": "ANTONEE ROBINSON",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/484.jpg"
+  },
+  {
+    "id": "fwc26-485",
+    "number": 485,
+    "name": "TANNER TESSMANN",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/485.jpg"
+  },
+  {
+    "id": "fwc26-486",
+    "number": 486,
+    "name": "TVLER ADAMS",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/486.jpg"
+  },
+  {
+    "id": "fwc26-487",
+    "number": 487,
+    "name": "TIMOTHY WEAH",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/487.jpg"
+  },
+  {
+    "id": "fwc26-488",
+    "number": 488,
+    "name": "MALIK TILLMAN",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/488.jpg"
+  },
+  {
+    "id": "fwc26-489",
+    "number": 489,
+    "name": "FOLARIN BALOGUN",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/489.jpg"
+  },
+  {
+    "id": "fwc26-490",
+    "number": 490,
+    "name": "JOSÉ MARÍA GIMÉNEZ",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/490.jpg"
+  },
+  {
+    "id": "fwc26-491",
+    "number": 491,
+    "name": "Team Crest",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/491.jpg"
+  },
+  {
+    "id": "fwc26-492",
+    "number": 492,
+    "name": "FEDERICO VALVERDE",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/492.jpg"
+  },
+  {
+    "id": "fwc26-493",
+    "number": 493,
+    "name": "SERGIO ROCHET",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/493.jpg"
+  },
+  {
+    "id": "fwc26-494",
+    "number": 494,
+    "name": "RONALD ARAÚJO",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/494.jpg"
+  },
+  {
+    "id": "fwc26-495",
+    "number": 495,
+    "name": "SEBASTIÁN CÁCERES",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/495.jpg"
+  },
+  {
+    "id": "fwc26-496",
+    "number": 496,
+    "name": "MATHIAS OLIVERA",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/496.jpg"
+  },
+  {
+    "id": "fwc26-497",
+    "number": 497,
+    "name": "NAHITAN NÁNDEZ",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/497.jpg"
+  },
+  {
+    "id": "fwc26-498",
+    "number": 498,
+    "name": "RODRIGO BENTANCUR",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/498.jpg"
+  },
+  {
+    "id": "fwc26-499",
+    "number": 499,
+    "name": "MANUEL UGARTE",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/499.jpg"
+  },
+  {
+    "id": "fwc26-500",
+    "number": 500,
+    "name": "FACUNDO PELLISTRI",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/500.jpg"
+  },
+  {
+    "id": "fwc26-501",
+    "number": 501,
+    "name": "DARWIN NÚÑEZ",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/501.jpg"
+  },
+  {
+    "id": "fwc26-502",
+    "number": 502,
+    "name": "ABDUKODIR KHUASANOV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "fan_favourite",
+    "owned": 0,
+    "image": "./assets/cards-drive/502.jpg"
+  },
+  {
+    "id": "fwc26-503",
+    "number": 503,
+    "name": "Team Crest",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "team_crest",
+    "owned": 0,
+    "image": "./assets/cards-drive/503.jpg"
+  },
+  {
+    "id": "fwc26-504",
+    "number": 504,
+    "name": "ELDOR SHOMURODOV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "icon",
+    "owned": 0,
+    "image": "./assets/cards-drive/504.jpg"
+  },
+  {
+    "id": "fwc26-505",
+    "number": 505,
+    "name": "UTKIR YUSUPOV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/505.jpg"
+  },
+  {
+    "id": "fwc26-506",
+    "number": 506,
+    "name": "FARRUKH SAYFIEV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/506.jpg"
+  },
+  {
+    "id": "fwc26-507",
+    "number": 507,
+    "name": "SHERZOD NASRULLAEV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/507.jpg"
+  },
+  {
+    "id": "fwc26-508",
+    "number": 508,
+    "name": "HUSNIDDIN ALIQULOV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/508.jpg"
+  },
+  {
+    "id": "fwc26-509",
+    "number": 509,
+    "name": "RUSTAM ASHURMATOV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/509.jpg"
+  },
+  {
+    "id": "fwc26-510",
+    "number": 510,
+    "name": "KHOJIAKBAR ALIJONOV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/510.jpg"
+  },
+  {
+    "id": "fwc26-511",
+    "number": 511,
+    "name": "ODILJON HAMROBEKOV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/511.jpg"
+  },
+  {
+    "id": "fwc26-512",
+    "number": 512,
+    "name": "OTABEK SHUKUROV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/512.jpg"
+  },
+  {
+    "id": "fwc26-513",
+    "number": 513,
+    "name": "ABBOSBEK FAYZULLAEV",
+    "team": "UZBEKISTAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/513.jpg"
+  },
+  {
+    "id": "fwc26-514",
+    "number": 514,
+    "name": "ITALY - NORTHERN IRELAND / WALES - BOSNIA AND HERZEGOVINA",
+    "team": "CONTENDERS",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/514.jpg"
+  },
+  {
+    "id": "fwc26-515",
+    "number": 515,
+    "name": "UKRAINE - SWEDEN / POLAND - ALBANIA",
+    "team": "CONTENDERS",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/515.jpg"
+  },
+  {
+    "id": "fwc26-516",
+    "number": 516,
+    "name": "TURKEY - ROMANIA / SLOVAKIA - KOSOVO",
+    "team": "CONTENDERS",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/516.jpg"
+  },
+  {
+    "id": "fwc26-517",
+    "number": 517,
+    "name": "DENMARK - NORTH MACEDONIA / CZECHIA - IRELAND",
+    "team": "CONTENDERS",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/517.jpg"
+  },
+  {
+    "id": "fwc26-518",
+    "number": 518,
+    "name": "NEW CALEDONIA - JAMAICA / DR CONGO",
+    "team": "CONTENDERS",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/518.jpg"
+  },
+  {
+    "id": "fwc26-519",
+    "number": 519,
+    "name": "SURINAME - BOLIVIA / IRAQ",
+    "team": "CONTENDERS",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/519.jpg"
+  },
+  {
+    "id": "fwc26-520",
+    "number": 520,
+    "name": "MORTEN HJULMAND",
+    "team": "DENMARK",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/520.jpg"
+  },
+  {
+    "id": "fwc26-521",
+    "number": 521,
+    "name": "PIERRE-EMILE HOJBJERG",
+    "team": "DENMARK",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/521.jpg"
+  },
+  {
+    "id": "fwc26-522",
+    "number": 522,
+    "name": "CHRISTIAN ERIKSEN",
+    "team": "DENMARK",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/522.jpg"
+  },
+  {
+    "id": "fwc26-523",
+    "number": 523,
+    "name": "MIKKEL DAMSGAARD",
+    "team": "DENMARK",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/523.jpg"
+  },
+  {
+    "id": "fwc26-524",
+    "number": 524,
+    "name": "RASMUS HOJLUND",
+    "team": "DENMARK",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/524.jpg"
+  },
+  {
+    "id": "fwc26-525",
+    "number": 525,
+    "name": "GIANLUIGI DONNARUMMA",
+    "team": "ITALY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/525.jpg"
+  },
+  {
+    "id": "fwc26-526",
+    "number": 526,
+    "name": "ALESSANDRO BASTONI",
+    "team": "ITALY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/526.jpg"
+  },
+  {
+    "id": "fwc26-527",
+    "number": 527,
+    "name": "SANDRO TONALI",
+    "team": "ITALY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/527.jpg"
+  },
+  {
+    "id": "fwc26-528",
+    "number": 528,
+    "name": "NICOLO BARELLA",
+    "team": "ITALY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/528.jpg"
+  },
+  {
+    "id": "fwc26-529",
+    "number": 529,
+    "name": "MOISES KEAN",
+    "team": "ITALY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/529.jpg"
+  },
+  {
+    "id": "fwc26-530",
+    "number": 530,
+    "name": "ANDRE BLAKE",
+    "team": "JAMAICA",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/530.jpg"
+  },
+  {
+    "id": "fwc26-531",
+    "number": 531,
+    "name": "ETHAN PINNOCK",
+    "team": "JAMAICA",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/531.jpg"
+  },
+  {
+    "id": "fwc26-532",
+    "number": 532,
+    "name": "DEMARAI GRAY",
+    "team": "JAMAICA",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/532.jpg"
+  },
+  {
+    "id": "fwc26-533",
+    "number": 533,
+    "name": "LEON BAILEY",
+    "team": "JAMAICA",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/533.jpg"
+  },
+  {
+    "id": "fwc26-534",
+    "number": 534,
+    "name": "SHAMAR NICHOLSON",
+    "team": "JAMAICA",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/534.jpg"
+  },
+  {
+    "id": "fwc26-535",
+    "number": 535,
+    "name": "MATTY CASH",
+    "team": "POLAND",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/535.jpg"
+  },
+  {
+    "id": "fwc26-536",
+    "number": 536,
+    "name": "JAKUB KIWIOR",
+    "team": "POLAND",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/536.jpg"
+  },
+  {
+    "id": "fwc26-537",
+    "number": 537,
+    "name": "PIOTR ZIELINSKI",
+    "team": "POLAND",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/537.jpg"
+  },
+  {
+    "id": "fwc26-538",
+    "number": 538,
+    "name": "SEBASTIAN SZYMANSKI",
+    "team": "POLAND",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/538.jpg"
+  },
+  {
+    "id": "fwc26-539",
+    "number": 539,
+    "name": "ROBERT LEWANDOWSKI",
+    "team": "POLAND",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/539.jpg"
+  },
+  {
+    "id": "fwc26-540",
+    "number": 540,
+    "name": "ISAK HIEN",
+    "team": "SWEDEN",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/540.jpg"
+  },
+  {
+    "id": "fwc26-541",
+    "number": 541,
+    "name": "DEJAN KULUSEVSKI",
+    "team": "SWEDEN",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/541.jpg"
+  },
+  {
+    "id": "fwc26-542",
+    "number": 542,
+    "name": "ANTHONY ELANGA",
+    "team": "SWEDEN",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/542.jpg"
+  },
+  {
+    "id": "fwc26-543",
+    "number": 543,
+    "name": "VIKTOR GYOKERES",
+    "team": "SWEDEN",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/543.jpg"
+  },
+  {
+    "id": "fwc26-544",
+    "number": 544,
+    "name": "ALEXANDER ISAK",
+    "team": "SWEDEN",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/544.jpg"
+  },
+  {
+    "id": "fwc26-545",
+    "number": 545,
+    "name": "CAGLAR SOYUNCU",
+    "team": "TURKEY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/545.jpg"
+  },
+  {
+    "id": "fwc26-546",
+    "number": 546,
+    "name": "HAKAN CALHANOGLU",
+    "team": "TURKEY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/546.jpg"
+  },
+  {
+    "id": "fwc26-547",
+    "number": 547,
+    "name": "ARDA GULER",
+    "team": "TURKEY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/547.jpg"
+  },
+  {
+    "id": "fwc26-548",
+    "number": 548,
+    "name": "KENAN YILDIZ",
+    "team": "TURKEY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/548.jpg"
+  },
+  {
+    "id": "fwc26-549",
+    "number": 549,
+    "name": "KEREM AKTURKOGLU",
+    "team": "TURKEY",
+    "type": "contenders",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/549.jpg"
+  },
+  {
+    "id": "fwc26-550",
+    "number": 550,
+    "name": "EMILIANO MARTINEZ",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/550.jpg"
+  },
+  {
+    "id": "fwc26-551",
+    "number": 551,
+    "name": "THIBAUT COURTOIS",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/551.jpg"
+  },
+  {
+    "id": "fwc26-552",
+    "number": 552,
+    "name": "ALISSON",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/552.jpg"
+  },
+  {
+    "id": "fwc26-553",
+    "number": 553,
+    "name": "MIKE MAIGNAN",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/553.jpg"
+  },
+  {
+    "id": "fwc26-554",
+    "number": 554,
+    "name": "JUNNOSUKE SUZUKI",
+    "team": "JAPAN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/554.jpg"
+  },
+  {
+    "id": "fwc26-555",
+    "number": 555,
+    "name": "YASSINE BOUNOU",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/555.jpg"
+  },
+  {
+    "id": "fwc26-556",
+    "number": 556,
+    "name": "DIOGO COSTA",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/556.jpg"
+  },
+  {
+    "id": "fwc26-557",
+    "number": 557,
+    "name": "UNAI SIMÓN",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/557.jpg"
+  },
+  {
+    "id": "fwc26-558",
+    "number": 558,
+    "name": "GREGOR KOBEL",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/558.jpg"
+  },
+  {
+    "id": "fwc26-559",
+    "number": 559,
+    "name": "EDER MILITAO",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/559.jpg"
+  },
+  {
+    "id": "fwc26-560",
+    "number": 560,
+    "name": "ALPHONSO DAVIES",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/560.jpg"
+  },
+  {
+    "id": "fwc26-561",
+    "number": 561,
+    "name": "WILLIAM SALIBA",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/561.jpg"
+  },
+  {
+    "id": "fwc26-562",
+    "number": 562,
+    "name": "ANTONIO RUDIGER",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/562.jpg"
+  },
+  {
+    "id": "fwc26-563",
+    "number": 563,
+    "name": "MIN-JAE KIM",
+    "team": "SOUTH KOREA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/563.jpg"
+  },
+  {
+    "id": "fwc26-564",
+    "number": 564,
+    "name": "ACHRAF HAKIMI",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/564.jpg"
+  },
+  {
+    "id": "fwc26-565",
+    "number": 565,
+    "name": "VIRGIL VAN DIJK",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/565.jpg"
+  },
+  {
+    "id": "fwc26-566",
+    "number": 566,
+    "name": "NUNO MENDES",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/566.jpg"
+  },
+  {
+    "id": "fwc26-567",
+    "number": 567,
+    "name": "DEAN HUIJSEN",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/567.jpg"
+  },
+  {
+    "id": "fwc26-568",
+    "number": 568,
+    "name": "ENZO FERNÁNDEZ",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/568.jpg"
+  },
+  {
+    "id": "fwc26-569",
+    "number": 569,
+    "name": "KEVIN DE BRUYNE",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/569.jpg"
+  },
+  {
+    "id": "fwc26-570",
+    "number": 570,
+    "name": "CASEMIRO",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/570.jpg"
+  },
+  {
+    "id": "fwc26-571",
+    "number": 571,
+    "name": "LUKA MODRIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/571.jpg"
+  },
+  {
+    "id": "fwc26-572",
+    "number": 572,
+    "name": "MOISES CAICEDO",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/572.jpg"
+  },
+  {
+    "id": "fwc26-573",
+    "number": 573,
+    "name": "JUDE BELLINGHAM",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/573.jpg"
+  },
+  {
+    "id": "fwc26-574",
+    "number": 574,
+    "name": "AURELIEN TCHOUAMENI",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/574.jpg"
+  },
+  {
+    "id": "fwc26-575",
+    "number": 575,
+    "name": "FLORIAN WIRTZ",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/575.jpg"
+  },
+  {
+    "id": "fwc26-576",
+    "number": 576,
+    "name": "SOFYAN AMRABAT",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/576.jpg"
+  },
+  {
+    "id": "fwc26-577",
+    "number": 577,
+    "name": "TIJJANI REIJNDERS",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/577.jpg"
+  },
+  {
+    "id": "fwc26-578",
+    "number": 578,
+    "name": "MARTIN ODEGAARD",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/578.jpg"
+  },
+  {
+    "id": "fwc26-579",
+    "number": 579,
+    "name": "VITINHA",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/579.jpg"
+  },
+  {
+    "id": "fwc26-580",
+    "number": 580,
+    "name": "SCOTT MCTOMINAY",
+    "team": "SCOTLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/580.jpg"
+  },
+  {
+    "id": "fwc26-581",
+    "number": 581,
+    "name": "RODRI",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/581.jpg"
+  },
+  {
+    "id": "fwc26-582",
+    "number": 582,
+    "name": "PEDRI",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/582.jpg"
+  },
+  {
+    "id": "fwc26-583",
+    "number": 583,
+    "name": "GRANIT XHAKA",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/583.jpg"
+  },
+  {
+    "id": "fwc26-584",
+    "number": 584,
+    "name": "TYLER ADAMS",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/584.jpg"
+  },
+  {
+    "id": "fwc26-585",
+    "number": 585,
+    "name": "FEDERICO VALVERDE",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/585.jpg"
+  },
+  {
+    "id": "fwc26-586",
+    "number": 586,
+    "name": "JULIÁN ÁLVAREZ",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/586.jpg"
+  },
+  {
+    "id": "fwc26-587",
+    "number": 587,
+    "name": "ROMELU LUKAKU",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/587.jpg"
+  },
+  {
+    "id": "fwc26-588",
+    "number": 588,
+    "name": "RAPHINHA",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/588.jpg"
+  },
+  {
+    "id": "fwc26-589",
+    "number": 589,
+    "name": "JONATHAN DAVID",
+    "team": "CANADA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/589.jpg"
+  },
+  {
+    "id": "fwc26-590",
+    "number": 590,
+    "name": "LUIS DÍAZ",
+    "team": "COLOMBIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/590.jpg"
+  },
+  {
+    "id": "fwc26-591",
+    "number": 591,
+    "name": "ANDREJ KRAMARIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/591.jpg"
+  },
+  {
+    "id": "fwc26-592",
+    "number": 592,
+    "name": "ENNER VALENCIA",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/592.jpg"
+  },
+  {
+    "id": "fwc26-593",
+    "number": 593,
+    "name": "OMAR MARMOUSH",
+    "team": "EGYPT",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/593.jpg"
+  },
+  {
+    "id": "fwc26-594",
+    "number": 594,
+    "name": "MARCUS RASHFORD",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/594.jpg"
+  },
+  {
+    "id": "fwc26-595",
+    "number": 595,
+    "name": "RANDAL KOLO MUANI",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/595.jpg"
+  },
+  {
+    "id": "fwc26-596",
+    "number": 596,
+    "name": "KAI HAVERTZ",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/596.jpg"
+  },
+  {
+    "id": "fwc26-597",
+    "number": 597,
+    "name": "SEBASTIEN HALLER",
+    "team": "IVORY COAST",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/597.jpg"
+  },
+  {
+    "id": "fwc26-598",
+    "number": 598,
+    "name": "RAÚL JIMÉNEZ",
+    "team": "MEXICO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/598.jpg"
+  },
+  {
+    "id": "fwc26-599",
+    "number": 599,
+    "name": "YOUSSEF EN-NESYRI",
+    "team": "MOROCCO",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/599.jpg"
+  },
+  {
+    "id": "fwc26-600",
+    "number": 600,
+    "name": "CODY GAKPO",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/600.jpg"
+  },
+  {
+    "id": "fwc26-601",
+    "number": 601,
+    "name": "CHRIS WOOD",
+    "team": "NEW ZEALAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/601.jpg"
+  },
+  {
+    "id": "fwc26-602",
+    "number": 602,
+    "name": "ALEXANDER SORLOTH",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/602.jpg"
+  },
+  {
+    "id": "fwc26-603",
+    "number": 603,
+    "name": "NICOLAS JACKSON",
+    "team": "SENEGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/603.jpg"
+  },
+  {
+    "id": "fwc26-604",
+    "number": 604,
+    "name": "MIKEL OYARZABAL",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/604.jpg"
+  },
+  {
+    "id": "fwc26-605",
+    "number": 605,
+    "name": "BREEL EMBOLO",
+    "team": "SWITZERLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/605.jpg"
+  },
+  {
+    "id": "fwc26-606",
+    "number": 606,
+    "name": "CHRISTIAN PULISIC",
+    "team": "USA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/606.jpg"
+  },
+  {
+    "id": "fwc26-607",
+    "number": 607,
+    "name": "DARWIN NÚÑEZ",
+    "team": "URUGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/607.jpg"
+  },
+  {
+    "id": "fwc26-608",
+    "number": 608,
+    "name": "NICO PAZ",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/608.jpg"
+  },
+  {
+    "id": "fwc26-609",
+    "number": 609,
+    "name": "FRANCO MASTANTUONO",
+    "team": "ARGENTINA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/609.jpg"
+  },
+  {
+    "id": "fwc26-610",
+    "number": 610,
+    "name": "ZENO DEBAST",
+    "team": "BELGIUM",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/610.jpg"
+  },
+  {
+    "id": "fwc26-611",
+    "number": 611,
+    "name": "WESLEY",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/611.jpg"
+  },
+  {
+    "id": "fwc26-612",
+    "number": 612,
+    "name": "ESTEVAO WILLIAN",
+    "team": "BRAZIL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/612.jpg"
+  },
+  {
+    "id": "fwc26-613",
+    "number": 613,
+    "name": "PETAR SUCIC",
+    "team": "CROATIA",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/613.jpg"
+  },
+  {
+    "id": "fwc26-614",
+    "number": 614,
+    "name": "KENDRY PAEZ",
+    "team": "ECUADOR",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/614.jpg"
+  },
+  {
+    "id": "fwc26-615",
+    "number": 615,
+    "name": "MORGAN ROGERS",
+    "team": "ENGLAND",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/615.jpg"
+  },
+  {
+    "id": "fwc26-616",
+    "number": 616,
+    "name": "DESIRE DOUE",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/616.jpg"
+  },
+  {
+    "id": "fwc26-617",
+    "number": 617,
+    "name": "BRADELY BARCOLA",
+    "team": "FRANCE",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/617.jpg"
+  },
+  {
+    "id": "fwc26-618",
+    "number": 618,
+    "name": "NICK WOLTEMADE",
+    "team": "GERMANY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/618.jpg"
+  },
+  {
+    "id": "fwc26-619",
+    "number": 619,
+    "name": "XAVI SIMONS",
+    "team": "NETHERLANDS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/619.jpg"
+  },
+  {
+    "id": "fwc26-620",
+    "number": 620,
+    "name": "ANDREAS SCHJELDERUP",
+    "team": "NORWAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/620.jpg"
+  },
+  {
+    "id": "fwc26-621",
+    "number": 621,
+    "name": "GUSTAVO GÓMEZ",
+    "team": "PARAGUAY",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/621.jpg"
+  },
+  {
+    "id": "fwc26-622",
+    "number": 622,
+    "name": "JOAO NEVES",
+    "team": "PORTUGAL",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/622.jpg"
+  },
+  {
+    "id": "fwc26-623",
+    "number": 623,
+    "name": "PAU CUBARSI",
+    "team": "SPAIN",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/cards-drive/623.jpg"
+  },
+  {
+    "id": "fwc26-624",
+    "number": 624,
+    "name": "Official Emblem",
+    "team": "FIFA",
+    "type": "official_emblem",
+    "subtype": "official_emblem",
+    "owned": 0,
+    "image": "./assets/special-drive/624.jpg"
+  },
+  {
+    "id": "fwc26-625",
+    "number": 625,
+    "name": "MAPLE",
+    "team": "MASCOTAS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/special-drive/625.jpg"
+  },
+  {
+    "id": "fwc26-626",
+    "number": 626,
+    "name": "CLUTCH",
+    "team": "MASCOTAS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/special-drive/626.jpg"
+  },
+  {
+    "id": "fwc26-627",
+    "number": 627,
+    "name": "ZAVU",
+    "team": "MASCOTAS",
+    "type": "base",
+    "subtype": "standard",
+    "owned": 0,
+    "image": "./assets/special-drive/627.jpg"
+  },
+  {
+    "id": "fwc26-628",
+    "number": 628,
+    "name": "ETERNOS 22 - DEFENSAS",
+    "team": "ARGENTINA",
+    "type": "eternos_22",
+    "subtype": "eternos_22",
+    "owned": 0,
+    "image": "./assets/special-drive/628.jpg"
+  },
+  {
+    "id": "fwc26-629",
+    "number": 629,
+    "name": "ETERNOS 22 - MEDIOS",
+    "team": "ARGENTINA",
+    "type": "eternos_22",
+    "subtype": "eternos_22",
+    "owned": 0,
+    "image": "./assets/special-drive/629.jpg"
+  },
+  {
+    "id": "fwc26-630",
+    "number": 630,
+    "name": "ETERNOS 22 - DELANTEROS",
+    "team": "ARGENTINA",
+    "type": "eternos_22",
+    "subtype": "eternos_22",
+    "owned": 0,
+    "image": "./assets/special-drive/630.jpg"
+  }
+]

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checklist Adrenaline XL WorlCup 26</title>
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Cromo Sector</p>
+      <h1>Checklist Adrenaline XL WorlCup 26</h1>
+      <p class="sub">Seguimiento de tu colección FIFA World Cup 2026 Adrenalyn XL</p>
+    </div>
+  </header>
+  <section class="dashboard" id="dashboard">
+    <article><span>Tengo</span><strong id="ownedCount">0</strong></article>
+    <article><span>Me faltan</span><strong id="missingCount">0</strong></article>
+    <article><span>Repetidas</span><strong id="duplicateCount">0</strong></article>
+    <article><span>Completado</span><strong id="progressPercent">0%</strong></article>
+  </section>
+  <section class="controls">
+    <input id="search" type="search" placeholder="Buscar por número, nombre o equipo">
+    <select id="teamFilter"><option value="">Todas las secciones</option></select>
+    <select id="typeFilter"><option value="">Todos los tipos</option></select>
+    <select id="statusFilter">
+      <option value="">Todos los estados</option>
+      <option value="owned">Tengo</option>
+      <option value="missing">Me faltan</option>
+      <option value="duplicates">Repetidas</option>
+    </select>
+  </section>
+  <section class="legend">
+    <span><i class="dot owned"></i>Tengo</span>
+    <span><i class="dot missing"></i>Me falta</span>
+    <span><i class="dot duplicate"></i>Repetida</span>
+  </section>
+  <main><div id="cardsGrid"></div></main>
+  <template id="cardTemplate">
+    <article class="card-item">
+      <div class="card-head">
+        <span class="num"></span>
+        <span class="badge"></span>
+      </div>
+      <button class="thumb-button" type="button"><img class="thumb" alt="Miniatura del cromo"></button>
+      <h3 class="name"></h3>
+      <p class="team"></p>
+      <p class="meta"></p>
+      <div class="actions">
+        <button data-action="decrement">−</button>
+        <button data-action="increment">+</button>
+      </div>
+    </article>
+  </template>
+  <dialog id="imageModal" class="image-modal">
+    <button id="closeModal" class="close-modal" type="button">✕</button>
+    <img id="modalImage" alt="Cromo ampliado">
+  </dialog>
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
