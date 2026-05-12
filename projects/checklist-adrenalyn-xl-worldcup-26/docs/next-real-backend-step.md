@@ -29,3 +29,4 @@ por:
 7. persistir `checklist_cards`
 8. limitar trial y acceso por membresía
 9. mover admin a queries reales
+10. auto-desactivar trials a los 14 días

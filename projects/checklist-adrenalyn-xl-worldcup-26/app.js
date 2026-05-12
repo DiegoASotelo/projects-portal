@@ -18,6 +18,7 @@ const state = {
   projectId: null,
   isAdminView: false
 };
+const trialTeams = new Set(['ALGERIA','ARGENTINA']);
 
 const el = {
   loginScreen: document.getElementById('loginScreen'),
@@ -91,7 +92,7 @@ const filteredCards = () => state.cards.filter(card => {
     && (!state.filters.section || getSectionKey(card) === state.filters.section)
     && (!state.filters.type || card.type === state.filters.type)
     && (!state.filters.status || getStatus(card) === state.filters.status)
-    && (!state.trialMode || card.trial);
+    && (!state.trialMode || trialTeams.has(card.team));
 });
 const buildSections = list => {
   const map = new Map();
@@ -188,7 +189,9 @@ const ensureProject = async () => {
 const ensureMembership = async user => {
   const { data: membership } = await supabase.from('project_memberships').select('*').eq('project_id', state.projectId).eq('user_id', user.id).maybeSingle();
   if (membership) return membership;
-  const { data } = await supabase.from('project_memberships').insert({ project_id: state.projectId, user_id: user.id, role: 'user', status: 'active', plan: 'basic' }).select('*').single();
+  const now = new Date();
+  const trialEnds = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+  const { data } = await supabase.from('project_memberships').insert({ project_id: state.projectId, user_id: user.id, role: 'user', status: 'active', plan: 'basic', trial_started_at: now.toISOString(), trial_ends_at: trialEnds.toISOString() }).select('*').single();
   return data;
 };
 const ensureChecklist = async user => {
@@ -208,18 +211,19 @@ const persistChecklistCard = async card => {
   downloadBackup(Object.fromEntries(state.cards.map(item => [item.id, item.owned])));
 };
 const renderAdmin = async () => {
-  const { data } = await supabase.from('project_memberships').select('id, role, status, plan, user_id, app_users(email)').eq('project_id', state.projectId).order('created_at');
+  const { data } = await supabase.from('project_memberships').select('id, role, status, plan, user_id, trial_ends_at, app_users(email)').eq('project_id', state.projectId).order('created_at');
   const rows = (data || []).map(item => `
     <tr>
       <td>${item.app_users?.email || item.user_id}</td>
       <td>${item.role}</td>
       <td>${item.plan}</td>
       <td>${item.status}</td>
+      <td>${item.trial_ends_at ? item.trial_ends_at.slice(0,10) : '-'}</td>
       <td>
         <button data-action="toggle" data-id="${item.id}">${item.status === 'active' ? 'Desactivar' : 'Activar'}</button>
       </td>
     </tr>`).join('');
-  el.adminTable.innerHTML = `<table><thead><tr><th>Email</th><th>Rol</th><th>Plan</th><th>Estado</th><th>Acciones</th></tr></thead><tbody>${rows}</tbody></table>`;
+  el.adminTable.innerHTML = `<table><thead><tr><th>Email</th><th>Rol</th><th>Plan</th><th>Estado</th><th>Trial fin</th><th>Acciones</th></tr></thead><tbody>${rows}</tbody></table>`;
   el.adminTable.querySelectorAll('button').forEach(button => {
     button.onclick = async () => {
       const membership = data.find(item => item.id === button.dataset.id);
@@ -251,10 +255,12 @@ const setActiveUser = async user => {
     setLoginMessage('Cuenta desactivada.', true);
     return;
   }
+  state.trialMode = state.membership.plan !== 'paid';
   const checklist = await ensureChecklist(user);
   state.checklistId = checklist.id;
   await loadChecklistCards(checklist.id);
-  el.currentUser.textContent = `${user.email}${state.membership.role === 'admin' ? ' · admin' : ''}`;
+  const planTag = state.membership.plan === 'paid' ? 'paid' : 'trial';
+  el.currentUser.textContent = `${user.email} · ${planTag}${state.membership.role === 'admin' ? ' · admin' : ''}`;
   el.loginScreen.hidden = true;
   el.appShell.hidden = false;
   el.adminLink.hidden = state.membership.role !== 'admin';
@@ -321,7 +327,27 @@ const bindEvents = () => {
   el.backToAppButton.addEventListener('click', showApp);
   el.createUserForm.addEventListener('submit', async event => {
     event.preventDefault();
-    setAdminMessage('Para crear usuarios ahora mismo, usa alta normal por email o Google. La creación admin directa la conectamos después.', false);
+    const email = el.adminEmailInput.value.trim().toLowerCase();
+    const password = el.adminPasswordInput.value;
+    const plan = (el.adminPlanInput.value.trim() || 'basic').toLowerCase();
+    const { data, error } = await supabase.auth.admin.createUser({ email, password, email_confirm: true });
+    if (error) return setAdminMessage(error.message, true);
+    await ensureProfile(data.user);
+    const now = new Date();
+    const trialEnds = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+    await supabase.from('project_memberships').upsert({
+      project_id: state.projectId,
+      user_id: data.user.id,
+      role: 'user',
+      status: 'active',
+      plan,
+      checklist_limit: plan === 'paid' ? 10 : 1,
+      trial_started_at: plan === 'paid' ? null : now.toISOString(),
+      trial_ends_at: plan === 'paid' ? null : trialEnds.toISOString()
+    }, { onConflict: 'project_id,user_id' });
+    el.createUserForm.reset();
+    setAdminMessage('Usuario creado.');
+    await renderAdmin();
   });
 };
 const init = async () => {

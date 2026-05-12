@@ -82,7 +82,10 @@
       <form id="createUserForm" class="admin-create-user">
         <input id="adminEmailInput" type="email" placeholder="nuevo@email.com" required>
         <input id="adminPasswordInput" type="password" placeholder="Contraseña inicial" required>
-        <input id="adminPlanInput" type="text" placeholder="Plan, ej. basic">
+        <select id="adminPlanInput">
+          <option value="basic">trial</option>
+          <option value="paid">paid</option>
+        </select>
         <button type="submit">Crear usuario</button>
       </form>
       <p id="adminMessage" class="login-message"></p>
