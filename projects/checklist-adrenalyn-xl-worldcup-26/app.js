@@ -284,7 +284,7 @@ const handleEmailLogin = async event => {
 const initGoogleLogin = () => {
   el.googleLoginButton.innerHTML = '<button type="button" id="googleDirectButton">Entrar con Google</button>';
   document.getElementById('googleDirectButton').onclick = async () => {
-    const redirectTo = `${window.location.origin}${window.location.pathname}`;
+    const redirectTo = 'https://projects-portal.pages.dev/projects/checklist-adrenalyn-xl-worldcup-26/';
     await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo } });
   };
 };
