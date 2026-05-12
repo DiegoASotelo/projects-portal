@@ -216,7 +216,12 @@ const renderAdmin = async () => {
     <tr>
       <td>${item.app_users?.email || item.user_id}</td>
       <td>${item.role}</td>
-      <td>${item.plan}</td>
+      <td>
+        <select data-plan="${item.id}">
+          <option value="basic" ${item.plan === 'basic' ? 'selected' : ''}>trial</option>
+          <option value="paid" ${item.plan === 'paid' ? 'selected' : ''}>paid</option>
+        </select>
+      </td>
       <td>${item.status}</td>
       <td>${item.trial_ends_at ? item.trial_ends_at.slice(0,10) : '-'}</td>
       <td>
@@ -229,7 +234,24 @@ const renderAdmin = async () => {
       const membership = data.find(item => item.id === button.dataset.id);
       const nextStatus = membership.status === 'active' ? 'disabled' : 'active';
       await supabase.from('project_memberships').update({ status: nextStatus }).eq('id', membership.id);
-      renderAdmin();
+      await renderAdmin();
+    };
+  });
+  el.adminTable.querySelectorAll('select[data-plan]').forEach(select => {
+    select.onchange = async () => {
+      const membership = data.find(item => item.id === select.dataset.plan);
+      const plan = select.value;
+      const now = new Date();
+      const trialEnds = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+      await supabase.from('project_memberships').update({
+        plan,
+        checklist_limit: plan === 'paid' ? 10 : 1,
+        trial_started_at: plan === 'paid' ? null : now.toISOString(),
+        trial_ends_at: plan === 'paid' ? null : trialEnds.toISOString(),
+        deactivated_at: null,
+        status: 'active'
+      }).eq('id', membership.id);
+      await renderAdmin();
     };
   });
 };
@@ -255,12 +277,12 @@ const setActiveUser = async user => {
     setLoginMessage('Cuenta desactivada.', true);
     return;
   }
-  state.trialMode = state.membership.plan !== 'paid';
+  state.trialMode = state.membership.role !== 'admin' && state.membership.plan !== 'paid';
   const checklist = await ensureChecklist(user);
   state.checklistId = checklist.id;
   await loadChecklistCards(checklist.id);
-  const planTag = state.membership.plan === 'paid' ? 'paid' : 'trial';
-  el.currentUser.textContent = `${user.email} · ${planTag}${state.membership.role === 'admin' ? ' · admin' : ''}`;
+  const planTag = state.membership.role === 'admin' ? 'admin' : (state.membership.plan === 'paid' ? 'paid' : 'trial');
+  el.currentUser.textContent = `${user.email} · ${planTag}`;
   el.loginScreen.hidden = true;
   el.appShell.hidden = false;
   el.adminLink.hidden = state.membership.role !== 'admin';
