@@ -7,7 +7,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/1.jpg"
+    "image": "./assets/golden-drive/1.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-2",
@@ -17,7 +18,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/2.jpg"
+    "image": "./assets/golden-drive/2.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-3",
@@ -27,7 +29,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/3.jpg"
+    "image": "./assets/golden-drive/3.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-4",
@@ -37,7 +40,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/4.jpg"
+    "image": "./assets/golden-drive/4.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-5",
@@ -47,7 +51,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/5.jpg"
+    "image": "./assets/golden-drive/5.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-6",
@@ -57,7 +62,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/6.jpg"
+    "image": "./assets/golden-drive/6.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-7",
@@ -67,7 +73,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/7.jpg"
+    "image": "./assets/golden-drive/7.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-8",
@@ -77,7 +84,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/8.jpg"
+    "image": "./assets/golden-drive/8.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-9",
@@ -87,7 +95,8 @@
     "type": "golden_baller",
     "subtype": "golden_baller",
     "owned": 0,
-    "image": "./assets/golden-drive/9.jpg"
+    "image": "./assets/golden-drive/9.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-10",
@@ -97,7 +106,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/10.jpg"
+    "image": "./assets/cards-drive/10.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-11",
@@ -107,7 +117,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/11.jpg"
+    "image": "./assets/cards-drive/11.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-12",
@@ -117,7 +128,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/12.jpg"
+    "image": "./assets/cards-drive/12.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-13",
@@ -127,7 +139,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/13.jpg"
+    "image": "./assets/cards-drive/13.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-14",
@@ -137,7 +150,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/14.jpg"
+    "image": "./assets/cards-drive/14.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-15",
@@ -147,7 +161,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/15.jpg"
+    "image": "./assets/cards-drive/15.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-16",
@@ -157,7 +172,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/16.jpg"
+    "image": "./assets/cards-drive/16.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-17",
@@ -167,7 +183,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/17.jpg"
+    "image": "./assets/cards-drive/17.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-18",
@@ -177,7 +194,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/18.jpg"
+    "image": "./assets/cards-drive/18.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-19",
@@ -187,7 +205,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/19.jpg"
+    "image": "./assets/cards-drive/19.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-20",
@@ -197,7 +216,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/20.jpg"
+    "image": "./assets/cards-drive/20.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-21",
@@ -207,7 +227,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/21.jpg"
+    "image": "./assets/cards-drive/21.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-22",
@@ -217,7 +238,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/22.jpg"
+    "image": "./assets/cards-drive/22.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-23",
@@ -227,7 +249,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/23.jpg"
+    "image": "./assets/cards-drive/23.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-24",
@@ -237,7 +260,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/24.jpg"
+    "image": "./assets/cards-drive/24.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-25",
@@ -247,7 +271,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/25.jpg"
+    "image": "./assets/cards-drive/25.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-26",
@@ -257,7 +282,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/26.jpg"
+    "image": "./assets/cards-drive/26.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-27",
@@ -267,7 +293,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/27.jpg"
+    "image": "./assets/cards-drive/27.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-28",
@@ -277,7 +304,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/28.jpg"
+    "image": "./assets/cards-drive/28.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-29",
@@ -287,7 +315,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/29.jpg"
+    "image": "./assets/cards-drive/29.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-30",
@@ -297,7 +326,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/30.jpg"
+    "image": "./assets/cards-drive/30.jpg",
+    "trial": true
   },
   {
     "id": "fwc26-31",
@@ -307,7 +337,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/31.jpg"
+    "image": "./assets/cards-drive/31.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-32",
@@ -317,7 +348,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/32.jpg"
+    "image": "./assets/cards-drive/32.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-33",
@@ -327,7 +359,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/33.jpg"
+    "image": "./assets/cards-drive/33.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-34",
@@ -337,7 +370,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/34.jpg"
+    "image": "./assets/cards-drive/34.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-35",
@@ -347,7 +381,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/35.jpg"
+    "image": "./assets/cards-drive/35.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-36",
@@ -357,7 +392,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/36.jpg"
+    "image": "./assets/cards-drive/36.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-37",
@@ -367,7 +403,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/37.jpg"
+    "image": "./assets/cards-drive/37.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-38",
@@ -377,7 +414,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/38.jpg"
+    "image": "./assets/cards-drive/38.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-39",
@@ -387,7 +425,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/39.jpg"
+    "image": "./assets/cards-drive/39.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-40",
@@ -397,7 +436,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/40.jpg"
+    "image": "./assets/cards-drive/40.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-41",
@@ -407,7 +447,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/41.jpg"
+    "image": "./assets/cards-drive/41.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-42",
@@ -417,7 +458,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/42.jpg"
+    "image": "./assets/cards-drive/42.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-43",
@@ -427,7 +469,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/43.jpg"
+    "image": "./assets/cards-drive/43.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-44",
@@ -437,7 +480,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/44.jpg"
+    "image": "./assets/cards-drive/44.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-45",
@@ -447,7 +491,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/45.jpg"
+    "image": "./assets/cards-drive/45.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-46",
@@ -457,7 +502,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/46.jpg"
+    "image": "./assets/cards-drive/46.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-47",
@@ -467,7 +513,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/47.jpg"
+    "image": "./assets/cards-drive/47.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-48",
@@ -477,7 +524,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/48.jpg"
+    "image": "./assets/cards-drive/48.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-49",
@@ -487,7 +535,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/49.jpg"
+    "image": "./assets/cards-drive/49.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-50",
@@ -497,7 +546,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/50.jpg"
+    "image": "./assets/cards-drive/50.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-51",
@@ -507,7 +557,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/51.jpg"
+    "image": "./assets/cards-drive/51.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-52",
@@ -517,7 +568,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/52.jpg"
+    "image": "./assets/cards-drive/52.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-53",
@@ -527,7 +579,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/53.jpg"
+    "image": "./assets/cards-drive/53.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-54",
@@ -537,7 +590,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/54.jpg"
+    "image": "./assets/cards-drive/54.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-55",
@@ -547,7 +601,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/55.jpg"
+    "image": "./assets/cards-drive/55.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-56",
@@ -557,7 +612,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/56.jpg"
+    "image": "./assets/cards-drive/56.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-57",
@@ -567,7 +623,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/57.jpg"
+    "image": "./assets/cards-drive/57.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-58",
@@ -577,7 +634,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/58.jpg"
+    "image": "./assets/cards-drive/58.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-59",
@@ -587,7 +645,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/59.jpg"
+    "image": "./assets/cards-drive/59.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-60",
@@ -597,7 +656,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/60.jpg"
+    "image": "./assets/cards-drive/60.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-61",
@@ -607,7 +667,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/61.jpg"
+    "image": "./assets/cards-drive/61.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-62",
@@ -617,7 +678,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/62.jpg"
+    "image": "./assets/cards-drive/62.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-63",
@@ -627,7 +689,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/63.jpg"
+    "image": "./assets/cards-drive/63.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-64",
@@ -637,7 +700,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/64.jpg"
+    "image": "./assets/cards-drive/64.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-65",
@@ -647,7 +711,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/65.jpg"
+    "image": "./assets/cards-drive/65.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-66",
@@ -657,7 +722,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/66.jpg"
+    "image": "./assets/cards-drive/66.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-67",
@@ -667,7 +733,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/67.jpg"
+    "image": "./assets/cards-drive/67.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-68",
@@ -677,7 +744,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/68.jpg"
+    "image": "./assets/cards-drive/68.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-69",
@@ -687,7 +755,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/69.jpg"
+    "image": "./assets/cards-drive/69.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-70",
@@ -697,7 +766,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/70.jpg"
+    "image": "./assets/cards-drive/70.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-71",
@@ -707,7 +777,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/71.jpg"
+    "image": "./assets/cards-drive/71.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-72",
@@ -717,7 +788,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/72.jpg"
+    "image": "./assets/cards-drive/72.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-73",
@@ -727,7 +799,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/73.jpg"
+    "image": "./assets/cards-drive/73.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-74",
@@ -737,7 +810,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/74.jpg"
+    "image": "./assets/cards-drive/74.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-75",
@@ -747,7 +821,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/75.jpg"
+    "image": "./assets/cards-drive/75.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-76",
@@ -757,7 +832,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/76.jpg"
+    "image": "./assets/cards-drive/76.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-77",
@@ -767,7 +843,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/77.jpg"
+    "image": "./assets/cards-drive/77.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-78",
@@ -777,7 +854,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/78.jpg"
+    "image": "./assets/cards-drive/78.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-79",
@@ -787,7 +865,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/79.jpg"
+    "image": "./assets/cards-drive/79.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-80",
@@ -797,7 +876,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/80.jpg"
+    "image": "./assets/cards-drive/80.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-81",
@@ -807,7 +887,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/81.jpg"
+    "image": "./assets/cards-drive/81.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-82",
@@ -817,7 +898,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/82.jpg"
+    "image": "./assets/cards-drive/82.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-83",
@@ -827,7 +909,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/83.jpg"
+    "image": "./assets/cards-drive/83.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-84",
@@ -837,7 +920,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/84.jpg"
+    "image": "./assets/cards-drive/84.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-85",
@@ -847,7 +931,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/85.jpg"
+    "image": "./assets/cards-drive/85.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-86",
@@ -857,7 +942,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/86.jpg"
+    "image": "./assets/cards-drive/86.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-87",
@@ -867,7 +953,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/87.jpg"
+    "image": "./assets/cards-drive/87.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-88",
@@ -877,7 +964,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/88.jpg"
+    "image": "./assets/cards-drive/88.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-89",
@@ -887,7 +975,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/89.jpg"
+    "image": "./assets/cards-drive/89.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-90",
@@ -897,7 +986,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/90.jpg"
+    "image": "./assets/cards-drive/90.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-91",
@@ -907,7 +997,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/91.jpg"
+    "image": "./assets/cards-drive/91.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-92",
@@ -917,7 +1008,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/92.jpg"
+    "image": "./assets/cards-drive/92.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-93",
@@ -927,7 +1019,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/93.jpg"
+    "image": "./assets/cards-drive/93.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-94",
@@ -937,7 +1030,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/94.jpg"
+    "image": "./assets/cards-drive/94.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-95",
@@ -947,7 +1041,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/95.jpg"
+    "image": "./assets/cards-drive/95.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-96",
@@ -957,7 +1052,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/96.jpg"
+    "image": "./assets/cards-drive/96.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-97",
@@ -967,7 +1063,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/97.jpg"
+    "image": "./assets/cards-drive/97.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-98",
@@ -977,7 +1074,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/98.jpg"
+    "image": "./assets/cards-drive/98.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-99",
@@ -987,7 +1085,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/99.jpg"
+    "image": "./assets/cards-drive/99.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-100",
@@ -997,7 +1096,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/100.jpg"
+    "image": "./assets/cards-drive/100.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-101",
@@ -1007,7 +1107,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/101.jpg"
+    "image": "./assets/cards-drive/101.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-102",
@@ -1017,7 +1118,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/102.jpg"
+    "image": "./assets/cards-drive/102.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-103",
@@ -1027,7 +1129,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/103.jpg"
+    "image": "./assets/cards-drive/103.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-104",
@@ -1037,7 +1140,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/104.jpg"
+    "image": "./assets/cards-drive/104.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-105",
@@ -1047,7 +1151,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/105.jpg"
+    "image": "./assets/cards-drive/105.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-106",
@@ -1057,7 +1162,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/106.jpg"
+    "image": "./assets/cards-drive/106.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-107",
@@ -1067,7 +1173,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/107.jpg"
+    "image": "./assets/cards-drive/107.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-108",
@@ -1077,7 +1184,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/108.jpg"
+    "image": "./assets/cards-drive/108.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-109",
@@ -1087,7 +1195,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/109.jpg"
+    "image": "./assets/cards-drive/109.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-110",
@@ -1097,7 +1206,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/110.jpg"
+    "image": "./assets/cards-drive/110.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-111",
@@ -1107,7 +1217,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/111.jpg"
+    "image": "./assets/cards-drive/111.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-112",
@@ -1117,7 +1228,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/112.jpg"
+    "image": "./assets/cards-drive/112.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-113",
@@ -1127,7 +1239,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/113.jpg"
+    "image": "./assets/cards-drive/113.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-114",
@@ -1137,7 +1250,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/114.jpg"
+    "image": "./assets/cards-drive/114.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-115",
@@ -1147,7 +1261,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/115.jpg"
+    "image": "./assets/cards-drive/115.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-116",
@@ -1157,7 +1272,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/116.jpg"
+    "image": "./assets/cards-drive/116.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-117",
@@ -1167,7 +1283,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/117.jpg"
+    "image": "./assets/cards-drive/117.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-118",
@@ -1177,7 +1294,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/118.jpg"
+    "image": "./assets/cards-drive/118.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-119",
@@ -1187,7 +1305,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/119.jpg"
+    "image": "./assets/cards-drive/119.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-120",
@@ -1197,7 +1316,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/120.jpg"
+    "image": "./assets/cards-drive/120.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-121",
@@ -1207,7 +1327,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/121.jpg"
+    "image": "./assets/cards-drive/121.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-122",
@@ -1217,7 +1338,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/122.jpg"
+    "image": "./assets/cards-drive/122.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-123",
@@ -1227,7 +1349,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/123.jpg"
+    "image": "./assets/cards-drive/123.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-124",
@@ -1237,7 +1360,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/124.jpg"
+    "image": "./assets/cards-drive/124.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-125",
@@ -1247,7 +1371,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/125.jpg"
+    "image": "./assets/cards-drive/125.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-126",
@@ -1257,7 +1382,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/126.jpg"
+    "image": "./assets/cards-drive/126.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-127",
@@ -1267,7 +1393,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/127.jpg"
+    "image": "./assets/cards-drive/127.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-128",
@@ -1277,7 +1404,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/128.jpg"
+    "image": "./assets/cards-drive/128.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-129",
@@ -1287,7 +1415,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/129.jpg"
+    "image": "./assets/cards-drive/129.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-130",
@@ -1297,7 +1426,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/130.jpg"
+    "image": "./assets/cards-drive/130.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-131",
@@ -1307,7 +1437,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/131.jpg"
+    "image": "./assets/cards-drive/131.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-132",
@@ -1317,7 +1448,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/132.jpg"
+    "image": "./assets/cards-drive/132.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-133",
@@ -1327,7 +1459,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/133.jpg"
+    "image": "./assets/cards-drive/133.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-134",
@@ -1337,7 +1470,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/134.jpg"
+    "image": "./assets/cards-drive/134.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-135",
@@ -1347,7 +1481,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/135.jpg"
+    "image": "./assets/cards-drive/135.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-136",
@@ -1357,7 +1492,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/136.jpg"
+    "image": "./assets/cards-drive/136.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-137",
@@ -1367,7 +1503,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/137.jpg"
+    "image": "./assets/cards-drive/137.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-138",
@@ -1377,7 +1514,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/138.jpg"
+    "image": "./assets/cards-drive/138.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-139",
@@ -1387,7 +1525,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/139.jpg"
+    "image": "./assets/cards-drive/139.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-140",
@@ -1397,7 +1536,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/140.jpg"
+    "image": "./assets/cards-drive/140.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-141",
@@ -1407,7 +1547,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/141.jpg"
+    "image": "./assets/cards-drive/141.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-142",
@@ -1417,7 +1558,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/142.jpg"
+    "image": "./assets/cards-drive/142.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-143",
@@ -1427,7 +1569,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/143.jpg"
+    "image": "./assets/cards-drive/143.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-144",
@@ -1437,7 +1580,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/144.jpg"
+    "image": "./assets/cards-drive/144.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-145",
@@ -1447,7 +1591,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/145.jpg"
+    "image": "./assets/cards-drive/145.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-146",
@@ -1457,7 +1602,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/146.jpg"
+    "image": "./assets/cards-drive/146.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-147",
@@ -1467,7 +1613,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/147.jpg"
+    "image": "./assets/cards-drive/147.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-148",
@@ -1477,7 +1624,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/148.jpg"
+    "image": "./assets/cards-drive/148.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-149",
@@ -1487,7 +1635,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/149.jpg"
+    "image": "./assets/cards-drive/149.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-150",
@@ -1497,7 +1646,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/150.jpg"
+    "image": "./assets/cards-drive/150.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-151",
@@ -1507,7 +1657,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/151.jpg"
+    "image": "./assets/cards-drive/151.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-152",
@@ -1517,7 +1668,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/152.jpg"
+    "image": "./assets/cards-drive/152.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-153",
@@ -1527,7 +1679,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/153.jpg"
+    "image": "./assets/cards-drive/153.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-154",
@@ -1537,7 +1690,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/154.jpg"
+    "image": "./assets/cards-drive/154.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-155",
@@ -1547,7 +1701,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/155.jpg"
+    "image": "./assets/cards-drive/155.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-156",
@@ -1557,7 +1712,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/156.jpg"
+    "image": "./assets/cards-drive/156.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-157",
@@ -1567,7 +1723,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/157.jpg"
+    "image": "./assets/cards-drive/157.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-158",
@@ -1577,7 +1734,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/158.jpg"
+    "image": "./assets/cards-drive/158.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-159",
@@ -1587,7 +1745,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/159.jpg"
+    "image": "./assets/cards-drive/159.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-160",
@@ -1597,7 +1756,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/160.jpg"
+    "image": "./assets/cards-drive/160.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-161",
@@ -1607,7 +1767,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/161.jpg"
+    "image": "./assets/cards-drive/161.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-162",
@@ -1617,7 +1778,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/162.jpg"
+    "image": "./assets/cards-drive/162.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-163",
@@ -1627,7 +1789,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/163.jpg"
+    "image": "./assets/cards-drive/163.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-164",
@@ -1637,7 +1800,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/164.jpg"
+    "image": "./assets/cards-drive/164.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-165",
@@ -1647,7 +1811,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/165.jpg"
+    "image": "./assets/cards-drive/165.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-166",
@@ -1657,7 +1822,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/166.jpg"
+    "image": "./assets/cards-drive/166.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-167",
@@ -1667,7 +1833,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/167.jpg"
+    "image": "./assets/cards-drive/167.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-168",
@@ -1677,7 +1844,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/168.jpg"
+    "image": "./assets/cards-drive/168.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-169",
@@ -1687,7 +1855,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/169.jpg"
+    "image": "./assets/cards-drive/169.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-170",
@@ -1697,7 +1866,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/170.jpg"
+    "image": "./assets/cards-drive/170.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-171",
@@ -1707,7 +1877,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/171.jpg"
+    "image": "./assets/cards-drive/171.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-172",
@@ -1717,7 +1888,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/172.jpg"
+    "image": "./assets/cards-drive/172.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-173",
@@ -1727,7 +1899,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/173.jpg"
+    "image": "./assets/cards-drive/173.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-174",
@@ -1737,7 +1910,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/174.jpg"
+    "image": "./assets/cards-drive/174.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-175",
@@ -1747,7 +1921,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/175.jpg"
+    "image": "./assets/cards-drive/175.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-176",
@@ -1757,7 +1932,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/176.jpg"
+    "image": "./assets/cards-drive/176.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-177",
@@ -1767,7 +1943,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/177.jpg"
+    "image": "./assets/cards-drive/177.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-178",
@@ -1777,7 +1954,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/178.jpg"
+    "image": "./assets/cards-drive/178.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-179",
@@ -1787,7 +1965,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/179.jpg"
+    "image": "./assets/cards-drive/179.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-180",
@@ -1797,7 +1976,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/180.jpg"
+    "image": "./assets/cards-drive/180.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-181",
@@ -1807,7 +1987,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/181.jpg"
+    "image": "./assets/cards-drive/181.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-182",
@@ -1817,7 +1998,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/182.jpg"
+    "image": "./assets/cards-drive/182.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-183",
@@ -1827,7 +2009,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/183.jpg"
+    "image": "./assets/cards-drive/183.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-184",
@@ -1837,7 +2020,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/184.jpg"
+    "image": "./assets/cards-drive/184.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-185",
@@ -1847,7 +2031,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/185.jpg"
+    "image": "./assets/cards-drive/185.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-186",
@@ -1857,7 +2042,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/186.jpg"
+    "image": "./assets/cards-drive/186.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-187",
@@ -1867,7 +2053,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/187.jpg"
+    "image": "./assets/cards-drive/187.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-188",
@@ -1877,7 +2064,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/188.jpg"
+    "image": "./assets/cards-drive/188.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-189",
@@ -1887,7 +2075,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/189.jpg"
+    "image": "./assets/cards-drive/189.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-190",
@@ -1897,7 +2086,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/190.jpg"
+    "image": "./assets/cards-drive/190.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-191",
@@ -1907,7 +2097,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/191.jpg"
+    "image": "./assets/cards-drive/191.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-192",
@@ -1917,7 +2108,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/192.jpg"
+    "image": "./assets/cards-drive/192.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-193",
@@ -1927,7 +2119,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/193.jpg"
+    "image": "./assets/cards-drive/193.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-194",
@@ -1937,7 +2130,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/194.jpg"
+    "image": "./assets/cards-drive/194.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-195",
@@ -1947,7 +2141,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/195.jpg"
+    "image": "./assets/cards-drive/195.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-196",
@@ -1957,7 +2152,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/196.jpg"
+    "image": "./assets/cards-drive/196.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-197",
@@ -1967,7 +2163,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/197.jpg"
+    "image": "./assets/cards-drive/197.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-198",
@@ -1977,7 +2174,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/198.jpg"
+    "image": "./assets/cards-drive/198.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-199",
@@ -1987,7 +2185,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/199.jpg"
+    "image": "./assets/cards-drive/199.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-200",
@@ -1997,7 +2196,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/200.jpg"
+    "image": "./assets/cards-drive/200.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-201",
@@ -2007,7 +2207,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/201.jpg"
+    "image": "./assets/cards-drive/201.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-202",
@@ -2017,7 +2218,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/202.jpg"
+    "image": "./assets/cards-drive/202.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-203",
@@ -2027,7 +2229,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/203.jpg"
+    "image": "./assets/cards-drive/203.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-204",
@@ -2037,7 +2240,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/204.jpg"
+    "image": "./assets/cards-drive/204.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-205",
@@ -2047,7 +2251,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/205.jpg"
+    "image": "./assets/cards-drive/205.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-206",
@@ -2057,7 +2262,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/206.jpg"
+    "image": "./assets/cards-drive/206.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-207",
@@ -2067,7 +2273,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/207.jpg"
+    "image": "./assets/cards-drive/207.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-208",
@@ -2077,7 +2284,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/208.jpg"
+    "image": "./assets/cards-drive/208.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-209",
@@ -2087,7 +2295,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/209.jpg"
+    "image": "./assets/cards-drive/209.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-210",
@@ -2097,7 +2306,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/210.jpg"
+    "image": "./assets/cards-drive/210.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-211",
@@ -2107,7 +2317,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/211.jpg"
+    "image": "./assets/cards-drive/211.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-212",
@@ -2117,7 +2328,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/212.jpg"
+    "image": "./assets/cards-drive/212.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-213",
@@ -2127,7 +2339,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/213.jpg"
+    "image": "./assets/cards-drive/213.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-214",
@@ -2137,7 +2350,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/214.jpg"
+    "image": "./assets/cards-drive/214.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-215",
@@ -2147,7 +2361,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/215.jpg"
+    "image": "./assets/cards-drive/215.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-216",
@@ -2157,7 +2372,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/216.jpg"
+    "image": "./assets/cards-drive/216.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-217",
@@ -2167,7 +2383,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/217.jpg"
+    "image": "./assets/cards-drive/217.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-218",
@@ -2177,7 +2394,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/218.jpg"
+    "image": "./assets/cards-drive/218.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-219",
@@ -2187,7 +2405,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/219.jpg"
+    "image": "./assets/cards-drive/219.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-220",
@@ -2197,7 +2416,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/220.jpg"
+    "image": "./assets/cards-drive/220.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-221",
@@ -2207,7 +2427,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/221.jpg"
+    "image": "./assets/cards-drive/221.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-222",
@@ -2217,7 +2438,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/222.jpg"
+    "image": "./assets/cards-drive/222.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-223",
@@ -2227,7 +2449,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/223.jpg"
+    "image": "./assets/cards-drive/223.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-224",
@@ -2237,7 +2460,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/224.jpg"
+    "image": "./assets/cards-drive/224.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-225",
@@ -2247,7 +2471,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/225.jpg"
+    "image": "./assets/cards-drive/225.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-226",
@@ -2257,7 +2482,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/226.jpg"
+    "image": "./assets/cards-drive/226.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-227",
@@ -2267,7 +2493,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/227.jpg"
+    "image": "./assets/cards-drive/227.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-228",
@@ -2277,7 +2504,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/228.jpg"
+    "image": "./assets/cards-drive/228.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-229",
@@ -2287,7 +2515,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/229.jpg"
+    "image": "./assets/cards-drive/229.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-230",
@@ -2297,7 +2526,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/230.jpg"
+    "image": "./assets/cards-drive/230.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-231",
@@ -2307,7 +2537,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/231.jpg"
+    "image": "./assets/cards-drive/231.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-232",
@@ -2317,7 +2548,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/232.jpg"
+    "image": "./assets/cards-drive/232.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-233",
@@ -2327,7 +2559,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/233.jpg"
+    "image": "./assets/cards-drive/233.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-234",
@@ -2337,7 +2570,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/234.jpg"
+    "image": "./assets/cards-drive/234.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-235",
@@ -2347,7 +2581,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/235.jpg"
+    "image": "./assets/cards-drive/235.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-236",
@@ -2357,7 +2592,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/236.jpg"
+    "image": "./assets/cards-drive/236.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-237",
@@ -2367,7 +2603,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/237.jpg"
+    "image": "./assets/cards-drive/237.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-238",
@@ -2377,7 +2614,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/238.jpg"
+    "image": "./assets/cards-drive/238.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-239",
@@ -2387,7 +2625,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/239.jpg"
+    "image": "./assets/cards-drive/239.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-240",
@@ -2397,7 +2636,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/240.jpg"
+    "image": "./assets/cards-drive/240.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-241",
@@ -2407,7 +2647,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/241.jpg"
+    "image": "./assets/cards-drive/241.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-242",
@@ -2417,7 +2658,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/242.jpg"
+    "image": "./assets/cards-drive/242.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-243",
@@ -2427,7 +2669,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/243.jpg"
+    "image": "./assets/cards-drive/243.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-244",
@@ -2437,7 +2680,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/244.jpg"
+    "image": "./assets/cards-drive/244.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-245",
@@ -2447,7 +2691,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/245.jpg"
+    "image": "./assets/cards-drive/245.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-246",
@@ -2457,7 +2702,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/246.jpg"
+    "image": "./assets/cards-drive/246.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-247",
@@ -2467,7 +2713,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/247.jpg"
+    "image": "./assets/cards-drive/247.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-248",
@@ -2477,7 +2724,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/248.jpg"
+    "image": "./assets/cards-drive/248.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-249",
@@ -2487,7 +2735,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/249.jpg"
+    "image": "./assets/cards-drive/249.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-250",
@@ -2497,7 +2746,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/250.jpg"
+    "image": "./assets/cards-drive/250.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-251",
@@ -2507,7 +2757,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/251.jpg"
+    "image": "./assets/cards-drive/251.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-252",
@@ -2517,7 +2768,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/252.jpg"
+    "image": "./assets/cards-drive/252.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-253",
@@ -2527,7 +2779,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/253.jpg"
+    "image": "./assets/cards-drive/253.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-254",
@@ -2537,7 +2790,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/254.jpg"
+    "image": "./assets/cards-drive/254.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-255",
@@ -2547,7 +2801,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/255.jpg"
+    "image": "./assets/cards-drive/255.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-256",
@@ -2557,7 +2812,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/256.jpg"
+    "image": "./assets/cards-drive/256.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-257",
@@ -2567,7 +2823,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/257.jpg"
+    "image": "./assets/cards-drive/257.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-258",
@@ -2577,7 +2834,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/258.jpg"
+    "image": "./assets/cards-drive/258.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-259",
@@ -2587,7 +2845,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/259.jpg"
+    "image": "./assets/cards-drive/259.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-260",
@@ -2597,7 +2856,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/260.jpg"
+    "image": "./assets/cards-drive/260.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-261",
@@ -2607,7 +2867,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/261.jpg"
+    "image": "./assets/cards-drive/261.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-262",
@@ -2617,7 +2878,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/262.jpg"
+    "image": "./assets/cards-drive/262.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-263",
@@ -2627,7 +2889,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/263.jpg"
+    "image": "./assets/cards-drive/263.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-264",
@@ -2637,7 +2900,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/264.jpg"
+    "image": "./assets/cards-drive/264.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-265",
@@ -2647,7 +2911,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/265.jpg"
+    "image": "./assets/cards-drive/265.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-266",
@@ -2657,7 +2922,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/266.jpg"
+    "image": "./assets/cards-drive/266.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-267",
@@ -2667,7 +2933,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/267.jpg"
+    "image": "./assets/cards-drive/267.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-268",
@@ -2677,7 +2944,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/268.jpg"
+    "image": "./assets/cards-drive/268.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-269",
@@ -2687,7 +2955,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/269.jpg"
+    "image": "./assets/cards-drive/269.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-270",
@@ -2697,7 +2966,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/270.jpg"
+    "image": "./assets/cards-drive/270.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-271",
@@ -2707,7 +2977,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/271.jpg"
+    "image": "./assets/cards-drive/271.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-272",
@@ -2717,7 +2988,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/272.jpg"
+    "image": "./assets/cards-drive/272.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-273",
@@ -2727,7 +2999,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/273.jpg"
+    "image": "./assets/cards-drive/273.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-274",
@@ -2737,7 +3010,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/274.jpg"
+    "image": "./assets/cards-drive/274.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-275",
@@ -2747,7 +3021,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/275.jpg"
+    "image": "./assets/cards-drive/275.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-276",
@@ -2757,7 +3032,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/276.jpg"
+    "image": "./assets/cards-drive/276.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-277",
@@ -2767,7 +3043,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/277.jpg"
+    "image": "./assets/cards-drive/277.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-278",
@@ -2777,7 +3054,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/278.jpg"
+    "image": "./assets/cards-drive/278.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-279",
@@ -2787,7 +3065,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/279.jpg"
+    "image": "./assets/cards-drive/279.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-280",
@@ -2797,7 +3076,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/280.jpg"
+    "image": "./assets/cards-drive/280.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-281",
@@ -2807,7 +3087,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/281.jpg"
+    "image": "./assets/cards-drive/281.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-282",
@@ -2817,7 +3098,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/282.jpg"
+    "image": "./assets/cards-drive/282.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-283",
@@ -2827,7 +3109,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/283.jpg"
+    "image": "./assets/cards-drive/283.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-284",
@@ -2837,7 +3120,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/284.jpg"
+    "image": "./assets/cards-drive/284.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-285",
@@ -2847,7 +3131,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/285.jpg"
+    "image": "./assets/cards-drive/285.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-286",
@@ -2857,7 +3142,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/286.jpg"
+    "image": "./assets/cards-drive/286.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-287",
@@ -2867,7 +3153,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/287.jpg"
+    "image": "./assets/cards-drive/287.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-288",
@@ -2877,7 +3164,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/288.jpg"
+    "image": "./assets/cards-drive/288.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-289",
@@ -2887,7 +3175,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/289.jpg"
+    "image": "./assets/cards-drive/289.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-290",
@@ -2897,7 +3186,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/290.jpg"
+    "image": "./assets/cards-drive/290.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-291",
@@ -2907,7 +3197,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/291.jpg"
+    "image": "./assets/cards-drive/291.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-292",
@@ -2917,7 +3208,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/292.jpg"
+    "image": "./assets/cards-drive/292.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-293",
@@ -2927,7 +3219,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/293.jpg"
+    "image": "./assets/cards-drive/293.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-294",
@@ -2937,7 +3230,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/294.jpg"
+    "image": "./assets/cards-drive/294.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-295",
@@ -2947,7 +3241,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/295.jpg"
+    "image": "./assets/cards-drive/295.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-296",
@@ -2957,7 +3252,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/296.jpg"
+    "image": "./assets/cards-drive/296.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-297",
@@ -2967,7 +3263,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/297.jpg"
+    "image": "./assets/cards-drive/297.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-298",
@@ -2977,7 +3274,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/298.jpg"
+    "image": "./assets/cards-drive/298.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-299",
@@ -2987,7 +3285,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/299.jpg"
+    "image": "./assets/cards-drive/299.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-300",
@@ -2997,7 +3296,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/300.jpg"
+    "image": "./assets/cards-drive/300.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-301",
@@ -3007,7 +3307,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/301.jpg"
+    "image": "./assets/cards-drive/301.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-302",
@@ -3017,7 +3318,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/302.jpg"
+    "image": "./assets/cards-drive/302.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-303",
@@ -3027,7 +3329,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/303.jpg"
+    "image": "./assets/cards-drive/303.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-304",
@@ -3037,7 +3340,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/304.jpg"
+    "image": "./assets/cards-drive/304.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-305",
@@ -3047,7 +3351,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/305.jpg"
+    "image": "./assets/cards-drive/305.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-306",
@@ -3057,7 +3362,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/306.jpg"
+    "image": "./assets/cards-drive/306.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-307",
@@ -3067,7 +3373,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/307.jpg"
+    "image": "./assets/cards-drive/307.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-308",
@@ -3077,7 +3384,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/308.jpg"
+    "image": "./assets/cards-drive/308.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-309",
@@ -3087,7 +3395,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/309.jpg"
+    "image": "./assets/cards-drive/309.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-310",
@@ -3097,7 +3406,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/310.jpg"
+    "image": "./assets/cards-drive/310.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-311",
@@ -3107,7 +3417,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/311.jpg"
+    "image": "./assets/cards-drive/311.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-312",
@@ -3117,7 +3428,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/312.jpg"
+    "image": "./assets/cards-drive/312.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-313",
@@ -3127,7 +3439,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/313.jpg"
+    "image": "./assets/cards-drive/313.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-314",
@@ -3137,7 +3450,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/314.jpg"
+    "image": "./assets/cards-drive/314.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-315",
@@ -3147,7 +3461,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/315.jpg"
+    "image": "./assets/cards-drive/315.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-316",
@@ -3157,7 +3472,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/316.jpg"
+    "image": "./assets/cards-drive/316.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-317",
@@ -3167,7 +3483,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/317.jpg"
+    "image": "./assets/cards-drive/317.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-318",
@@ -3177,7 +3494,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/318.jpg"
+    "image": "./assets/cards-drive/318.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-319",
@@ -3187,7 +3505,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/319.jpg"
+    "image": "./assets/cards-drive/319.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-320",
@@ -3197,7 +3516,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/320.jpg"
+    "image": "./assets/cards-drive/320.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-321",
@@ -3207,7 +3527,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/321.jpg"
+    "image": "./assets/cards-drive/321.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-322",
@@ -3217,7 +3538,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/322.jpg"
+    "image": "./assets/cards-drive/322.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-323",
@@ -3227,7 +3549,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/323.jpg"
+    "image": "./assets/cards-drive/323.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-324",
@@ -3237,7 +3560,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/324.jpg"
+    "image": "./assets/cards-drive/324.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-325",
@@ -3247,7 +3571,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/325.jpg"
+    "image": "./assets/cards-drive/325.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-326",
@@ -3257,7 +3582,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/326.jpg"
+    "image": "./assets/cards-drive/326.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-327",
@@ -3267,7 +3593,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/327.jpg"
+    "image": "./assets/cards-drive/327.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-328",
@@ -3277,7 +3604,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/328.jpg"
+    "image": "./assets/cards-drive/328.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-329",
@@ -3287,7 +3615,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/329.jpg"
+    "image": "./assets/cards-drive/329.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-330",
@@ -3297,7 +3626,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/330.jpg"
+    "image": "./assets/cards-drive/330.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-331",
@@ -3307,7 +3637,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/331.jpg"
+    "image": "./assets/cards-drive/331.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-332",
@@ -3317,7 +3648,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/332.jpg"
+    "image": "./assets/cards-drive/332.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-333",
@@ -3327,7 +3659,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/333.jpg"
+    "image": "./assets/cards-drive/333.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-334",
@@ -3337,7 +3670,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/334.jpg"
+    "image": "./assets/cards-drive/334.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-335",
@@ -3347,7 +3681,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/335.jpg"
+    "image": "./assets/cards-drive/335.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-336",
@@ -3357,7 +3692,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/336.jpg"
+    "image": "./assets/cards-drive/336.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-337",
@@ -3367,7 +3703,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/337.jpg"
+    "image": "./assets/cards-drive/337.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-338",
@@ -3377,7 +3714,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/338.jpg"
+    "image": "./assets/cards-drive/338.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-339",
@@ -3387,7 +3725,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/339.jpg"
+    "image": "./assets/cards-drive/339.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-340",
@@ -3397,7 +3736,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/340.jpg"
+    "image": "./assets/cards-drive/340.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-341",
@@ -3407,7 +3747,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/341.jpg"
+    "image": "./assets/cards-drive/341.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-342",
@@ -3417,7 +3758,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/342.jpg"
+    "image": "./assets/cards-drive/342.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-343",
@@ -3427,7 +3769,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/343.jpg"
+    "image": "./assets/cards-drive/343.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-344",
@@ -3437,7 +3780,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/344.jpg"
+    "image": "./assets/cards-drive/344.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-345",
@@ -3447,7 +3791,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/345.jpg"
+    "image": "./assets/cards-drive/345.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-346",
@@ -3457,7 +3802,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/346.jpg"
+    "image": "./assets/cards-drive/346.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-347",
@@ -3467,7 +3813,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/347.jpg"
+    "image": "./assets/cards-drive/347.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-348",
@@ -3477,7 +3824,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/348.jpg"
+    "image": "./assets/cards-drive/348.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-349",
@@ -3487,7 +3835,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/349.jpg"
+    "image": "./assets/cards-drive/349.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-350",
@@ -3497,7 +3846,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/350.jpg"
+    "image": "./assets/cards-drive/350.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-351",
@@ -3507,7 +3857,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/351.jpg"
+    "image": "./assets/cards-drive/351.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-352",
@@ -3517,7 +3868,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/352.jpg"
+    "image": "./assets/cards-drive/352.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-353",
@@ -3527,7 +3879,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/353.jpg"
+    "image": "./assets/cards-drive/353.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-354",
@@ -3537,7 +3890,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/354.jpg"
+    "image": "./assets/cards-drive/354.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-355",
@@ -3547,7 +3901,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/355.jpg"
+    "image": "./assets/cards-drive/355.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-356",
@@ -3557,7 +3912,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/356.jpg"
+    "image": "./assets/cards-drive/356.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-357",
@@ -3567,7 +3923,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/357.jpg"
+    "image": "./assets/cards-drive/357.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-358",
@@ -3577,7 +3934,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/358.jpg"
+    "image": "./assets/cards-drive/358.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-359",
@@ -3587,7 +3945,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/359.jpg"
+    "image": "./assets/cards-drive/359.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-360",
@@ -3597,7 +3956,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/360.jpg"
+    "image": "./assets/cards-drive/360.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-361",
@@ -3607,7 +3967,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/361.jpg"
+    "image": "./assets/cards-drive/361.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-362",
@@ -3617,7 +3978,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/362.jpg"
+    "image": "./assets/cards-drive/362.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-363",
@@ -3627,7 +3989,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/363.jpg"
+    "image": "./assets/cards-drive/363.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-364",
@@ -3637,7 +4000,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/364.jpg"
+    "image": "./assets/cards-drive/364.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-365",
@@ -3647,7 +4011,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/365.jpg"
+    "image": "./assets/cards-drive/365.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-366",
@@ -3657,7 +4022,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/366.jpg"
+    "image": "./assets/cards-drive/366.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-367",
@@ -3667,7 +4033,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/367.jpg"
+    "image": "./assets/cards-drive/367.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-368",
@@ -3677,7 +4044,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/368.jpg"
+    "image": "./assets/cards-drive/368.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-369",
@@ -3687,7 +4055,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/369.jpg"
+    "image": "./assets/cards-drive/369.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-370",
@@ -3697,7 +4066,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/370.jpg"
+    "image": "./assets/cards-drive/370.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-371",
@@ -3707,7 +4077,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/371.jpg"
+    "image": "./assets/cards-drive/371.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-372",
@@ -3717,7 +4088,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/372.jpg"
+    "image": "./assets/cards-drive/372.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-373",
@@ -3727,7 +4099,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/373.jpg"
+    "image": "./assets/cards-drive/373.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-374",
@@ -3737,7 +4110,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/374.jpg"
+    "image": "./assets/cards-drive/374.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-375",
@@ -3747,7 +4121,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/375.jpg"
+    "image": "./assets/cards-drive/375.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-376",
@@ -3757,7 +4132,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/376.jpg"
+    "image": "./assets/cards-drive/376.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-377",
@@ -3767,7 +4143,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/377.jpg"
+    "image": "./assets/cards-drive/377.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-378",
@@ -3777,7 +4154,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/378.jpg"
+    "image": "./assets/cards-drive/378.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-379",
@@ -3787,7 +4165,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/379.jpg"
+    "image": "./assets/cards-drive/379.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-380",
@@ -3797,7 +4176,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/380.jpg"
+    "image": "./assets/cards-drive/380.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-381",
@@ -3807,7 +4187,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/381.jpg"
+    "image": "./assets/cards-drive/381.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-382",
@@ -3817,7 +4198,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/382.jpg"
+    "image": "./assets/cards-drive/382.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-383",
@@ -3827,7 +4209,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/383.jpg"
+    "image": "./assets/cards-drive/383.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-384",
@@ -3837,7 +4220,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/384.jpg"
+    "image": "./assets/cards-drive/384.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-385",
@@ -3847,7 +4231,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/385.jpg"
+    "image": "./assets/cards-drive/385.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-386",
@@ -3857,7 +4242,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/386.jpg"
+    "image": "./assets/cards-drive/386.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-387",
@@ -3867,7 +4253,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/387.jpg"
+    "image": "./assets/cards-drive/387.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-388",
@@ -3877,7 +4264,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/388.jpg"
+    "image": "./assets/cards-drive/388.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-389",
@@ -3887,7 +4275,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/389.jpg"
+    "image": "./assets/cards-drive/389.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-390",
@@ -3897,7 +4286,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/390.jpg"
+    "image": "./assets/cards-drive/390.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-391",
@@ -3907,7 +4297,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/391.jpg"
+    "image": "./assets/cards-drive/391.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-392",
@@ -3917,7 +4308,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/392.jpg"
+    "image": "./assets/cards-drive/392.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-393",
@@ -3927,7 +4319,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/393.jpg"
+    "image": "./assets/cards-drive/393.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-394",
@@ -3937,7 +4330,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/394.jpg"
+    "image": "./assets/cards-drive/394.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-395",
@@ -3947,7 +4341,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/395.jpg"
+    "image": "./assets/cards-drive/395.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-396",
@@ -3957,7 +4352,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/396.jpg"
+    "image": "./assets/cards-drive/396.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-397",
@@ -3967,7 +4363,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/397.jpg"
+    "image": "./assets/cards-drive/397.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-398",
@@ -3977,7 +4374,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/398.jpg"
+    "image": "./assets/cards-drive/398.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-399",
@@ -3987,7 +4385,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/399.jpg"
+    "image": "./assets/cards-drive/399.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-400",
@@ -3997,7 +4396,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/400.jpg"
+    "image": "./assets/cards-drive/400.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-401",
@@ -4007,7 +4407,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/401.jpg"
+    "image": "./assets/cards-drive/401.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-402",
@@ -4017,7 +4418,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/402.jpg"
+    "image": "./assets/cards-drive/402.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-403",
@@ -4027,7 +4429,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/403.jpg"
+    "image": "./assets/cards-drive/403.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-404",
@@ -4037,7 +4440,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/404.jpg"
+    "image": "./assets/cards-drive/404.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-405",
@@ -4047,7 +4451,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/405.jpg"
+    "image": "./assets/cards-drive/405.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-406",
@@ -4057,7 +4462,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/406.jpg"
+    "image": "./assets/cards-drive/406.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-407",
@@ -4067,7 +4473,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/407.jpg"
+    "image": "./assets/cards-drive/407.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-408",
@@ -4077,7 +4484,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/408.jpg"
+    "image": "./assets/cards-drive/408.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-409",
@@ -4087,7 +4495,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/409.jpg"
+    "image": "./assets/cards-drive/409.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-410",
@@ -4097,7 +4506,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/410.jpg"
+    "image": "./assets/cards-drive/410.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-411",
@@ -4107,7 +4517,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/411.jpg"
+    "image": "./assets/cards-drive/411.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-412",
@@ -4117,7 +4528,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/412.jpg"
+    "image": "./assets/cards-drive/412.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-413",
@@ -4127,7 +4539,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/413.jpg"
+    "image": "./assets/cards-drive/413.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-414",
@@ -4137,7 +4550,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/414.jpg"
+    "image": "./assets/cards-drive/414.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-415",
@@ -4147,7 +4561,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/415.jpg"
+    "image": "./assets/cards-drive/415.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-416",
@@ -4157,7 +4572,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/416.jpg"
+    "image": "./assets/cards-drive/416.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-417",
@@ -4167,7 +4583,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/417.jpg"
+    "image": "./assets/cards-drive/417.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-418",
@@ -4177,7 +4594,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/418.jpg"
+    "image": "./assets/cards-drive/418.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-419",
@@ -4187,7 +4605,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/419.jpg"
+    "image": "./assets/cards-drive/419.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-420",
@@ -4197,7 +4616,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/420.jpg"
+    "image": "./assets/cards-drive/420.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-421",
@@ -4207,7 +4627,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/421.jpg"
+    "image": "./assets/cards-drive/421.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-422",
@@ -4217,7 +4638,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/422.jpg"
+    "image": "./assets/cards-drive/422.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-423",
@@ -4227,7 +4649,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/423.jpg"
+    "image": "./assets/cards-drive/423.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-424",
@@ -4237,7 +4660,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/424.jpg"
+    "image": "./assets/cards-drive/424.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-425",
@@ -4247,7 +4671,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/425.jpg"
+    "image": "./assets/cards-drive/425.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-426",
@@ -4257,7 +4682,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/426.jpg"
+    "image": "./assets/cards-drive/426.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-427",
@@ -4267,7 +4693,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/427.jpg"
+    "image": "./assets/cards-drive/427.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-428",
@@ -4277,7 +4704,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/428.jpg"
+    "image": "./assets/cards-drive/428.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-429",
@@ -4287,7 +4715,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/429.jpg"
+    "image": "./assets/cards-drive/429.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-430",
@@ -4297,7 +4726,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/430.jpg"
+    "image": "./assets/cards-drive/430.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-431",
@@ -4307,7 +4737,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/431.jpg"
+    "image": "./assets/cards-drive/431.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-432",
@@ -4317,7 +4748,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/432.jpg"
+    "image": "./assets/cards-drive/432.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-433",
@@ -4327,7 +4759,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/433.jpg"
+    "image": "./assets/cards-drive/433.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-434",
@@ -4337,7 +4770,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/434.jpg"
+    "image": "./assets/cards-drive/434.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-435",
@@ -4347,7 +4781,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/435.jpg"
+    "image": "./assets/cards-drive/435.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-436",
@@ -4357,7 +4792,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/436.jpg"
+    "image": "./assets/cards-drive/436.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-437",
@@ -4367,7 +4803,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/437.jpg"
+    "image": "./assets/cards-drive/437.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-438",
@@ -4377,7 +4814,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/438.jpg"
+    "image": "./assets/cards-drive/438.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-439",
@@ -4387,7 +4825,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/439.jpg"
+    "image": "./assets/cards-drive/439.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-440",
@@ -4397,7 +4836,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/440.jpg"
+    "image": "./assets/cards-drive/440.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-441",
@@ -4407,7 +4847,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/441.jpg"
+    "image": "./assets/cards-drive/441.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-442",
@@ -4417,7 +4858,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/442.jpg"
+    "image": "./assets/cards-drive/442.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-443",
@@ -4427,7 +4869,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/443.jpg"
+    "image": "./assets/cards-drive/443.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-444",
@@ -4437,7 +4880,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/444.jpg"
+    "image": "./assets/cards-drive/444.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-445",
@@ -4447,7 +4891,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/445.jpg"
+    "image": "./assets/cards-drive/445.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-446",
@@ -4457,7 +4902,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/446.jpg"
+    "image": "./assets/cards-drive/446.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-447",
@@ -4467,7 +4913,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/447.jpg"
+    "image": "./assets/cards-drive/447.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-448",
@@ -4477,7 +4924,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/448.jpg"
+    "image": "./assets/cards-drive/448.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-449",
@@ -4487,7 +4935,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/449.jpg"
+    "image": "./assets/cards-drive/449.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-450",
@@ -4497,7 +4946,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/450.jpg"
+    "image": "./assets/cards-drive/450.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-451",
@@ -4507,7 +4957,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/451.jpg"
+    "image": "./assets/cards-drive/451.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-452",
@@ -4517,7 +4968,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/452.jpg"
+    "image": "./assets/cards-drive/452.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-453",
@@ -4527,7 +4979,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/453.jpg"
+    "image": "./assets/cards-drive/453.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-454",
@@ -4537,7 +4990,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/454.jpg"
+    "image": "./assets/cards-drive/454.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-455",
@@ -4547,7 +5001,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/455.jpg"
+    "image": "./assets/cards-drive/455.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-456",
@@ -4557,7 +5012,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/456.jpg"
+    "image": "./assets/cards-drive/456.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-457",
@@ -4567,7 +5023,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/457.jpg"
+    "image": "./assets/cards-drive/457.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-458",
@@ -4577,7 +5034,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/458.jpg"
+    "image": "./assets/cards-drive/458.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-459",
@@ -4587,7 +5045,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/459.jpg"
+    "image": "./assets/cards-drive/459.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-460",
@@ -4597,7 +5056,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/460.jpg"
+    "image": "./assets/cards-drive/460.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-461",
@@ -4607,7 +5067,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/461.jpg"
+    "image": "./assets/cards-drive/461.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-462",
@@ -4617,7 +5078,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/462.jpg"
+    "image": "./assets/cards-drive/462.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-463",
@@ -4627,7 +5089,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/463.jpg"
+    "image": "./assets/cards-drive/463.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-464",
@@ -4637,7 +5100,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/464.jpg"
+    "image": "./assets/cards-drive/464.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-465",
@@ -4647,7 +5111,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/465.jpg"
+    "image": "./assets/cards-drive/465.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-466",
@@ -4657,7 +5122,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/466.jpg"
+    "image": "./assets/cards-drive/466.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-467",
@@ -4667,7 +5133,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/467.jpg"
+    "image": "./assets/cards-drive/467.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-468",
@@ -4677,7 +5144,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/468.jpg"
+    "image": "./assets/cards-drive/468.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-469",
@@ -4687,7 +5155,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/469.jpg"
+    "image": "./assets/cards-drive/469.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-470",
@@ -4697,7 +5166,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/470.jpg"
+    "image": "./assets/cards-drive/470.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-471",
@@ -4707,7 +5177,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/471.jpg"
+    "image": "./assets/cards-drive/471.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-472",
@@ -4717,7 +5188,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/472.jpg"
+    "image": "./assets/cards-drive/472.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-473",
@@ -4727,7 +5199,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/473.jpg"
+    "image": "./assets/cards-drive/473.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-474",
@@ -4737,7 +5210,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/474.jpg"
+    "image": "./assets/cards-drive/474.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-475",
@@ -4747,7 +5221,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/475.jpg"
+    "image": "./assets/cards-drive/475.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-476",
@@ -4757,7 +5232,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/476.jpg"
+    "image": "./assets/cards-drive/476.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-477",
@@ -4767,7 +5243,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/477.jpg"
+    "image": "./assets/cards-drive/477.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-478",
@@ -4777,7 +5254,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/478.jpg"
+    "image": "./assets/cards-drive/478.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-479",
@@ -4787,7 +5265,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/479.jpg"
+    "image": "./assets/cards-drive/479.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-480",
@@ -4797,7 +5276,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/480.jpg"
+    "image": "./assets/cards-drive/480.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-481",
@@ -4807,7 +5287,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/481.jpg"
+    "image": "./assets/cards-drive/481.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-482",
@@ -4817,7 +5298,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/482.jpg"
+    "image": "./assets/cards-drive/482.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-483",
@@ -4827,7 +5309,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/483.jpg"
+    "image": "./assets/cards-drive/483.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-484",
@@ -4837,7 +5320,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/484.jpg"
+    "image": "./assets/cards-drive/484.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-485",
@@ -4847,7 +5331,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/485.jpg"
+    "image": "./assets/cards-drive/485.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-486",
@@ -4857,7 +5342,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/486.jpg"
+    "image": "./assets/cards-drive/486.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-487",
@@ -4867,7 +5353,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/487.jpg"
+    "image": "./assets/cards-drive/487.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-488",
@@ -4877,7 +5364,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/488.jpg"
+    "image": "./assets/cards-drive/488.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-489",
@@ -4887,7 +5375,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/489.jpg"
+    "image": "./assets/cards-drive/489.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-490",
@@ -4897,7 +5386,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/490.jpg"
+    "image": "./assets/cards-drive/490.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-491",
@@ -4907,7 +5397,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/491.jpg"
+    "image": "./assets/cards-drive/491.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-492",
@@ -4917,7 +5408,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/492.jpg"
+    "image": "./assets/cards-drive/492.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-493",
@@ -4927,7 +5419,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/493.jpg"
+    "image": "./assets/cards-drive/493.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-494",
@@ -4937,7 +5430,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/494.jpg"
+    "image": "./assets/cards-drive/494.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-495",
@@ -4947,7 +5441,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/495.jpg"
+    "image": "./assets/cards-drive/495.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-496",
@@ -4957,7 +5452,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/496.jpg"
+    "image": "./assets/cards-drive/496.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-497",
@@ -4967,7 +5463,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/497.jpg"
+    "image": "./assets/cards-drive/497.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-498",
@@ -4977,7 +5474,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/498.jpg"
+    "image": "./assets/cards-drive/498.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-499",
@@ -4987,7 +5485,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/499.jpg"
+    "image": "./assets/cards-drive/499.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-500",
@@ -4997,7 +5496,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/500.jpg"
+    "image": "./assets/cards-drive/500.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-501",
@@ -5007,7 +5507,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/501.jpg"
+    "image": "./assets/cards-drive/501.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-502",
@@ -5017,7 +5518,8 @@
     "type": "base",
     "subtype": "fan_favourite",
     "owned": 0,
-    "image": "./assets/cards-drive/502.jpg"
+    "image": "./assets/cards-drive/502.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-503",
@@ -5027,7 +5529,8 @@
     "type": "base",
     "subtype": "team_crest",
     "owned": 0,
-    "image": "./assets/cards-drive/503.jpg"
+    "image": "./assets/cards-drive/503.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-504",
@@ -5037,7 +5540,8 @@
     "type": "base",
     "subtype": "icon",
     "owned": 0,
-    "image": "./assets/cards-drive/504.jpg"
+    "image": "./assets/cards-drive/504.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-505",
@@ -5047,7 +5551,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/505.jpg"
+    "image": "./assets/cards-drive/505.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-506",
@@ -5057,7 +5562,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/506.jpg"
+    "image": "./assets/cards-drive/506.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-507",
@@ -5067,7 +5573,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/507.jpg"
+    "image": "./assets/cards-drive/507.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-508",
@@ -5077,7 +5584,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/508.jpg"
+    "image": "./assets/cards-drive/508.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-509",
@@ -5087,7 +5595,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/509.jpg"
+    "image": "./assets/cards-drive/509.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-510",
@@ -5097,7 +5606,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/510.jpg"
+    "image": "./assets/cards-drive/510.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-511",
@@ -5107,7 +5617,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/511.jpg"
+    "image": "./assets/cards-drive/511.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-512",
@@ -5117,7 +5628,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/512.jpg"
+    "image": "./assets/cards-drive/512.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-513",
@@ -5127,7 +5639,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/513.jpg"
+    "image": "./assets/cards-drive/513.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-514",
@@ -5137,7 +5650,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/514.jpg"
+    "image": "./assets/cards-drive/514.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-515",
@@ -5147,7 +5661,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/515.jpg"
+    "image": "./assets/cards-drive/515.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-516",
@@ -5157,7 +5672,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/516.jpg"
+    "image": "./assets/cards-drive/516.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-517",
@@ -5167,7 +5683,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/517.jpg"
+    "image": "./assets/cards-drive/517.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-518",
@@ -5177,7 +5694,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/518.jpg"
+    "image": "./assets/cards-drive/518.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-519",
@@ -5187,7 +5705,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/519.jpg"
+    "image": "./assets/cards-drive/519.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-520",
@@ -5197,7 +5716,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/520.jpg"
+    "image": "./assets/cards-drive/520.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-521",
@@ -5207,7 +5727,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/521.jpg"
+    "image": "./assets/cards-drive/521.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-522",
@@ -5217,7 +5738,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/522.jpg"
+    "image": "./assets/cards-drive/522.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-523",
@@ -5227,7 +5749,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/523.jpg"
+    "image": "./assets/cards-drive/523.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-524",
@@ -5237,7 +5760,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/524.jpg"
+    "image": "./assets/cards-drive/524.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-525",
@@ -5247,7 +5771,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/525.jpg"
+    "image": "./assets/cards-drive/525.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-526",
@@ -5257,7 +5782,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/526.jpg"
+    "image": "./assets/cards-drive/526.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-527",
@@ -5267,7 +5793,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/527.jpg"
+    "image": "./assets/cards-drive/527.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-528",
@@ -5277,7 +5804,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/528.jpg"
+    "image": "./assets/cards-drive/528.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-529",
@@ -5287,7 +5815,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/529.jpg"
+    "image": "./assets/cards-drive/529.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-530",
@@ -5297,7 +5826,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/530.jpg"
+    "image": "./assets/cards-drive/530.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-531",
@@ -5307,7 +5837,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/531.jpg"
+    "image": "./assets/cards-drive/531.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-532",
@@ -5317,7 +5848,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/532.jpg"
+    "image": "./assets/cards-drive/532.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-533",
@@ -5327,7 +5859,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/533.jpg"
+    "image": "./assets/cards-drive/533.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-534",
@@ -5337,7 +5870,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/534.jpg"
+    "image": "./assets/cards-drive/534.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-535",
@@ -5347,7 +5881,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/535.jpg"
+    "image": "./assets/cards-drive/535.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-536",
@@ -5357,7 +5892,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/536.jpg"
+    "image": "./assets/cards-drive/536.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-537",
@@ -5367,7 +5903,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/537.jpg"
+    "image": "./assets/cards-drive/537.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-538",
@@ -5377,7 +5914,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/538.jpg"
+    "image": "./assets/cards-drive/538.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-539",
@@ -5387,7 +5925,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/539.jpg"
+    "image": "./assets/cards-drive/539.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-540",
@@ -5397,7 +5936,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/540.jpg"
+    "image": "./assets/cards-drive/540.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-541",
@@ -5407,7 +5947,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/541.jpg"
+    "image": "./assets/cards-drive/541.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-542",
@@ -5417,7 +5958,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/542.jpg"
+    "image": "./assets/cards-drive/542.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-543",
@@ -5427,7 +5969,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/543.jpg"
+    "image": "./assets/cards-drive/543.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-544",
@@ -5437,7 +5980,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/544.jpg"
+    "image": "./assets/cards-drive/544.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-545",
@@ -5447,7 +5991,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/545.jpg"
+    "image": "./assets/cards-drive/545.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-546",
@@ -5457,7 +6002,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/546.jpg"
+    "image": "./assets/cards-drive/546.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-547",
@@ -5467,7 +6013,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/547.jpg"
+    "image": "./assets/cards-drive/547.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-548",
@@ -5477,7 +6024,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/548.jpg"
+    "image": "./assets/cards-drive/548.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-549",
@@ -5487,7 +6035,8 @@
     "type": "contenders",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/549.jpg"
+    "image": "./assets/cards-drive/549.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-550",
@@ -5497,7 +6046,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/550.jpg"
+    "image": "./assets/cards-drive/550.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-551",
@@ -5507,7 +6057,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/551.jpg"
+    "image": "./assets/cards-drive/551.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-552",
@@ -5517,7 +6068,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/552.jpg"
+    "image": "./assets/cards-drive/552.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-553",
@@ -5527,7 +6079,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/553.jpg"
+    "image": "./assets/cards-drive/553.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-554",
@@ -5537,7 +6090,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/554.jpg"
+    "image": "./assets/cards-drive/554.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-555",
@@ -5547,7 +6101,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/555.jpg"
+    "image": "./assets/cards-drive/555.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-556",
@@ -5557,7 +6112,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/556.jpg"
+    "image": "./assets/cards-drive/556.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-557",
@@ -5567,7 +6123,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/557.jpg"
+    "image": "./assets/cards-drive/557.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-558",
@@ -5577,7 +6134,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/558.jpg"
+    "image": "./assets/cards-drive/558.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-559",
@@ -5587,7 +6145,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/559.jpg"
+    "image": "./assets/cards-drive/559.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-560",
@@ -5597,7 +6156,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/560.jpg"
+    "image": "./assets/cards-drive/560.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-561",
@@ -5607,7 +6167,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/561.jpg"
+    "image": "./assets/cards-drive/561.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-562",
@@ -5617,7 +6178,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/562.jpg"
+    "image": "./assets/cards-drive/562.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-563",
@@ -5627,7 +6189,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/563.jpg"
+    "image": "./assets/cards-drive/563.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-564",
@@ -5637,7 +6200,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/564.jpg"
+    "image": "./assets/cards-drive/564.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-565",
@@ -5647,7 +6211,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/565.jpg"
+    "image": "./assets/cards-drive/565.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-566",
@@ -5657,7 +6222,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/566.jpg"
+    "image": "./assets/cards-drive/566.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-567",
@@ -5667,7 +6233,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/567.jpg"
+    "image": "./assets/cards-drive/567.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-568",
@@ -5677,7 +6244,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/568.jpg"
+    "image": "./assets/cards-drive/568.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-569",
@@ -5687,7 +6255,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/569.jpg"
+    "image": "./assets/cards-drive/569.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-570",
@@ -5697,7 +6266,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/570.jpg"
+    "image": "./assets/cards-drive/570.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-571",
@@ -5707,7 +6277,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/571.jpg"
+    "image": "./assets/cards-drive/571.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-572",
@@ -5717,7 +6288,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/572.jpg"
+    "image": "./assets/cards-drive/572.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-573",
@@ -5727,7 +6299,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/573.jpg"
+    "image": "./assets/cards-drive/573.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-574",
@@ -5737,7 +6310,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/574.jpg"
+    "image": "./assets/cards-drive/574.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-575",
@@ -5747,7 +6321,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/575.jpg"
+    "image": "./assets/cards-drive/575.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-576",
@@ -5757,7 +6332,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/576.jpg"
+    "image": "./assets/cards-drive/576.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-577",
@@ -5767,7 +6343,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/577.jpg"
+    "image": "./assets/cards-drive/577.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-578",
@@ -5777,7 +6354,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/578.jpg"
+    "image": "./assets/cards-drive/578.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-579",
@@ -5787,7 +6365,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/579.jpg"
+    "image": "./assets/cards-drive/579.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-580",
@@ -5797,7 +6376,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/580.jpg"
+    "image": "./assets/cards-drive/580.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-581",
@@ -5807,7 +6387,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/581.jpg"
+    "image": "./assets/cards-drive/581.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-582",
@@ -5817,7 +6398,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/582.jpg"
+    "image": "./assets/cards-drive/582.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-583",
@@ -5827,7 +6409,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/583.jpg"
+    "image": "./assets/cards-drive/583.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-584",
@@ -5837,7 +6420,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/584.jpg"
+    "image": "./assets/cards-drive/584.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-585",
@@ -5847,7 +6431,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/585.jpg"
+    "image": "./assets/cards-drive/585.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-586",
@@ -5857,7 +6442,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/586.jpg"
+    "image": "./assets/cards-drive/586.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-587",
@@ -5867,7 +6453,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/587.jpg"
+    "image": "./assets/cards-drive/587.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-588",
@@ -5877,7 +6464,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/588.jpg"
+    "image": "./assets/cards-drive/588.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-589",
@@ -5887,7 +6475,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/589.jpg"
+    "image": "./assets/cards-drive/589.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-590",
@@ -5897,7 +6486,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/590.jpg"
+    "image": "./assets/cards-drive/590.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-591",
@@ -5907,7 +6497,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/591.jpg"
+    "image": "./assets/cards-drive/591.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-592",
@@ -5917,7 +6508,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/592.jpg"
+    "image": "./assets/cards-drive/592.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-593",
@@ -5927,7 +6519,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/593.jpg"
+    "image": "./assets/cards-drive/593.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-594",
@@ -5937,7 +6530,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/594.jpg"
+    "image": "./assets/cards-drive/594.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-595",
@@ -5947,7 +6541,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/595.jpg"
+    "image": "./assets/cards-drive/595.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-596",
@@ -5957,7 +6552,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/596.jpg"
+    "image": "./assets/cards-drive/596.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-597",
@@ -5967,7 +6563,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/597.jpg"
+    "image": "./assets/cards-drive/597.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-598",
@@ -5977,7 +6574,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/598.jpg"
+    "image": "./assets/cards-drive/598.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-599",
@@ -5987,7 +6585,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/599.jpg"
+    "image": "./assets/cards-drive/599.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-600",
@@ -5997,7 +6596,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/600.jpg"
+    "image": "./assets/cards-drive/600.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-601",
@@ -6007,7 +6607,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/601.jpg"
+    "image": "./assets/cards-drive/601.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-602",
@@ -6017,7 +6618,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/602.jpg"
+    "image": "./assets/cards-drive/602.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-603",
@@ -6027,7 +6629,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/603.jpg"
+    "image": "./assets/cards-drive/603.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-604",
@@ -6037,7 +6640,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/604.jpg"
+    "image": "./assets/cards-drive/604.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-605",
@@ -6047,7 +6651,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/605.jpg"
+    "image": "./assets/cards-drive/605.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-606",
@@ -6057,7 +6662,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/606.jpg"
+    "image": "./assets/cards-drive/606.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-607",
@@ -6067,7 +6673,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/607.jpg"
+    "image": "./assets/cards-drive/607.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-608",
@@ -6077,7 +6684,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/608.jpg"
+    "image": "./assets/cards-drive/608.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-609",
@@ -6087,7 +6695,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/609.jpg"
+    "image": "./assets/cards-drive/609.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-610",
@@ -6097,7 +6706,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/610.jpg"
+    "image": "./assets/cards-drive/610.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-611",
@@ -6107,7 +6717,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/611.jpg"
+    "image": "./assets/cards-drive/611.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-612",
@@ -6117,7 +6728,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/612.jpg"
+    "image": "./assets/cards-drive/612.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-613",
@@ -6127,7 +6739,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/613.jpg"
+    "image": "./assets/cards-drive/613.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-614",
@@ -6137,7 +6750,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/614.jpg"
+    "image": "./assets/cards-drive/614.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-615",
@@ -6147,7 +6761,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/615.jpg"
+    "image": "./assets/cards-drive/615.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-616",
@@ -6157,7 +6772,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/616.jpg"
+    "image": "./assets/cards-drive/616.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-617",
@@ -6167,7 +6783,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/617.jpg"
+    "image": "./assets/cards-drive/617.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-618",
@@ -6177,7 +6794,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/618.jpg"
+    "image": "./assets/cards-drive/618.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-619",
@@ -6187,7 +6805,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/619.jpg"
+    "image": "./assets/cards-drive/619.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-620",
@@ -6197,7 +6816,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/620.jpg"
+    "image": "./assets/cards-drive/620.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-621",
@@ -6207,7 +6827,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/621.jpg"
+    "image": "./assets/cards-drive/621.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-622",
@@ -6217,7 +6838,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/622.jpg"
+    "image": "./assets/cards-drive/622.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-623",
@@ -6227,7 +6849,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/cards-drive/623.jpg"
+    "image": "./assets/cards-drive/623.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-624",
@@ -6237,7 +6860,8 @@
     "type": "official_emblem",
     "subtype": "official_emblem",
     "owned": 0,
-    "image": "./assets/special-drive/624.jpg"
+    "image": "./assets/special-drive/624.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-625",
@@ -6247,7 +6871,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/special-drive/625.jpg"
+    "image": "./assets/special-drive/625.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-626",
@@ -6257,7 +6882,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/special-drive/626.jpg"
+    "image": "./assets/special-drive/626.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-627",
@@ -6267,7 +6893,8 @@
     "type": "base",
     "subtype": "standard",
     "owned": 0,
-    "image": "./assets/special-drive/627.jpg"
+    "image": "./assets/special-drive/627.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-628",
@@ -6277,7 +6904,8 @@
     "type": "eternos_22",
     "subtype": "eternos_22",
     "owned": 0,
-    "image": "./assets/special-drive/628.jpg"
+    "image": "./assets/special-drive/628.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-629",
@@ -6287,7 +6915,8 @@
     "type": "eternos_22",
     "subtype": "eternos_22",
     "owned": 0,
-    "image": "./assets/special-drive/629.jpg"
+    "image": "./assets/special-drive/629.jpg",
+    "trial": false
   },
   {
     "id": "fwc26-630",
@@ -6297,6 +6926,7 @@
     "type": "eternos_22",
     "subtype": "eternos_22",
     "owned": 0,
-    "image": "./assets/special-drive/630.jpg"
+    "image": "./assets/special-drive/630.jpg",
+    "trial": false
   }
 ]

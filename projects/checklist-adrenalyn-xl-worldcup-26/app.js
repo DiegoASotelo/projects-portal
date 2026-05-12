@@ -13,7 +13,8 @@ const state = {
   cards: [],
   activeUser: null,
   users: {},
-  filters: { q: '', section: '', type: '', status: '' }
+  filters: { q: '', section: '', type: '', status: '' },
+  trialMode: true
 };
 
 const el = {
@@ -167,7 +168,7 @@ const renderDashboard = () => {
 };
 const renderCards = () => {
   el.cardsGrid.innerHTML = '';
-  buildSections(filteredCards()).forEach(section => {
+  buildSections(filteredCards().filter(card => !state.trialMode || card.trial)).forEach(section => {
     const owned = section.items.filter(card => card.owned > 0).length;
     const wrapper = document.createElement('section');
     wrapper.className = 'group';
@@ -258,6 +259,7 @@ const showApp = () => {
 };
 const setActiveUser = user => {
   state.activeUser = user;
+  state.trialMode = false;
   saveSession();
   el.currentUser.textContent = `${user.email}${user.role === 'admin' ? ' · admin' : ''}`;
   el.loginScreen.hidden = true;
@@ -311,6 +313,7 @@ const initGoogleLogin = () => {
 };
 const logout = () => {
   state.activeUser = null;
+  state.trialMode = true;
   clearSession();
   el.appShell.hidden = true;
   el.loginScreen.hidden = false;
