@@ -187,6 +187,10 @@ const ensureProfile = async user => {
 const ensureProject = async () => {
   const { data, error } = await supabase.from('platform_projects').select('*').eq('project_key', PROJECT_KEY).maybeSingle();
   if (error) throw error;
+  if (!data && state.membership?.project_id) {
+    state.projectId = state.membership.project_id;
+    return { id: state.projectId, project_key: PROJECT_KEY };
+  }
   if (!data) throw new Error('Proyecto no encontrado en Supabase.');
   state.projectId = data.id;
   return data;
