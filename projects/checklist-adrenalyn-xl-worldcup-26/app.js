@@ -1,20 +1,22 @@
 const STORAGE_KEY = 'checklist-adrenalyn-xl-worldcup-26';
-const USERS_KEY = `${STORAGE_KEY}:users`;
-const SESSION_KEY = `${STORAGE_KEY}:session`;
+const PROJECT_KEY = 'checklist-adrenalyn-xl-worldcup-26';
+const COLLECTION_KEY = 'adrenalyn-xl-worldcup-26';
 const runtimeConfig = window.CHECKLIST_SUPABASE_CONFIG || {};
 const CONFIG = {
-  googleClientId: runtimeConfig.googleClientId || 'GOOGLE_CLIENT_ID_PENDING',
-  backendMode: runtimeConfig.url && runtimeConfig.anonKey ? 'supabase' : 'mock',
   supabaseUrl: runtimeConfig.url || '',
   supabaseAnonKey: runtimeConfig.anonKey || ''
 };
+const supabase = window.supabase.createClient(CONFIG.supabaseUrl, CONFIG.supabaseAnonKey);
 
 const state = {
   cards: [],
   activeUser: null,
-  users: {},
+  membership: null,
+  checklistId: null,
   filters: { q: '', section: '', type: '', status: '' },
-  trialMode: true
+  trialMode: true,
+  projectId: null,
+  isAdminView: false
 };
 
 const el = {
@@ -27,7 +29,6 @@ const el = {
   loginMessage: document.getElementById('loginMessage'),
   currentUser: document.getElementById('currentUser'),
   logoutButton: document.getElementById('logoutButton'),
-  dashboard: document.getElementById('dashboard'),
   ownedCount: document.getElementById('ownedCount'),
   missingCount: document.getElementById('missingCount'),
   duplicateCount: document.getElementById('duplicateCount'),
@@ -58,28 +59,7 @@ const placeholder = './placeholder-card.svg';
 const teamCodeMap = {'ALGERIA':'dz','ARGENTINA':'ar','AUSTRALIA':'au','AUSTRIA':'at','BELGIUM':'be','BRAZIL':'br','CANADA':'ca','CAPE VERDE':'cv','COLOMBIA':'co','CROATIA':'hr','CURACAO':'cw','ECUADOR':'ec','EGYPT':'eg','ENGLAND':'gb-eng','FRANCE':'fr','GERMANY':'de','GHANA':'gh','HAITI':'ht','IRAN':'ir','IVORY COAST':'ci','JAPAN':'jp','JORDAN':'jo','SOUTH KOREA':'kr','MEXICO':'mx','MOROCCO':'ma','NETHERLANDS':'nl','NEW ZEALAND':'nz','NORWAY':'no','PANAMA':'pa','PARAGUAY':'py','PORTUGAL':'pt','QATAR':'qa','SAUDI ARABIA':'sa','SCOTLAND':'gb-sct','SENEGAL':'sn','SOUTH AFRICA':'za','SPAIN':'es','SWITZERLAND':'ch','TUNISIA':'tn','UNITED STATES':'us','URUGUAY':'uy','UZBEKISTAN':'uz'};
 const specialLabels = {golden_baller:'Golden Ballers',contenders:'Contenders',top_keeper:'Top Keepers',defensive_rock:'Defensive Rocks',midfield_maestro:'Midfield Maestro',goal_machine:'Goal Machines',master_rookie:'Master Rookie',official_emblem:'Emblema',official_mascot:'Mascotas',eternos_22:'Eternos 22'};
 
-const api = {
-  getUsers() {
-    return JSON.parse(localStorage.getItem(USERS_KEY) || '{}');
-  },
-  saveUsers(users) {
-    localStorage.setItem(USERS_KEY, JSON.stringify(users));
-  },
-  getChecklist(userId) {
-    return JSON.parse(localStorage.getItem(`${STORAGE_KEY}:checklist:${userId}`) || '{}');
-  },
-  saveChecklist(userId, checklist) {
-    localStorage.setItem(`${STORAGE_KEY}:checklist:${userId}`, JSON.stringify(checklist));
-  }
-};
-
-const normalizeEmail = value => value.trim().toLowerCase();
 const crestUrl = team => team === 'UNITED STATES' || team === 'USA' ? 'https://flagcdn.com/us.svg' : teamCodeMap[team] ? `https://flagcdn.com/h40/${teamCodeMap[team]}.png` : '';
-const hashPassword = async value => {
-  const data = new TextEncoder().encode(value);
-  const digest = await crypto.subtle.digest('SHA-256', data);
-  return [...new Uint8Array(digest)].map(x => x.toString(16).padStart(2, '0')).join('');
-};
 const getStatus = card => card.owned > 1 ? 'duplicates' : card.owned === 1 ? 'owned' : 'missing';
 const getSectionKey = card => {
   if (card.number <= 9) return 'golden_baller';
@@ -103,30 +83,13 @@ const setAdminMessage = (text, error = false) => {
   el.adminMessage.textContent = text;
   el.adminMessage.dataset.error = error ? 'true' : 'false';
 };
-const ensureAdminSeed = async () => {
-  const users = api.getUsers();
-  if (!Object.values(users).some(user => user.role === 'admin')) {
-    users['admin@checklist.local'] = {
-      id: 'admin@checklist.local',
-      email: 'admin@checklist.local',
-      name: 'Admin',
-      role: 'admin',
-      status: 'active',
-      plan: 'lifetime',
-      passwordHash: await hashPassword('admin1234')
-    };
-    api.saveUsers(users);
-  }
-};
-const saveSession = () => localStorage.setItem(SESSION_KEY, JSON.stringify(state.activeUser));
-const loadSession = () => JSON.parse(localStorage.getItem(SESSION_KEY) || 'null');
-const clearSession = () => localStorage.removeItem(SESSION_KEY);
 const filteredCards = () => state.cards.filter(card => {
   const q = state.filters.q;
   return (!q || `${card.number} ${card.name} ${card.team}`.toLowerCase().includes(q))
     && (!state.filters.section || getSectionKey(card) === state.filters.section)
     && (!state.filters.type || card.type === state.filters.type)
-    && (!state.filters.status || getStatus(card) === state.filters.status);
+    && (!state.filters.status || getStatus(card) === state.filters.status)
+    && (!state.trialMode || card.trial);
 });
 const buildSections = list => {
   const map = new Map();
@@ -147,16 +110,6 @@ const downloadBackup = stateObj => {
   const url = URL.createObjectURL(blob);
   el.backupSlot.innerHTML = `<a id="backupLink" class="backup-link" download="checklist-backup.json" href="${url}">Descargar backup</a>`;
 };
-const loadChecklistForUser = userId => {
-  const checklist = api.getChecklist(userId);
-  state.cards = state.cards.map(card => ({ ...card, owned: checklist[card.id] ?? 0 }));
-  downloadBackup(checklist);
-};
-const persistChecklist = () => {
-  const checklist = Object.fromEntries(state.cards.map(card => [card.id, card.owned]));
-  api.saveChecklist(state.activeUser.id, checklist);
-  downloadBackup(checklist);
-};
 const renderDashboard = () => {
   const total = state.cards.length;
   const owned = state.cards.filter(c => c.owned > 0).length;
@@ -168,7 +121,7 @@ const renderDashboard = () => {
 };
 const renderCards = () => {
   el.cardsGrid.innerHTML = '';
-  buildSections(filteredCards().filter(card => !state.trialMode || card.trial)).forEach(section => {
+  buildSections(filteredCards()).forEach(section => {
     const owned = section.items.filter(card => card.owned > 0).length;
     const wrapper = document.createElement('section');
     wrapper.className = 'group';
@@ -219,102 +172,128 @@ const fillFilters = () => {
     el.typeFilter.appendChild(option);
   });
 };
-const renderAdmin = () => {
-  const users = api.getUsers();
-  const rows = Object.values(users).sort((a,b) => a.email.localeCompare(b.email)).map(user => `
+const ensureProfile = async user => {
+  const { data: existing } = await supabase.from('app_users').select('*').eq('id', user.id).maybeSingle();
+  if (!existing) {
+    await supabase.from('app_users').insert({ id: user.id, email: user.email, display_name: user.user_metadata?.full_name || user.email });
+  }
+};
+const ensureProject = async () => {
+  const { data } = await supabase.from('platform_projects').select('*').eq('project_key', PROJECT_KEY).single();
+  state.projectId = data.id;
+  return data;
+};
+const ensureMembership = async user => {
+  const { data: membership } = await supabase.from('project_memberships').select('*').eq('project_id', state.projectId).eq('user_id', user.id).maybeSingle();
+  if (membership) return membership;
+  const { data } = await supabase.from('project_memberships').insert({ project_id: state.projectId, user_id: user.id, role: 'user', status: 'active', plan: 'basic' }).select('*').single();
+  return data;
+};
+const ensureChecklist = async user => {
+  const { data: checklist } = await supabase.from('checklists').select('*').eq('project_id', state.projectId).eq('user_id', user.id).eq('collection_key', COLLECTION_KEY).maybeSingle();
+  if (checklist) return checklist;
+  const { data } = await supabase.from('checklists').insert({ project_id: state.projectId, user_id: user.id, collection_key: COLLECTION_KEY, name: 'Mi checklist' }).select('*').single();
+  return data;
+};
+const loadChecklistCards = async checklistId => {
+  const { data } = await supabase.from('checklist_cards').select('card_number, owned_count').eq('checklist_id', checklistId);
+  const map = new Map((data || []).map(item => [item.card_number, item.owned_count]));
+  state.cards = state.cards.map(card => ({ ...card, owned: map.get(card.number) || 0 }));
+  downloadBackup(Object.fromEntries(state.cards.map(card => [card.id, card.owned])));
+};
+const persistChecklistCard = async card => {
+  await supabase.from('checklist_cards').upsert({ checklist_id: state.checklistId, card_number: card.number, owned_count: card.owned }, { onConflict: 'checklist_id,card_number' });
+  downloadBackup(Object.fromEntries(state.cards.map(item => [item.id, item.owned])));
+};
+const renderAdmin = async () => {
+  const { data } = await supabase.from('project_memberships').select('id, role, status, plan, user_id, app_users(email)').eq('project_id', state.projectId).order('created_at');
+  const rows = (data || []).map(item => `
     <tr>
-      <td>${user.email}</td>
-      <td>${user.role}</td>
-      <td>${user.plan || '-'}</td>
-      <td>${user.status}</td>
+      <td>${item.app_users?.email || item.user_id}</td>
+      <td>${item.role}</td>
+      <td>${item.plan}</td>
+      <td>${item.status}</td>
       <td>
-        <button data-action="toggle" data-user="${user.id}">${user.status === 'active' ? 'Desactivar' : 'Activar'}</button>
-        <button data-action="delete" data-user="${user.id}">Eliminar</button>
+        <button data-action="toggle" data-id="${item.id}">${item.status === 'active' ? 'Desactivar' : 'Activar'}</button>
       </td>
     </tr>`).join('');
   el.adminTable.innerHTML = `<table><thead><tr><th>Email</th><th>Rol</th><th>Plan</th><th>Estado</th><th>Acciones</th></tr></thead><tbody>${rows}</tbody></table>`;
   el.adminTable.querySelectorAll('button').forEach(button => {
-    button.onclick = () => {
-      const userId = button.dataset.user;
-      const usersMap = api.getUsers();
-      if (button.dataset.action === 'toggle') {
-        usersMap[userId].status = usersMap[userId].status === 'active' ? 'disabled' : 'active';
-      } else if (button.dataset.action === 'delete' && userId !== state.activeUser.id) {
-        delete usersMap[userId];
-        localStorage.removeItem(`${STORAGE_KEY}:checklist:${userId}`);
-      }
-      api.saveUsers(usersMap);
+    button.onclick = async () => {
+      const membership = data.find(item => item.id === button.dataset.id);
+      const nextStatus = membership.status === 'active' ? 'disabled' : 'active';
+      await supabase.from('project_memberships').update({ status: nextStatus }).eq('id', membership.id);
       renderAdmin();
     };
   });
 };
-const showAdmin = () => {
+const showAdmin = async () => {
+  state.isAdminView = true;
   el.appView.hidden = true;
   el.adminView.hidden = false;
-  renderAdmin();
+  await renderAdmin();
 };
 const showApp = () => {
+  state.isAdminView = false;
   el.adminView.hidden = true;
   el.appView.hidden = false;
 };
-const setActiveUser = user => {
+const setActiveUser = async user => {
   state.activeUser = user;
   state.trialMode = false;
-  saveSession();
-  el.currentUser.textContent = `${user.email}${user.role === 'admin' ? ' · admin' : ''}`;
+  await ensureProfile(user);
+  await ensureProject();
+  state.membership = await ensureMembership(user);
+  if (state.membership.status !== 'active') {
+    await supabase.auth.signOut();
+    setLoginMessage('Cuenta desactivada.', true);
+    return;
+  }
+  const checklist = await ensureChecklist(user);
+  state.checklistId = checklist.id;
+  await loadChecklistCards(checklist.id);
+  el.currentUser.textContent = `${user.email}${state.membership.role === 'admin' ? ' · admin' : ''}`;
   el.loginScreen.hidden = true;
   el.appShell.hidden = false;
-  el.adminLink.hidden = user.role !== 'admin';
-  loadChecklistForUser(user.id);
+  el.adminLink.hidden = state.membership.role !== 'admin';
   renderDashboard();
   renderCards();
   showApp();
 };
-const updateCard = (card, delta) => {
+const updateCard = async (card, delta) => {
   card.owned = Math.max(0, card.owned + delta);
-  persistChecklist();
+  await persistChecklistCard(card);
   renderDashboard();
   renderCards();
 };
 const handleEmailLogin = async event => {
   event.preventDefault();
-  const email = normalizeEmail(el.emailInput.value);
+  const email = el.emailInput.value.trim().toLowerCase();
   const password = el.passwordInput.value;
-  if (!email || !password) return setLoginMessage('Completa email y contraseña.', true);
-  const users = api.getUsers();
-  const passwordHash = await hashPassword(password);
-  if (!users[email]) {
-    users[email] = { id: email, email, name: email.split('@')[0], role: 'user', status: 'active', plan: 'basic', passwordHash };
-    api.saveUsers(users);
-  }
-  const user = users[email];
-  if (user.passwordHash !== passwordHash) return setLoginMessage('Contraseña incorrecta.', true);
-  if (user.status !== 'active') return setLoginMessage('Cuenta desactivada.', true);
-  setLoginMessage('');
-  setActiveUser(user);
-};
-const handleGoogleCredential = response => {
-  const payload = JSON.parse(atob(response.credential.split('.')[1]));
-  const email = normalizeEmail(payload.email);
-  const users = api.getUsers();
-  if (!users[email]) users[email] = { id: email, email, name: payload.name || email, role: 'user', status: 'active', plan: 'basic', provider: 'google' };
-  if (users[email].status !== 'active') return setLoginMessage('Cuenta desactivada.', true);
-  api.saveUsers(users);
-  setLoginMessage('');
-  setActiveUser(users[email]);
-};
-const initGoogleLogin = () => {
-  if (!window.google?.accounts?.id || CONFIG.googleClientId === 'GOOGLE_CLIENT_ID_PENDING') {
-    el.googleLoginButton.innerHTML = '<button type="button" disabled>Google pendiente de configurar</button>';
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+  if (error) {
+    const signUp = await supabase.auth.signUp({ email, password });
+    if (signUp.error) return setLoginMessage(signUp.error.message, true);
+    setLoginMessage('Cuenta creada. Revisa tu email si Supabase pide confirmación.');
+    if (signUp.data.user) await setActiveUser(signUp.data.user);
     return;
   }
-  google.accounts.id.initialize({ client_id: CONFIG.googleClientId, callback: handleGoogleCredential });
-  google.accounts.id.renderButton(el.googleLoginButton, { theme: 'outline', size: 'large', text: 'continue_with', shape: 'pill' });
+  setLoginMessage('');
+  await setActiveUser(data.user);
 };
-const logout = () => {
+const initGoogleLogin = () => {
+  el.googleLoginButton.innerHTML = '<button type="button" id="googleDirectButton">Entrar con Google</button>';
+  document.getElementById('googleDirectButton').onclick = async () => {
+    const redirectTo = `${window.location.origin}${window.location.pathname}`;
+    await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo } });
+  };
+};
+const logout = async () => {
+  await supabase.auth.signOut();
   state.activeUser = null;
+  state.membership = null;
+  state.checklistId = null;
   state.trialMode = true;
-  clearSession();
   el.appShell.hidden = true;
   el.loginScreen.hidden = false;
   el.emailLoginForm.reset();
@@ -335,30 +314,24 @@ const bindEvents = () => {
   el.backToAppButton.addEventListener('click', showApp);
   el.createUserForm.addEventListener('submit', async event => {
     event.preventDefault();
-    const email = normalizeEmail(el.adminEmailInput.value);
-    const password = el.adminPasswordInput.value;
-    const plan = el.adminPlanInput.value.trim() || 'basic';
-    if (!email || !password) return setAdminMessage('Completa email y contraseña.', true);
-    const users = api.getUsers();
-    users[email] = { id: email, email, name: email.split('@')[0], role: 'user', status: 'active', plan, passwordHash: await hashPassword(password) };
-    api.saveUsers(users);
-    el.createUserForm.reset();
-    setAdminMessage('Usuario creado.');
-    renderAdmin();
+    setAdminMessage('Para crear usuarios ahora mismo, usa alta normal por email o Google. La creación admin directa la conectamos después.', false);
   });
 };
-
 const init = async () => {
-  await ensureAdminSeed();
   state.cards = await fetch('./data/cards.json').then(r => r.json());
   fillFilters();
   bindEvents();
   initGoogleLogin();
-  const session = loadSession();
-  if (session) {
-    const users = api.getUsers();
-    if (users[session.id] && users[session.id].status === 'active') setActiveUser(users[session.id]);
-  }
+  const { data: sessionData } = await supabase.auth.getSession();
+  if (sessionData.session?.user) await setActiveUser(sessionData.session.user);
+  supabase.auth.onAuthStateChange(async (event, session) => {
+    if (event === 'SIGNED_IN' && session?.user) await setActiveUser(session.user);
+    if (event === 'SIGNED_OUT') {
+      state.activeUser = null;
+      state.trialMode = true;
+      el.appShell.hidden = true;
+      el.loginScreen.hidden = false;
+    }
+  });
 };
-
 init();
