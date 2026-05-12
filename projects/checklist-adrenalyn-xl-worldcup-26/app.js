@@ -26,6 +26,8 @@ const el = {
   emailLoginForm: document.getElementById('emailLoginForm'),
   emailInput: document.getElementById('emailInput'),
   passwordInput: document.getElementById('passwordInput'),
+  emailSignInButton: document.getElementById('emailSignInButton'),
+  emailSignUpButton: document.getElementById('emailSignUpButton'),
   loginMessage: document.getElementById('loginMessage'),
   currentUser: document.getElementById('currentUser'),
   logoutButton: document.getElementById('logoutButton'),
@@ -266,20 +268,23 @@ const updateCard = async (card, delta) => {
   renderDashboard();
   renderCards();
 };
-const handleEmailLogin = async event => {
-  event.preventDefault();
-  const email = el.emailInput.value.trim().toLowerCase();
-  const password = el.passwordInput.value;
+const getEmailCredentials = () => ({
+  email: el.emailInput.value.trim().toLowerCase(),
+  password: el.passwordInput.value
+});
+const handleEmailSignIn = async () => {
+  const { email, password } = getEmailCredentials();
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
-  if (error) {
-    const signUp = await supabase.auth.signUp({ email, password });
-    if (signUp.error) return setLoginMessage(signUp.error.message, true);
-    setLoginMessage('Cuenta creada. Revisa tu email si Supabase pide confirmación.');
-    if (signUp.data.user) await setActiveUser(signUp.data.user);
-    return;
-  }
+  if (error) return setLoginMessage(error.message, true);
   setLoginMessage('');
   await setActiveUser(data.user);
+};
+const handleEmailSignUp = async () => {
+  const { email, password } = getEmailCredentials();
+  const { data, error } = await supabase.auth.signUp({ email, password });
+  if (error) return setLoginMessage(error.message, true);
+  setLoginMessage('Cuenta creada. Si no entra aún, usa el botón Entrar.');
+  if (data.session?.user) await setActiveUser(data.session.user);
 };
 const initGoogleLogin = () => {
   el.googleLoginButton.innerHTML = '<button type="button" id="googleDirectButton">Entrar con Google</button>';
@@ -308,7 +313,9 @@ const bindEvents = () => {
   });
   el.closeModal.onclick = () => el.imageModal.close();
   el.imageModal.addEventListener('click', event => { if (event.target === el.imageModal) el.imageModal.close(); });
-  el.emailLoginForm.addEventListener('submit', handleEmailLogin);
+  el.emailLoginForm.addEventListener('submit', event => event.preventDefault());
+  el.emailSignInButton.addEventListener('click', handleEmailSignIn);
+  el.emailSignUpButton.addEventListener('click', handleEmailSignUp);
   el.logoutButton.addEventListener('click', logout);
   el.adminLink.addEventListener('click', showAdmin);
   el.backToAppButton.addEventListener('click', showApp);
