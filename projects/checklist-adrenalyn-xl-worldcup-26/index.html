@@ -21,13 +21,15 @@
       <div id="googleLoginButton" class="google-login-slot"></div>
       <form id="emailLoginForm" class="login-form">
         <input id="emailInput" type="email" placeholder="tu@email.com" autocomplete="email" required>
-        <input id="passwordInput" type="password" placeholder="Contraseña" autocomplete="current-password" required>
+        <div class="password-field">
+          <input id="passwordInput" type="password" placeholder="Contraseña" autocomplete="current-password" required>
+          <button type="button" id="togglePasswordButton" class="toggle-password">Ver</button>
+        </div>
         <div class="login-actions">
           <button type="button" id="emailSignInButton">Entrar</button>
           <button type="button" id="emailSignUpButton">Crear cuenta</button>
         </div>
       </form>
-      <p class="seed-note"><a href="./setup.html">Ver setup real de Supabase</a></p>
       <p id="loginMessage" class="login-message"></p>
     </div>
   </section>

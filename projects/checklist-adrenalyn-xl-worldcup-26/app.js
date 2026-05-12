@@ -27,6 +27,7 @@ const el = {
   emailLoginForm: document.getElementById('emailLoginForm'),
   emailInput: document.getElementById('emailInput'),
   passwordInput: document.getElementById('passwordInput'),
+  togglePasswordButton: document.getElementById('togglePasswordButton'),
   emailSignInButton: document.getElementById('emailSignInButton'),
   emailSignUpButton: document.getElementById('emailSignUpButton'),
   loginMessage: document.getElementById('loginMessage'),
@@ -342,6 +343,11 @@ const bindEvents = () => {
   el.closeModal.onclick = () => el.imageModal.close();
   el.imageModal.addEventListener('click', event => { if (event.target === el.imageModal) el.imageModal.close(); });
   el.emailLoginForm.addEventListener('submit', event => event.preventDefault());
+  el.togglePasswordButton.addEventListener('click', () => {
+    const hidden = el.passwordInput.type === 'password';
+    el.passwordInput.type = hidden ? 'text' : 'password';
+    el.togglePasswordButton.textContent = hidden ? 'Ocultar' : 'Ver';
+  });
   el.emailSignInButton.addEventListener('click', handleEmailSignIn);
   el.emailSignUpButton.addEventListener('click', handleEmailSignUp);
   el.logoutButton.addEventListener('click', logout);
