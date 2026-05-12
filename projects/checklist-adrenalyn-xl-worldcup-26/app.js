@@ -177,32 +177,40 @@ const fillFilters = () => {
   });
 };
 const ensureProfile = async user => {
-  const { data: existing } = await supabase.from('app_users').select('*').eq('id', user.id).maybeSingle();
+  const { data: existing, error } = await supabase.from('app_users').select('*').eq('id', user.id).maybeSingle();
+  if (error) throw error;
   if (!existing) {
-    await supabase.from('app_users').insert({ id: user.id, email: user.email, display_name: user.user_metadata?.full_name || user.email });
+    const { error: insertError } = await supabase.from('app_users').insert({ id: user.id, email: user.email, display_name: user.user_metadata?.full_name || user.email });
+    if (insertError) throw insertError;
   }
 };
 const ensureProject = async () => {
-  const { data } = await supabase.from('platform_projects').select('*').eq('project_key', PROJECT_KEY).single();
+  const { data, error } = await supabase.from('platform_projects').select('*').eq('project_key', PROJECT_KEY).single();
+  if (error) throw error;
   state.projectId = data.id;
   return data;
 };
 const ensureMembership = async user => {
-  const { data: membership } = await supabase.from('project_memberships').select('*').eq('project_id', state.projectId).eq('user_id', user.id).maybeSingle();
+  const { data: membership, error } = await supabase.from('project_memberships').select('*').eq('project_id', state.projectId).eq('user_id', user.id).maybeSingle();
+  if (error) throw error;
   if (membership) return membership;
   const now = new Date();
   const trialEnds = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
-  const { data } = await supabase.from('project_memberships').insert({ project_id: state.projectId, user_id: user.id, role: 'user', status: 'active', plan: 'basic', trial_started_at: now.toISOString(), trial_ends_at: trialEnds.toISOString() }).select('*').single();
+  const { data, error: insertError } = await supabase.from('project_memberships').insert({ project_id: state.projectId, user_id: user.id, role: 'user', status: 'active', plan: 'basic', trial_started_at: now.toISOString(), trial_ends_at: trialEnds.toISOString() }).select('*').single();
+  if (insertError) throw insertError;
   return data;
 };
 const ensureChecklist = async user => {
-  const { data: checklist } = await supabase.from('checklists').select('*').eq('project_id', state.projectId).eq('user_id', user.id).eq('collection_key', COLLECTION_KEY).maybeSingle();
+  const { data: checklist, error } = await supabase.from('checklists').select('*').eq('project_id', state.projectId).eq('user_id', user.id).eq('collection_key', COLLECTION_KEY).maybeSingle();
+  if (error) throw error;
   if (checklist) return checklist;
-  const { data } = await supabase.from('checklists').insert({ project_id: state.projectId, user_id: user.id, collection_key: COLLECTION_KEY, name: 'Mi checklist' }).select('*').single();
+  const { data, error: insertError } = await supabase.from('checklists').insert({ project_id: state.projectId, user_id: user.id, collection_key: COLLECTION_KEY, name: 'Mi checklist' }).select('*').single();
+  if (insertError) throw insertError;
   return data;
 };
 const loadChecklistCards = async checklistId => {
-  const { data } = await supabase.from('checklist_cards').select('card_number, owned_count').eq('checklist_id', checklistId);
+  const { data, error } = await supabase.from('checklist_cards').select('card_number, owned_count').eq('checklist_id', checklistId);
+  if (error) throw error;
   const map = new Map((data || []).map(item => [item.card_number, item.owned_count]));
   state.cards = state.cards.map(card => ({ ...card, owned: map.get(card.number) || 0 }));
   downloadBackup(Object.fromEntries(state.cards.map(card => [card.id, card.owned])));
@@ -270,26 +278,31 @@ const showApp = () => {
 const setActiveUser = async user => {
   state.activeUser = user;
   state.trialMode = false;
-  await ensureProfile(user);
-  await ensureProject();
-  state.membership = await ensureMembership(user);
+  try {
+    await ensureProfile(user);
+    await ensureProject();
+    state.membership = await ensureMembership(user);
   if (state.membership.status !== 'active') {
     await supabase.auth.signOut();
     setLoginMessage('Cuenta desactivada.', true);
     return;
   }
   state.trialMode = state.membership.role !== 'admin' && state.membership.plan !== 'paid';
-  const checklist = await ensureChecklist(user);
-  state.checklistId = checklist.id;
-  await loadChecklistCards(checklist.id);
-  const planTag = state.membership.role === 'admin' ? 'admin' : (state.membership.plan === 'paid' ? 'paid' : 'trial');
-  el.currentUser.textContent = `${user.email} · ${planTag}`;
-  el.loginScreen.hidden = true;
-  el.appShell.hidden = false;
-  el.adminLink.hidden = state.membership.role !== 'admin';
-  renderDashboard();
-  renderCards();
-  showApp();
+    const checklist = await ensureChecklist(user);
+    state.checklistId = checklist.id;
+    await loadChecklistCards(checklist.id);
+    const planTag = state.membership.role === 'admin' ? 'admin' : (state.membership.plan === 'paid' ? 'paid' : 'trial');
+    el.currentUser.textContent = `${user.email} · ${planTag}`;
+    el.loginScreen.hidden = true;
+    el.appShell.hidden = false;
+    el.adminLink.hidden = state.membership.role !== 'admin';
+    renderDashboard();
+    renderCards();
+    showApp();
+  } catch (error) {
+    console.error(error);
+    setLoginMessage(error.message || 'Error cargando la cuenta.', true);
+  }
 };
 const updateCard = async (card, delta) => {
   card.owned = Math.max(0, card.owned + delta);
