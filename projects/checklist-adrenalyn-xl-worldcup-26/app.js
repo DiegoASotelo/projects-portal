@@ -185,7 +185,7 @@ const ensureProfile = async user => {
   }
 };
 const ensureProject = async () => {
-  const { data, error } = await supabase.from('platform_projects').select('*').eq('project_key', PROJECT_KEY).single();
+  const { data, error } = await supabase.from('platform_projects').select('*').eq('project_key', PROJECT_KEY).maybeSingle();
   if (error) throw error;
   state.projectId = data.id;
   return data;
@@ -196,7 +196,7 @@ const ensureMembership = async user => {
   if (membership) return membership;
   const now = new Date();
   const trialEnds = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
-  const { data, error: insertError } = await supabase.from('project_memberships').insert({ project_id: state.projectId, user_id: user.id, role: 'user', status: 'active', plan: 'basic', trial_started_at: now.toISOString(), trial_ends_at: trialEnds.toISOString() }).select('*').single();
+  const { data, error: insertError } = await supabase.from('project_memberships').insert({ project_id: state.projectId, user_id: user.id, role: 'user', status: 'active', plan: 'basic', trial_started_at: now.toISOString(), trial_ends_at: trialEnds.toISOString() }).select('*').maybeSingle();
   if (insertError) throw insertError;
   return data;
 };
@@ -204,7 +204,7 @@ const ensureChecklist = async user => {
   const { data: checklist, error } = await supabase.from('checklists').select('*').eq('project_id', state.projectId).eq('user_id', user.id).eq('collection_key', COLLECTION_KEY).maybeSingle();
   if (error) throw error;
   if (checklist) return checklist;
-  const { data, error: insertError } = await supabase.from('checklists').insert({ project_id: state.projectId, user_id: user.id, collection_key: COLLECTION_KEY, name: 'Mi checklist' }).select('*').single();
+  const { data, error: insertError } = await supabase.from('checklists').insert({ project_id: state.projectId, user_id: user.id, collection_key: COLLECTION_KEY, name: 'Mi checklist' }).select('*').maybeSingle();
   if (insertError) throw insertError;
   return data;
 };
