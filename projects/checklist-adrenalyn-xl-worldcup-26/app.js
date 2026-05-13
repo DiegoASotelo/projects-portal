@@ -19,7 +19,7 @@ const state = {
   isAdminView: false
 };
 window.__checklistDebug = { state };
-const trialTeams = new Set(['ALGERIA','ARGENTINA']);
+const trialSections = new Set(['ALGERIA','ARGENTINA']);
 
 const el = {
   loginScreen: document.getElementById('loginScreen'),
@@ -95,7 +95,7 @@ const filteredCards = () => state.cards.filter(card => {
     && (!state.filters.section || getSectionKey(card) === state.filters.section)
     && (!state.filters.type || card.type === state.filters.type)
     && (!state.filters.status || getStatus(card) === state.filters.status)
-    && (!state.trialMode || trialTeams.has(card.team));
+    && (!state.trialMode || trialSections.has(getSectionKey(card)));
 });
 const buildSections = list => {
   const map = new Map();
@@ -227,10 +227,16 @@ const persistChecklistCard = async card => {
   downloadBackup(Object.fromEntries(state.cards.map(item => [item.id, item.owned])));
 };
 const renderAdmin = async () => {
-  const { data } = await supabase.from('project_memberships').select('id, role, status, plan, user_id, trial_ends_at, app_users(email)').eq('project_id', state.projectId).order('created_at');
+  const { data } = await supabase.from('project_memberships').select('id, role, status, plan, user_id, trial_ends_at').eq('project_id', state.projectId).order('created_at');
+  const userIds = [...new Set((data || []).map(item => item.user_id))];
+  let userMap = new Map();
+  if (userIds.length) {
+    const { data: users } = await supabase.from('app_users').select('id,email').in('id', userIds);
+    userMap = new Map((users || []).map(user => [user.id, user.email]));
+  }
   const rows = (data || []).map(item => `
     <tr>
-      <td>${item.app_users?.email || item.user_id}</td>
+      <td>${userMap.get(item.user_id) || item.user_id}</td>
       <td>${item.role}</td>
       <td>
         <select data-plan="${item.id}">
@@ -301,8 +307,10 @@ const setActiveUser = async user => {
     await loadChecklistCards(checklist.id);
     const planTag = state.membership.role === 'admin' ? 'admin' : (state.membership.plan === 'paid' ? 'paid' : 'trial');
     el.currentUser.textContent = `${user.email} · ${planTag}`;
+    el.loginScreen.style.display = 'none';
     el.loginScreen.hidden = true;
     el.appShell.hidden = false;
+    el.appShell.style.display = 'block';
     el.adminLink.hidden = state.membership.role !== 'admin';
     if (state.membership.role === 'admin') {
       await showAdmin();
@@ -357,7 +365,9 @@ const logout = async () => {
   state.checklistId = null;
   state.trialMode = true;
   el.appShell.hidden = true;
+  el.appShell.style.display = 'none';
   el.loginScreen.hidden = false;
+  el.loginScreen.style.display = 'grid';
   el.emailLoginForm.reset();
   setLoginMessage('');
 };
@@ -419,7 +429,9 @@ const init = async () => {
       state.activeUser = null;
       state.trialMode = true;
       el.appShell.hidden = true;
+      el.appShell.style.display = 'none';
       el.loginScreen.hidden = false;
+      el.loginScreen.style.display = 'grid';
     }
   });
 };
