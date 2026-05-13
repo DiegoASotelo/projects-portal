@@ -231,7 +231,11 @@ const renderAdmin = async () => {
   const userIds = [...new Set((data || []).map(item => item.user_id))];
   let userMap = new Map();
   if (userIds.length) {
-    const { data: users } = await supabase.from('app_users').select('id,email').in('id', userIds);
+    const { data: users, error: usersError } = await supabase.from('app_users').select('id,email').in('id', userIds);
+    if (usersError) {
+      console.error(usersError);
+      setAdminMessage(usersError.message || 'Error cargando usuarios del panel admin.', true);
+    }
     userMap = new Map((users || []).map(user => [user.id, user.email]));
   }
   const rows = (data || []).map(item => `
