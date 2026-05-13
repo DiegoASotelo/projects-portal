@@ -7,7 +7,6 @@ const CONFIG = {
   supabaseAnonKey: runtimeConfig.anonKey || ''
 };
 const supabase = window.supabase.createClient(CONFIG.supabaseUrl, CONFIG.supabaseAnonKey);
-window.__checklistDebug = { state };
 
 const state = {
   cards: [],
@@ -19,6 +18,7 @@ const state = {
   projectId: null,
   isAdminView: false
 };
+window.__checklistDebug = { state };
 const trialTeams = new Set(['ALGERIA','ARGENTINA']);
 
 const el = {
