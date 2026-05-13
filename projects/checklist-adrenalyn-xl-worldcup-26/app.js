@@ -7,6 +7,7 @@ const CONFIG = {
   supabaseAnonKey: runtimeConfig.anonKey || ''
 };
 const supabase = window.supabase.createClient(CONFIG.supabaseUrl, CONFIG.supabaseAnonKey);
+window.__checklistDebug = { state };
 
 const state = {
   cards: [],
@@ -82,6 +83,7 @@ const getSectionLabel = key => specialLabels[key] || key;
 const setLoginMessage = (text, error = false) => {
   el.loginMessage.textContent = text;
   el.loginMessage.dataset.error = error ? 'true' : 'false';
+  console.log('[checklist-login]', { text, error });
 };
 const setAdminMessage = (text, error = false) => {
   el.adminMessage.textContent = text;
@@ -281,6 +283,7 @@ const showApp = () => {
   el.appView.hidden = false;
 };
 const setActiveUser = async user => {
+  console.log('[checklist-login] setActiveUser start', user?.email);
   state.activeUser = user;
   state.trialMode = false;
   try {
@@ -304,6 +307,7 @@ const setActiveUser = async user => {
     renderDashboard();
     renderCards();
     showApp();
+    console.log('[checklist-login] setActiveUser done');
   } catch (error) {
     console.error(error);
     setLoginMessage(error.message || 'Error cargando la cuenta.', true);
@@ -321,7 +325,9 @@ const getEmailCredentials = () => ({
 });
 const handleEmailSignIn = async () => {
   const { email, password } = getEmailCredentials();
+  console.log('[checklist-login] signIn start', email);
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+  console.log('[checklist-login] signIn result', { hasUser: !!data?.user, error });
   if (error) return setLoginMessage(error.message, true);
   setLoginMessage('');
   await setActiveUser(data.user);
