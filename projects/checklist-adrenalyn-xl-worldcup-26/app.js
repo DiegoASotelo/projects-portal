@@ -304,9 +304,13 @@ const setActiveUser = async user => {
     el.loginScreen.hidden = true;
     el.appShell.hidden = false;
     el.adminLink.hidden = state.membership.role !== 'admin';
-    renderDashboard();
-    renderCards();
-    showApp();
+    if (state.membership.role === 'admin') {
+      await showAdmin();
+    } else {
+      renderDashboard();
+      renderCards();
+      showApp();
+    }
     console.log('[checklist-login] setActiveUser done');
   } catch (error) {
     console.error(error);
