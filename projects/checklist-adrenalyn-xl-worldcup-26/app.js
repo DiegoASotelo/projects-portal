@@ -331,11 +331,20 @@ const setActiveUser = async user => {
     setLoginMessage(error.message || 'Error cargando la cuenta.', true);
   }
 };
+const rerenderKeepingPosition = () => {
+  const scrollY = window.scrollY;
+  const rowScrolls = [...document.querySelectorAll('.cards-row')].map(row => row.scrollLeft);
+  renderDashboard();
+  renderCards();
+  window.scrollTo(0, scrollY);
+  document.querySelectorAll('.cards-row').forEach((row, index) => {
+    row.scrollLeft = rowScrolls[index] || 0;
+  });
+};
 const updateCard = async (card, delta) => {
   card.owned = Math.max(0, card.owned + delta);
   await persistChecklistCard(card);
-  renderDashboard();
-  renderCards();
+  rerenderKeepingPosition();
 };
 const getEmailCredentials = () => ({
   email: el.emailInput.value.trim().toLowerCase(),
