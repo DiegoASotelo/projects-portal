@@ -152,6 +152,7 @@ const renderCards = () => {
     const owned = section.items.filter(card => card.owned > 0).length;
     const wrapper = document.createElement('section');
     wrapper.className = 'group';
+    wrapper.dataset.sectionKey = section.key;
     const head = document.createElement('div');
     head.className = 'group-head';
     const crest = crestUrl(section.key);
@@ -160,6 +161,7 @@ const renderCards = () => {
     row.className = 'cards-row';
     section.items.forEach(card => {
       const node = el.template.content.firstElementChild.cloneNode(true);
+      node.dataset.cardNumber = card.number;
       node.classList.toggle('owned', card.owned >= 1);
       node.querySelector('.num').textContent = `#${card.number}`;
       node.querySelector('.badge').textContent = card.owned > 1 ? `${card.owned}` : '';
@@ -355,20 +357,32 @@ const setActiveUser = async user => {
     setLoginMessage(error.message || t('errors.loadAccount'), true);
   }
 };
-const rerenderKeepingPosition = () => {
-  const scrollY = window.scrollY;
-  const rowScrolls = [...document.querySelectorAll('.cards-row')].map(row => row.scrollLeft);
-  renderDashboard();
-  renderCards();
-  window.scrollTo(0, scrollY);
-  document.querySelectorAll('.cards-row').forEach((row, index) => {
-    row.scrollLeft = rowScrolls[index] || 0;
-  });
+const updateVisibleCard = card => {
+  const cardNode = document.querySelector(`.card-item[data-card-number="${card.number}"]`);
+  if (!cardNode) return false;
+  cardNode.classList.toggle('owned', card.owned >= 1);
+  const badge = cardNode.querySelector('.badge');
+  badge.textContent = card.owned > 1 ? `${card.owned}` : '';
+  badge.style.display = card.owned > 1 ? 'grid' : 'none';
+  return true;
+};
+const refreshSectionProgress = card => {
+  const sectionKey = getSectionKey(card);
+  const sectionNode = document.querySelector(`.group[data-section-key="${sectionKey}"]`);
+  if (!sectionNode) return;
+  const sectionCards = filteredCards().filter(item => getSectionKey(item) === sectionKey);
+  const owned = sectionCards.filter(item => item.owned > 0).length;
+  const progress = sectionNode.querySelector('.group-title p');
+  if (progress) progress.textContent = `${owned} de ${sectionCards.length}`;
 };
 const updateCard = async (card, delta) => {
-  card.owned = Math.max(0, card.owned + delta);
+  const nextOwned = Math.max(0, card.owned + delta);
+  if (nextOwned === card.owned) return;
+  card.owned = nextOwned;
   await persistChecklistCard(card);
-  rerenderKeepingPosition();
+  renderDashboard();
+  updateVisibleCard(card);
+  refreshSectionProgress(card);
 };
 const getEmailCredentials = () => ({
   email: el.emailInput.value.trim().toLowerCase(),
