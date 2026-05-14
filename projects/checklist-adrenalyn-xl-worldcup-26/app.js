@@ -38,6 +38,7 @@ const el = {
   emailSignUpButton: document.getElementById('emailSignUpButton'),
   loginMessage: document.getElementById('loginMessage'),
   currentUser: document.getElementById('currentUser'),
+  trialUpgradeSlot: document.getElementById('trialUpgradeSlot'),
   logoutButton: document.getElementById('logoutButton'),
   ownedCount: document.getElementById('ownedCount'),
   missingCount: document.getElementById('missingCount'),
@@ -125,6 +126,23 @@ const downloadBackup = stateObj => {
   const blob = new Blob([JSON.stringify(stateObj, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   el.backupSlot.innerHTML = `<a id="backupLink" class="backup-link" download="checklist-backup.json" href="${url}">${t('app.backup')}</a>`;
+};
+const renderTrialUpgradeButton = () => {
+  const shouldShow = state.membership?.role !== 'admin' && state.membership?.plan !== 'paid';
+  el.trialUpgradeSlot.hidden = !shouldShow;
+  if (!shouldShow) {
+    el.trialUpgradeSlot.innerHTML = '';
+    return;
+  }
+  el.trialUpgradeSlot.innerHTML = '';
+  const script = document.createElement('script');
+  script.src = 'https://storage.ko-fi.com/cdn/widget/Widget_2.js';
+  script.onload = () => {
+    if (!window.kofiwidget2) return;
+    window.kofiwidget2.init('Unlock Full Checklist', '#32c773', 'U7U51ZIXYB');
+    window.kofiwidget2.draw(el.trialUpgradeSlot);
+  };
+  el.trialUpgradeSlot.appendChild(script);
 };
 const renderDashboard = () => {
   const total = state.cards.length;
@@ -326,6 +344,7 @@ const setActiveUser = async user => {
     await loadChecklistCards(checklist.id);
     const planTag = state.membership.role === 'admin' ? t('common.adminPlan') : (state.membership.plan === 'paid' ? t('common.paidPlan') : t('common.trialPlan'));
     el.currentUser.textContent = `${user.email} · ${planTag}`;
+    renderTrialUpgradeButton();
     el.loginScreen.style.display = 'none';
     el.loginScreen.hidden = true;
     el.appShell.hidden = false;
@@ -403,6 +422,8 @@ const logout = async () => {
   state.trialMode = true;
   el.appShell.hidden = true;
   el.appShell.style.display = 'none';
+  el.trialUpgradeSlot.innerHTML = '';
+  el.trialUpgradeSlot.hidden = true;
   el.loginScreen.hidden = false;
   el.loginScreen.style.display = 'grid';
   el.emailLoginForm.reset();
@@ -522,6 +543,8 @@ const init = async () => {
       state.trialMode = true;
       el.appShell.hidden = true;
       el.appShell.style.display = 'none';
+      el.trialUpgradeSlot.innerHTML = '';
+      el.trialUpgradeSlot.hidden = true;
       el.loginScreen.hidden = false;
       el.loginScreen.style.display = 'grid';
     }
