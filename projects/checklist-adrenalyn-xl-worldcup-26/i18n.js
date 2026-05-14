@@ -3,8 +3,8 @@ const dictionaries = {
     htmlLang: 'es',
     pageTitle: 'Checklist Adrenaline XL WorlCup 26',
     login: {
-      title: 'Accede a tu checklist',
-      subtitle: 'Base multiusuario lista para evolucionar a plataforma de pago.',
+      title: 'Entra en tu colección',
+      subtitle: 'Guarda tus cromos, controla faltas y repetidas y sigue tu camino hasta completar la colección.',
       trialInfo: 'Trial visible: selección de Argelia y Argentina.',
       backendInfo: 'Acceso real ya conectado a Supabase.',
       emailPlaceholder: 'tu@email.com',
@@ -16,8 +16,8 @@ const dictionaries = {
       google: 'Entrar con Google'
     },
     app: {
-      title: 'Checklist Adrenaline XL WorlCup 26',
-      subtitle: 'Seguimiento multiusuario de la colección FIFA World Cup 2026 Adrenalyn XL',
+      title: 'Tu checklist del Mundial 2026',
+      subtitle: 'Sigue la colección FIFA World Cup 2026 Adrenalyn XL, controla faltas y repetidas y consulta tu progreso en tiempo real.',
       admin: 'Admin',
       logout: 'Salir',
       owned: 'Tengo',
@@ -84,8 +84,8 @@ const dictionaries = {
     htmlLang: 'pt',
     pageTitle: 'Checklist Adrenaline XL WorlCup 26',
     login: {
-      title: 'Acede à tua checklist',
-      subtitle: 'Base multiutilizador pronta para evoluir para uma plataforma paga.',
+      title: 'Entra na tua coleção',
+      subtitle: 'Guarda os teus cromos, controla faltas e repetidas e acompanha a tua caminhada rumo à coleção completa.',
       trialInfo: 'Trial visível: seleção da Argélia e da Argentina.',
       backendInfo: 'Acesso real já ligado ao Supabase.',
       emailPlaceholder: 'teu@email.com',
@@ -97,8 +97,8 @@ const dictionaries = {
       google: 'Entrar com Google'
     },
     app: {
-      title: 'Checklist Adrenaline XL WorlCup 26',
-      subtitle: 'Acompanhamento multiutilizador da coleção FIFA World Cup 2026 Adrenalyn XL',
+      title: 'A tua checklist do Mundial 2026',
+      subtitle: 'Acompanha a coleção FIFA World Cup 2026 Adrenalyn XL, controla faltas e repetidas e vê o teu progresso em tempo real.',
       admin: 'Admin',
       logout: 'Sair',
       owned: 'Tenho',
