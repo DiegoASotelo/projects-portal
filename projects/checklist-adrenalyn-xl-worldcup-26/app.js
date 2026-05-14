@@ -53,6 +53,7 @@ const el = {
   imageModal: document.getElementById('imageModal'),
   modalImage: document.getElementById('modalImage'),
   closeModal: document.getElementById('closeModal'),
+  lastScrollY: 0,
   backupSlot: document.getElementById('backupSlot'),
   adminLink: document.getElementById('adminLink'),
   appView: document.getElementById('appView'),
@@ -175,6 +176,7 @@ const renderCards = () => {
       img.src = card.image || placeholder;
       img.alt = `${card.name} ${card.team}`;
       node.querySelector('.thumb-button').onclick = () => {
+        state.lastScrollY = window.scrollY;
         el.modalImage.src = card.image || placeholder;
         el.imageModal.showModal();
       };
@@ -491,8 +493,19 @@ const bindEvents = () => {
     el.typeFilter.addEventListener(evt, () => { state.filters.type = el.typeFilter.value; renderCards(); });
     el.statusFilter.addEventListener(evt, () => { state.filters.status = el.statusFilter.value; renderCards(); });
   });
-  el.closeModal.onclick = () => el.imageModal.close();
-  el.imageModal.addEventListener('click', event => { if (event.target === el.imageModal) el.imageModal.close(); });
+  el.closeModal.onclick = () => {
+    el.imageModal.close();
+    window.scrollTo(0, state.lastScrollY || 0);
+  };
+  el.imageModal.addEventListener('click', event => {
+    if (event.target === el.imageModal) {
+      el.imageModal.close();
+      window.scrollTo(0, state.lastScrollY || 0);
+    }
+  });
+  el.imageModal.addEventListener('close', () => {
+    window.scrollTo(0, state.lastScrollY || 0);
+  });
   el.emailLoginForm.addEventListener('submit', event => event.preventDefault());
   el.togglePasswordButton.addEventListener('click', () => {
     const hidden = el.passwordInput.type === 'password';
