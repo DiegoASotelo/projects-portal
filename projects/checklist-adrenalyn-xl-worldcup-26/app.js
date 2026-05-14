@@ -1,7 +1,9 @@
 const STORAGE_KEY = 'checklist-adrenalyn-xl-worldcup-26';
 const PROJECT_KEY = 'checklist-adrenalyn-xl-worldcup-26';
 const COLLECTION_KEY = 'adrenalyn-xl-worldcup-26';
+const LOCALE_KEY = `${STORAGE_KEY}:locale`;
 const runtimeConfig = window.CHECKLIST_SUPABASE_CONFIG || {};
+const { dictionaries, defaultLocale } = window.ChecklistI18n;
 const CONFIG = {
   supabaseUrl: runtimeConfig.url || '',
   supabaseAnonKey: runtimeConfig.anonKey || ''
@@ -16,7 +18,8 @@ const state = {
   filters: { q: '', section: '', type: '', status: '' },
   trialMode: true,
   projectId: null,
-  isAdminView: false
+  isAdminView: false,
+  locale: localStorage.getItem(LOCALE_KEY) || defaultLocale
 };
 window.__checklistDebug = { state };
 const trialSections = new Set(['ALGERIA','ARGENTINA']);
@@ -57,13 +60,16 @@ const el = {
   adminPasswordInput: document.getElementById('adminPasswordInput'),
   adminPlanInput: document.getElementById('adminPlanInput'),
   adminMessage: document.getElementById('adminMessage'),
-  backToAppButton: document.getElementById('backToAppButton')
+  backToAppButton: document.getElementById('backToAppButton'),
+  localeSelectorTop: document.getElementById('localeSelectorTop'),
+  localeSelectorLogin: document.getElementById('localeSelectorLogin')
 };
 
 const placeholder = './placeholder-card.svg';
 const teamCodeMap = {'ALGERIA':'dz','ARGENTINA':'ar','AUSTRALIA':'au','AUSTRIA':'at','BELGIUM':'be','BRAZIL':'br','CANADA':'ca','CAPE VERDE':'cv','COLOMBIA':'co','CROATIA':'hr','CURACAO':'cw','ECUADOR':'ec','EGYPT':'eg','ENGLAND':'gb-eng','FRANCE':'fr','GERMANY':'de','GHANA':'gh','HAITI':'ht','IRAN':'ir','IVORY COAST':'ci','JAPAN':'jp','JORDAN':'jo','SOUTH KOREA':'kr','MEXICO':'mx','MOROCCO':'ma','NETHERLANDS':'nl','NEW ZEALAND':'nz','NORWAY':'no','PANAMA':'pa','PARAGUAY':'py','PORTUGAL':'pt','QATAR':'qa','SAUDI ARABIA':'sa','SCOTLAND':'gb-sct','SENEGAL':'sn','SOUTH AFRICA':'za','SPAIN':'es','SWITZERLAND':'ch','TUNISIA':'tn','UNITED STATES':'us','URUGUAY':'uy','UZBEKISTAN':'uz'};
-const specialLabels = {golden_baller:'Golden Ballers',contenders:'Contenders',top_keeper:'Top Keepers',defensive_rock:'Defensive Rocks',midfield_maestro:'Midfield Maestro',goal_machine:'Goal Machines',master_rookie:'Master Rookie',official_emblem:'Emblema',official_mascot:'Mascotas',eternos_22:'Eternos 22'};
+const sectionTranslationKeys = {golden_baller:'labels.sectionGolden',contenders:'labels.sectionContenders',top_keeper:'labels.sectionTopKeeper',defensive_rock:'labels.sectionDefensiveRock',midfield_maestro:'labels.sectionMidfieldMaestro',goal_machine:'labels.sectionGoalMachine',master_rookie:'labels.sectionMasterRookie',official_emblem:'labels.sectionEmblem',official_mascot:'labels.sectionMascots',eternos_22:'labels.sectionEternos'};
 
+const t = key => key.split('.').reduce((acc, part) => acc?.[part], dictionaries[state.locale]) || key;
 const crestUrl = team => team === 'UNITED STATES' || team === 'USA' ? 'https://flagcdn.com/us.svg' : teamCodeMap[team] ? `https://flagcdn.com/h40/${teamCodeMap[team]}.png` : '';
 const getStatus = card => card.owned > 1 ? 'duplicates' : card.owned === 1 ? 'owned' : 'missing';
 const getSectionKey = card => {
@@ -79,16 +85,16 @@ const getSectionKey = card => {
   if (card.number <= 627) return 'official_mascot';
   return 'eternos_22';
 };
-const getSectionLabel = key => specialLabels[key] || key;
+const getSectionLabel = key => sectionTranslationKeys[key] ? t(sectionTranslationKeys[key]) : key;
 const setLoginMessage = (text, error = false) => {
   el.loginMessage.textContent = text;
   el.loginMessage.dataset.error = error ? 'true' : 'false';
-  console.log('[checklist-login]', { text, error });
 };
 const setAdminMessage = (text, error = false) => {
   el.adminMessage.textContent = text;
   el.adminMessage.dataset.error = error ? 'true' : 'false';
 };
+const formatDate = value => value ? new Intl.DateTimeFormat(state.locale).format(new Date(value)) : '-';
 const filteredCards = () => state.cards.filter(card => {
   const q = state.filters.q;
   return (!q || `${card.number} ${card.name} ${card.team}`.toLowerCase().includes(q))
@@ -106,15 +112,15 @@ const buildSections = list => {
   });
   const ordered = [];
   if (map.has('golden_baller')) ordered.push('golden_baller');
-  const teamSections = [...map.keys()].filter(key => !['golden_baller','contenders','top_keeper','defensive_rock','midfield_maestro','goal_machine','master_rookie','official_emblem','official_mascot','eternos_22'].includes(key)).sort((a,b) => map.get(a)[0].number - map.get(b)[0].number);
+  const teamSections = [...map.keys()].filter(key => !Object.keys(sectionTranslationKeys).includes(key)).sort((a,b) => map.get(a)[0].number - map.get(b)[0].number);
   ordered.push(...teamSections);
-  ['contenders','top_keeper','defensive_rock','midfield_maestro','goal_machine','master_rookie','official_emblem','official_mascot','eternos_22'].forEach(key => { if (map.has(key)) ordered.push(key); });
+  Object.keys(sectionTranslationKeys).filter(key => key !== 'golden_baller').forEach(key => { if (map.has(key)) ordered.push(key); });
   return ordered.map(key => ({ key, items: map.get(key).sort((a,b) => a.number - b.number) }));
 };
 const downloadBackup = stateObj => {
   const blob = new Blob([JSON.stringify(stateObj, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
-  el.backupSlot.innerHTML = `<a id="backupLink" class="backup-link" download="checklist-backup.json" href="${url}">Descargar backup</a>`;
+  el.backupSlot.innerHTML = `<a id="backupLink" class="backup-link" download="checklist-backup.json" href="${url}">${t('app.backup')}</a>`;
 };
 const renderDashboard = () => {
   const total = state.cards.length;
@@ -150,6 +156,7 @@ const renderCards = () => {
       img.loading = 'lazy';
       img.decoding = 'async';
       img.src = card.image || placeholder;
+      img.alt = `${card.name} ${card.team}`;
       node.querySelector('.thumb-button').onclick = () => {
         el.modalImage.src = card.image || placeholder;
         el.imageModal.showModal();
@@ -163,8 +170,8 @@ const renderCards = () => {
   });
 };
 const fillFilters = () => {
-  el.teamFilter.innerHTML = '<option value="">Todas las secciones</option>';
-  el.typeFilter.innerHTML = '<option value="">Todos los tipos</option>';
+  el.teamFilter.innerHTML = `<option value="">${t('app.allSections')}</option>`;
+  el.typeFilter.innerHTML = `<option value="">${t('app.allTypes')}</option>`;
   buildSections(state.cards).map(s => s.key).forEach(key => {
     const option = document.createElement('option');
     option.value = key;
@@ -193,7 +200,7 @@ const ensureProject = async () => {
     state.projectId = state.membership.project_id;
     return { id: state.projectId, project_key: PROJECT_KEY };
   }
-  if (!data) throw new Error('Proyecto no encontrado en Supabase.');
+  if (!data) throw new Error(t('errors.projectMissing'));
   state.projectId = data.id;
   return data;
 };
@@ -235,10 +242,9 @@ const renderAdmin = async () => {
     const users = Array.isArray(usersResponse) ? usersResponse : [];
     if (usersError) {
       console.error(usersError);
-      setAdminMessage(usersError.message || 'Error cargando usuarios del panel admin.', true);
+      setAdminMessage(usersError.message || t('errors.loadAdminUsers'), true);
     }
     userMap = new Map(users.map(user => [user.id, user.email]));
-    console.log('[admin-users]', { userIds, users, usersError });
   }
   const rows = (data || []).map(item => `
     <tr>
@@ -246,17 +252,17 @@ const renderAdmin = async () => {
       <td>${item.role}</td>
       <td>
         <select data-plan="${item.id}">
-          <option value="basic" ${item.plan === 'basic' ? 'selected' : ''}>trial</option>
-          <option value="paid" ${item.plan === 'paid' ? 'selected' : ''}>paid</option>
+          <option value="basic" ${item.plan === 'basic' ? 'selected' : ''}>${t('admin.trial')}</option>
+          <option value="paid" ${item.plan === 'paid' ? 'selected' : ''}>${t('admin.paid')}</option>
         </select>
       </td>
       <td>${item.status}</td>
-      <td>${item.trial_ends_at ? item.trial_ends_at.slice(0,10) : '-'}</td>
+      <td>${formatDate(item.trial_ends_at)}</td>
       <td>
-        <button data-action="toggle" data-id="${item.id}">${item.status === 'active' ? 'Desactivar' : 'Activar'}</button>
+        <button data-action="toggle" data-id="${item.id}">${item.status === 'active' ? t('admin.disable') : t('admin.enable')}</button>
       </td>
     </tr>`).join('');
-  el.adminTable.innerHTML = `<table><thead><tr><th>Email</th><th>Rol</th><th>Plan</th><th>Estado</th><th>Trial fin</th><th>Acciones</th></tr></thead><tbody>${rows}</tbody></table>`;
+  el.adminTable.innerHTML = `<table><thead><tr><th>${t('admin.email')}</th><th>${t('admin.role')}</th><th>${t('admin.plan')}</th><th>${t('admin.status')}</th><th>${t('admin.trialEnds')}</th><th>${t('admin.actions')}</th></tr></thead><tbody>${rows}</tbody></table>`;
   el.adminTable.querySelectorAll('button').forEach(button => {
     button.onclick = async () => {
       const membership = data.find(item => item.id === button.dataset.id);
@@ -295,23 +301,22 @@ const showApp = () => {
   el.appView.hidden = false;
 };
 const setActiveUser = async user => {
-  console.log('[checklist-login] setActiveUser start', user?.email);
   state.activeUser = user;
   state.trialMode = false;
   try {
     await ensureProfile(user);
     await ensureProject();
     state.membership = await ensureMembership(user);
-  if (state.membership.status !== 'active') {
-    await supabase.auth.signOut();
-    setLoginMessage('Cuenta desactivada.', true);
-    return;
-  }
-  state.trialMode = state.membership.role !== 'admin' && state.membership.plan !== 'paid';
+    if (state.membership.status !== 'active') {
+      await supabase.auth.signOut();
+      setLoginMessage(t('errors.accountDisabled'), true);
+      return;
+    }
+    state.trialMode = state.membership.role !== 'admin' && state.membership.plan !== 'paid';
     const checklist = await ensureChecklist(user);
     state.checklistId = checklist.id;
     await loadChecklistCards(checklist.id);
-    const planTag = state.membership.role === 'admin' ? 'admin' : (state.membership.plan === 'paid' ? 'paid' : 'trial');
+    const planTag = state.membership.role === 'admin' ? t('common.adminPlan') : (state.membership.plan === 'paid' ? t('common.paidPlan') : t('common.trialPlan'));
     el.currentUser.textContent = `${user.email} · ${planTag}`;
     el.loginScreen.style.display = 'none';
     el.loginScreen.hidden = true;
@@ -325,10 +330,9 @@ const setActiveUser = async user => {
       renderCards();
       showApp();
     }
-    console.log('[checklist-login] setActiveUser done');
   } catch (error) {
     console.error(error);
-    setLoginMessage(error.message || 'Error cargando la cuenta.', true);
+    setLoginMessage(error.message || t('errors.loadAccount'), true);
   }
 };
 const rerenderKeepingPosition = () => {
@@ -352,9 +356,7 @@ const getEmailCredentials = () => ({
 });
 const handleEmailSignIn = async () => {
   const { email, password } = getEmailCredentials();
-  console.log('[checklist-login] signIn start', email);
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
-  console.log('[checklist-login] signIn result', { hasUser: !!data?.user, error });
   if (error) return setLoginMessage(error.message, true);
   setLoginMessage('');
   await setActiveUser(data.user);
@@ -363,11 +365,11 @@ const handleEmailSignUp = async () => {
   const { email, password } = getEmailCredentials();
   const { data, error } = await supabase.auth.signUp({ email, password });
   if (error) return setLoginMessage(error.message, true);
-  setLoginMessage('Cuenta creada. Si no entra aún, usa el botón Entrar.');
+  setLoginMessage(t('errors.accountCreatedSignIn'));
   if (data.session?.user) await setActiveUser(data.session.user);
 };
 const initGoogleLogin = () => {
-  el.googleLoginButton.innerHTML = '<button type="button" id="googleDirectButton">Entrar con Google</button>';
+  el.googleLoginButton.innerHTML = `<button type="button" id="googleDirectButton">${t('login.google')}</button>`;
   document.getElementById('googleDirectButton').onclick = async () => {
     const redirectTo = 'https://projects-portal.pages.dev/projects/checklist-adrenalyn-xl-worldcup-26/';
     await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo } });
@@ -386,6 +388,50 @@ const logout = async () => {
   el.emailLoginForm.reset();
   setLoginMessage('');
 };
+const applyTranslations = () => {
+  document.documentElement.lang = dictionaries[state.locale].htmlLang;
+  document.title = t('pageTitle');
+  document.getElementById('loginTitle').textContent = t('login.title');
+  document.getElementById('loginSubtitle').textContent = t('login.subtitle');
+  document.getElementById('loginTrialInfo').textContent = t('login.trialInfo');
+  document.getElementById('loginBackendInfo').textContent = t('login.backendInfo');
+  el.emailInput.placeholder = t('login.emailPlaceholder');
+  el.passwordInput.placeholder = t('login.passwordPlaceholder');
+  el.togglePasswordButton.textContent = el.passwordInput.type === 'password' ? t('login.showPassword') : t('login.hidePassword');
+  el.emailSignInButton.textContent = t('login.signIn');
+  el.emailSignUpButton.textContent = t('login.signUp');
+  document.getElementById('appTitle').textContent = t('app.title');
+  document.getElementById('appSubtitle').textContent = t('app.subtitle');
+  el.adminLink.textContent = t('app.admin');
+  el.logoutButton.textContent = t('app.logout');
+  document.getElementById('labelOwned').textContent = t('app.owned');
+  document.getElementById('labelMissing').textContent = t('app.missing');
+  document.getElementById('labelDuplicates').textContent = t('app.duplicates');
+  document.getElementById('labelCompleted').textContent = t('app.completed');
+  el.search.placeholder = t('app.searchPlaceholder');
+  el.statusFilter.innerHTML = `<option value="">${t('app.allStatuses')}</option><option value="owned">${t('app.statusOwned')}</option><option value="missing">${t('app.statusMissing')}</option><option value="duplicates">${t('app.statusDuplicates')}</option>`;
+  document.getElementById('legendOwned').textContent = t('app.statusOwned');
+  document.getElementById('legendMissing').textContent = t('app.statusMissing');
+  document.getElementById('legendDuplicates').textContent = t('app.statusDuplicates');
+  document.getElementById('adminPanelTitle').textContent = t('admin.panelTitle');
+  el.backToAppButton.textContent = t('admin.back');
+  el.adminEmailInput.placeholder = t('admin.emailPlaceholder');
+  el.adminPasswordInput.placeholder = t('admin.passwordPlaceholder');
+  document.getElementById('adminCreateUserButton').textContent = t('admin.createUser');
+  el.localeSelectorTop.value = state.locale;
+  el.localeSelectorLogin.value = state.locale;
+  fillFilters();
+  if (state.isAdminView) renderAdmin();
+  else if (!el.appShell.hidden) {
+    renderDashboard();
+    renderCards();
+  }
+};
+const setLocale = locale => {
+  state.locale = dictionaries[locale] ? locale : defaultLocale;
+  localStorage.setItem(LOCALE_KEY, state.locale);
+  applyTranslations();
+};
 const bindEvents = () => {
   ['input','change'].forEach(evt => {
     el.search.addEventListener(evt, () => { state.filters.q = el.search.value.trim().toLowerCase(); renderCards(); });
@@ -399,13 +445,15 @@ const bindEvents = () => {
   el.togglePasswordButton.addEventListener('click', () => {
     const hidden = el.passwordInput.type === 'password';
     el.passwordInput.type = hidden ? 'text' : 'password';
-    el.togglePasswordButton.textContent = hidden ? 'Ocultar' : 'Ver';
+    el.togglePasswordButton.textContent = hidden ? t('login.hidePassword') : t('login.showPassword');
   });
   el.emailSignInButton.addEventListener('click', handleEmailSignIn);
   el.emailSignUpButton.addEventListener('click', handleEmailSignUp);
   el.logoutButton.addEventListener('click', logout);
   el.adminLink.addEventListener('click', showAdmin);
   el.backToAppButton.addEventListener('click', showApp);
+  el.localeSelectorTop.addEventListener('change', event => setLocale(event.target.value));
+  el.localeSelectorLogin.addEventListener('change', event => setLocale(event.target.value));
   el.createUserForm.addEventListener('submit', async event => {
     event.preventDefault();
     const email = el.adminEmailInput.value.trim().toLowerCase();
@@ -427,14 +475,14 @@ const bindEvents = () => {
       trial_ends_at: plan === 'paid' ? null : trialEnds.toISOString()
     }, { onConflict: 'project_id,user_id' });
     el.createUserForm.reset();
-    setAdminMessage('Usuario creado.');
+    setAdminMessage(t('admin.created'));
     await renderAdmin();
   });
 };
 const init = async () => {
   state.cards = await fetch('./data/cards.json').then(r => r.json());
-  fillFilters();
   bindEvents();
+  applyTranslations();
   initGoogleLogin();
   const { data: sessionData } = await supabase.auth.getSession();
   if (sessionData.session?.user) await setActiveUser(sessionData.session.user);

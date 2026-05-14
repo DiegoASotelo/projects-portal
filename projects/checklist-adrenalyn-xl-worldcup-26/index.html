@@ -10,14 +10,22 @@
   <link rel="stylesheet" href="./styles.css">
   <script src="./supabase-js.min.js"></script>
   <script src="./supabase-config.js"></script>
+  <script src="./i18n.js"></script>
 </head>
 <body>
   <section id="loginScreen" class="login-screen">
     <div class="login-card">
-      <h1>Accede a tu checklist</h1>
-      <p class="sub">Base multiusuario lista para evolucionar a plataforma de pago.</p>
-      <p class="seed-note">Trial visible: selección de Argelia y Argentina.</p>
-      <p class="seed-note">Acceso real ya conectado a Supabase.</p>
+      <div class="locale-row">
+        <label for="localeSelectorLogin">🌐</label>
+        <select id="localeSelectorLogin" aria-label="Cambiar idioma">
+          <option value="es-ES">🇪🇸 Español</option>
+          <option value="pt-PT">🇵🇹 Português</option>
+        </select>
+      </div>
+      <h1 id="loginTitle">Accede a tu checklist</h1>
+      <p id="loginSubtitle" class="sub">Base multiusuario lista para evolucionar a plataforma de pago.</p>
+      <p id="loginTrialInfo" class="seed-note">Trial visible: selección de Argelia y Argentina.</p>
+      <p id="loginBackendInfo" class="seed-note">Acceso real ya conectado a Supabase.</p>
       <div id="googleLoginButton" class="google-login-slot"></div>
       <form id="emailLoginForm" class="login-form">
         <input id="emailInput" type="email" placeholder="tu@email.com" autocomplete="email" required>
@@ -37,10 +45,17 @@
   <div id="appShell" hidden>
     <header class="topbar">
       <div>
-        <h1>Checklist Adrenaline XL WorlCup 26</h1>
-        <p class="sub">Seguimiento multiusuario de la colección FIFA World Cup 2026 Adrenalyn XL</p>
+        <h1 id="appTitle">Checklist Adrenaline XL WorlCup 26</h1>
+        <p id="appSubtitle" class="sub">Seguimiento multiusuario de la colección FIFA World Cup 2026 Adrenalyn XL</p>
       </div>
       <div class="session-box">
+        <div class="locale-row locale-row-top">
+          <label for="localeSelectorTop">🌐</label>
+          <select id="localeSelectorTop" aria-label="Cambiar idioma">
+            <option value="es-ES">🇪🇸 Español</option>
+            <option value="pt-PT">🇵🇹 Português</option>
+          </select>
+        </div>
         <span id="currentUser"></span>
         <div class="session-actions">
           <button id="adminLink" type="button" hidden>Admin</button>
@@ -51,10 +66,10 @@
 
     <section id="appView">
       <section class="dashboard" id="dashboard">
-        <article><span>Tengo</span><strong id="ownedCount">0</strong></article>
-        <article><span>Me faltan</span><strong id="missingCount">0</strong></article>
-        <article><span>Repetidas</span><strong id="duplicateCount">0</strong></article>
-        <article><span>Completado</span><strong id="progressPercent">0%</strong></article>
+        <article><span id="labelOwned">Tengo</span><strong id="ownedCount">0</strong></article>
+        <article><span id="labelMissing">Me faltan</span><strong id="missingCount">0</strong></article>
+        <article><span id="labelDuplicates">Repetidas</span><strong id="duplicateCount">0</strong></article>
+        <article><span id="labelCompleted">Completado</span><strong id="progressPercent">0%</strong></article>
       </section>
       <section class="controls">
         <input id="search" type="search" placeholder="Buscar por número, nombre o equipo">
@@ -68,9 +83,9 @@
         </select>
       </section>
       <section class="legend">
-        <span><i class="dot owned"></i>Tengo</span>
-        <span><i class="dot missing"></i>Me falta</span>
-        <span><i class="dot duplicate"></i>Repetida</span>
+        <span><i class="dot owned"></i><span id="legendOwned">Tengo</span></span>
+        <span><i class="dot missing"></i><span id="legendMissing">Me falta</span></span>
+        <span><i class="dot duplicate"></i><span id="legendDuplicates">Repetida</span></span>
         <span id="backupSlot"></span>
       </section>
       <main><div id="cardsGrid"></div></main>
@@ -78,7 +93,7 @@
 
     <section id="adminView" class="admin-view" hidden>
       <div class="admin-toolbar">
-        <h2>Panel de usuarios</h2>
+        <h2 id="adminPanelTitle">Panel de usuarios</h2>
         <button id="backToAppButton" type="button">Volver</button>
       </div>
       <form id="createUserForm" class="admin-create-user">
@@ -88,7 +103,7 @@
           <option value="basic">trial</option>
           <option value="paid">paid</option>
         </select>
-        <button type="submit">Crear usuario</button>
+        <button id="adminCreateUserButton" type="submit">Crear usuario</button>
       </form>
       <p id="adminMessage" class="login-message"></p>
       <div id="adminTable" class="admin-table"></div>
