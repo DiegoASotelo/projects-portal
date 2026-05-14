@@ -447,7 +447,6 @@ const applyTranslations = () => {
   document.title = t('pageTitle');
   document.getElementById('loginTitle').textContent = t('login.title');
   document.getElementById('loginSubtitle').textContent = t('login.subtitle');
-  document.getElementById('loginTrialInfo').textContent = t('login.trialInfo');
   el.emailInput.placeholder = t('login.emailPlaceholder');
   el.passwordInput.placeholder = t('login.passwordPlaceholder');
   el.togglePasswordButton.textContent = el.passwordInput.type === 'password' ? t('login.showPassword') : t('login.hidePassword');
