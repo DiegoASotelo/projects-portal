@@ -2,6 +2,8 @@ const STORAGE_KEY = 'checklist-adrenalyn-xl-worldcup-26';
 const PROJECT_KEY = 'checklist-adrenalyn-xl-worldcup-26';
 const COLLECTION_KEY = 'adrenalyn-xl-worldcup-26';
 const LOCALE_KEY = `${STORAGE_KEY}:locale`;
+const REMEMBER_KEY = `${STORAGE_KEY}:remember`;
+const REMEMBER_EMAIL_KEY = `${STORAGE_KEY}:remember:email`;
 const runtimeConfig = window.CHECKLIST_SUPABASE_CONFIG || {};
 const { dictionaries, defaultLocale } = window.ChecklistI18n;
 const CONFIG = {
@@ -62,7 +64,9 @@ const el = {
   adminMessage: document.getElementById('adminMessage'),
   backToAppButton: document.getElementById('backToAppButton'),
   localeSelectorTop: document.getElementById('localeSelectorTop'),
-  localeSelectorLogin: document.getElementById('localeSelectorLogin')
+  localeSelectorLogin: document.getElementById('localeSelectorLogin'),
+  rememberMeCheckbox: document.getElementById('rememberMeCheckbox'),
+  rememberMeLabel: document.getElementById('rememberMeLabel')
 };
 
 const placeholder = './placeholder-card.svg';
@@ -358,10 +362,20 @@ const getEmailCredentials = () => ({
   email: el.emailInput.value.trim().toLowerCase(),
   password: el.passwordInput.value
 });
+const persistRememberMe = () => {
+  if (el.rememberMeCheckbox.checked) {
+    localStorage.setItem(REMEMBER_KEY, '1');
+    localStorage.setItem(REMEMBER_EMAIL_KEY, el.emailInput.value.trim().toLowerCase());
+  } else {
+    localStorage.removeItem(REMEMBER_KEY);
+    localStorage.removeItem(REMEMBER_EMAIL_KEY);
+  }
+};
 const handleEmailSignIn = async () => {
   const { email, password } = getEmailCredentials();
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
   if (error) return setLoginMessage(error.message, true);
+  persistRememberMe();
   setLoginMessage('');
   await setActiveUser(data.user);
 };
@@ -369,6 +383,7 @@ const handleEmailSignUp = async () => {
   const { email, password } = getEmailCredentials();
   const { data, error } = await supabase.auth.signUp({ email, password });
   if (error) return setLoginMessage(error.message, true);
+  persistRememberMe();
   setLoginMessage(t('errors.accountCreatedSignIn'));
   if (data.session?.user) await setActiveUser(data.session.user);
 };
@@ -380,6 +395,7 @@ const initGoogleLogin = () => {
   };
 };
 const logout = async () => {
+  const keepRemember = el.rememberMeCheckbox.checked;
   await supabase.auth.signOut();
   state.activeUser = null;
   state.membership = null;
@@ -390,6 +406,10 @@ const logout = async () => {
   el.loginScreen.hidden = false;
   el.loginScreen.style.display = 'grid';
   el.emailLoginForm.reset();
+  if (keepRemember) {
+    el.emailInput.value = localStorage.getItem(REMEMBER_EMAIL_KEY) || '';
+    el.rememberMeCheckbox.checked = true;
+  }
   setLoginMessage('');
 };
 const applyTranslations = () => {
@@ -398,12 +418,12 @@ const applyTranslations = () => {
   document.getElementById('loginTitle').textContent = t('login.title');
   document.getElementById('loginSubtitle').textContent = t('login.subtitle');
   document.getElementById('loginTrialInfo').textContent = t('login.trialInfo');
-  document.getElementById('loginBackendInfo').textContent = t('login.backendInfo');
   el.emailInput.placeholder = t('login.emailPlaceholder');
   el.passwordInput.placeholder = t('login.passwordPlaceholder');
   el.togglePasswordButton.textContent = el.passwordInput.type === 'password' ? t('login.showPassword') : t('login.hidePassword');
   el.emailSignInButton.textContent = t('login.signIn');
   el.emailSignUpButton.textContent = t('login.signUp');
+  el.rememberMeLabel.textContent = t('login.rememberMe');
   document.getElementById('appTitle').textContent = t('app.title');
   document.getElementById('appSubtitle').textContent = t('app.subtitle');
   el.adminLink.textContent = t('app.admin');
@@ -458,6 +478,7 @@ const bindEvents = () => {
   el.backToAppButton.addEventListener('click', showApp);
   el.localeSelectorTop.addEventListener('change', event => setLocale(event.target.value));
   el.localeSelectorLogin.addEventListener('change', event => setLocale(event.target.value));
+  el.rememberMeCheckbox.addEventListener('change', persistRememberMe);
   el.createUserForm.addEventListener('submit', async event => {
     event.preventDefault();
     const email = el.adminEmailInput.value.trim().toLowerCase();
@@ -486,6 +507,10 @@ const bindEvents = () => {
 const init = async () => {
   state.cards = await fetch('./data/cards.json').then(r => r.json());
   bindEvents();
+  const remembered = localStorage.getItem(REMEMBER_KEY) === '1';
+  el.rememberMeCheckbox.checked = remembered;
+  if (remembered) el.emailInput.value = localStorage.getItem(REMEMBER_EMAIL_KEY) || '';
+
   applyTranslations();
   initGoogleLogin();
   const { data: sessionData } = await supabase.auth.getSession();

@@ -11,6 +11,7 @@ const dictionaries = {
       passwordPlaceholder: 'Contraseña',
       showPassword: 'Ver',
       hidePassword: 'Ocultar',
+      rememberMe: 'Recordar acceso',
       signIn: 'Entrar',
       signUp: 'Crear cuenta',
       google: 'Entrar con Google'
@@ -92,6 +93,7 @@ const dictionaries = {
       passwordPlaceholder: 'Palavra-passe',
       showPassword: 'Ver',
       hidePassword: 'Ocultar',
+      rememberMe: 'Lembrar acesso',
       signIn: 'Entrar',
       signUp: 'Criar conta',
       google: 'Entrar com Google'
