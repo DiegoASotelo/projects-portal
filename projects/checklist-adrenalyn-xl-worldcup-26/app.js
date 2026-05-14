@@ -237,6 +237,7 @@ const renderAdmin = async () => {
       setAdminMessage(usersError.message || 'Error cargando usuarios del panel admin.', true);
     }
     userMap = new Map((users || []).map(user => [user.id, user.email]));
+    console.log('[admin-users]', { userIds, users, usersError });
   }
   const rows = (data || []).map(item => `
     <tr>
