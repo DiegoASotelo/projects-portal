@@ -170,6 +170,8 @@ const renderCards = () => {
   });
 };
 const fillFilters = () => {
+  const currentSection = state.filters.section;
+  const currentType = state.filters.type;
   el.teamFilter.innerHTML = `<option value="">${t('app.allSections')}</option>`;
   el.typeFilter.innerHTML = `<option value="">${t('app.allTypes')}</option>`;
   buildSections(state.cards).map(s => s.key).forEach(key => {
@@ -184,6 +186,8 @@ const fillFilters = () => {
     option.textContent = getSectionLabel(type);
     el.typeFilter.appendChild(option);
   });
+  el.teamFilter.value = currentSection;
+  el.typeFilter.value = currentType;
 };
 const ensureProfile = async user => {
   const { data: existing, error } = await supabase.from('app_users').select('*').eq('id', user.id).maybeSingle();
