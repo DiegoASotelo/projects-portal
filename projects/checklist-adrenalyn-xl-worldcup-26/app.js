@@ -134,15 +134,20 @@ const renderTrialUpgradeButton = () => {
     el.trialUpgradeSlot.innerHTML = '';
     return;
   }
-  el.trialUpgradeSlot.innerHTML = '';
-  const script = document.createElement('script');
-  script.src = 'https://storage.ko-fi.com/cdn/widget/Widget_2.js';
-  script.onload = () => {
+  el.trialUpgradeSlot.innerHTML = '<div id="kofiTrialButton"></div>';
+  const drawWidget = () => {
     if (!window.kofiwidget2) return;
     window.kofiwidget2.init('Unlock Full Checklist', '#32c773', 'U7U51ZIXYB');
-    window.kofiwidget2.draw(el.trialUpgradeSlot);
+    window.kofiwidget2.draw('kofiTrialButton');
   };
-  el.trialUpgradeSlot.appendChild(script);
+  if (window.kofiwidget2) {
+    drawWidget();
+    return;
+  }
+  const script = document.createElement('script');
+  script.src = 'https://storage.ko-fi.com/cdn/widget/Widget_2.js';
+  script.onload = drawWidget;
+  document.body.appendChild(script);
 };
 const renderDashboard = () => {
   const total = state.cards.length;
