@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Admin · Usuarios plataforma</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./supabase-js.min.js"></script>
+  <script src="./supabase-config.js"></script>
+</head>
+<body>
+  <main class="admin-users-page">
+    <section class="admin-users-card">
+      <div class="admin-users-topbar">
+        <div>
+          <h1>Usuarios de la plataforma</h1>
+          <p>Listado simple para revisar cuentas registradas.</p>
+        </div>
+        <a class="trial-upgrade-fallback" href="./">Volver</a>
+      </div>
+      <div id="adminUsersStatus" class="admin-empty">Cargando usuarios…</div>
+      <div id="adminUsersTable" class="admin-table"></div>
+    </section>
+  </main>
+  <script>
+    const supabase = window.supabase.createClient(window.CHECKLIST_SUPABASE_CONFIG.url, window.CHECKLIST_SUPABASE_CONFIG.anonKey);
+    const PROJECT_KEY = 'checklist-adrenalyn-xl-worldcup-26';
+    const statusEl = document.getElementById('adminUsersStatus');
+    const tableEl = document.getElementById('adminUsersTable');
+
+    const formatDate = value => value ? new Intl.DateTimeFormat('es-ES').format(new Date(value)) : '-';
+
+    const load = async () => {
+      const { data: sessionData } = await supabase.auth.getSession();
+      const user = sessionData.session?.user;
+      if (!user) {
+        statusEl.textContent = 'Debes iniciar sesión como admin.';
+        return;
+      }
+      const { data: project } = await supabase.from('platform_projects').select('id').eq('project_key', PROJECT_KEY).maybeSingle();
+      if (!project) {
+        statusEl.textContent = 'Proyecto no encontrado.';
+        return;
+      }
+      const { data: myMembership } = await supabase.from('project_memberships').select('role').eq('project_id', project.id).eq('user_id', user.id).maybeSingle();
+      if (!myMembership || myMembership.role !== 'admin') {
+        statusEl.textContent = 'Acceso solo para admin.';
+        return;
+      }
+      const { data: memberships, error: membershipsError } = await supabase
+        .from('project_memberships')
+        .select('id,user_id,role,status,plan,trial_ends_at,created_at')
+        .eq('project_id', project.id)
+        .order('created_at', { ascending: true });
+      if (membershipsError) {
+        statusEl.textContent = membershipsError.message;
+        return;
+      }
+      const ids = [...new Set((memberships || []).map(item => item.user_id))];
+      const { data: users, error: usersError } = await supabase.from('app_users').select('id,email,display_name').in('id', ids);
+      if (usersError) {
+        statusEl.textContent = usersError.message;
+        return;
+      }
+      const userMap = new Map((users || []).map(item => [item.id, item]));
+      const rows = (memberships || []).map(item => {
+        const profile = userMap.get(item.user_id);
+        return `<tr>
+          <td>${profile?.email || item.user_id}</td>
+          <td>${profile?.display_name || '-'}</td>
+          <td>${item.role}</td>
+          <td>${item.plan}</td>
+          <td>${item.status}</td>
+          <td>${formatDate(item.trial_ends_at)}</td>
+        </tr>`;
+      }).join('');
+      statusEl.remove();
+      tableEl.innerHTML = `<table><thead><tr><th>E-mail</th><th>Nombre</th><th>Rol</th><th>Plan</th><th>Estado</th><th>Fin trial</th></tr></thead><tbody>${rows}</tbody></table>`;
+    };
+    load();
+  </script>
+</body>
+</html>

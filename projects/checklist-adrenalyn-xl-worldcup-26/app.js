@@ -348,10 +348,7 @@ const renderAdmin = async () => {
   }
 };
 const showAdmin = async () => {
-  state.isAdminView = true;
-  el.appView.hidden = true;
-  el.adminView.hidden = false;
-  await renderAdmin();
+  window.location.href = './admin-users.html';
 };
 const showApp = () => {
   state.isAdminView = false;
@@ -383,6 +380,7 @@ const setActiveUser = async user => {
     el.appShell.style.display = 'block';
     el.adminLink.hidden = state.membership.role !== 'admin';
     if (state.membership.role === 'admin') {
+      el.adminLink.textContent = 'Admin · usuarios';
       await showAdmin();
     } else {
       renderDashboard();
