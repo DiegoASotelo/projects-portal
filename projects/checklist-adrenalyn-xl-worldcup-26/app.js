@@ -256,61 +256,82 @@ const persistChecklistCard = async card => {
   await supabase.from('checklist_cards').upsert({ checklist_id: state.checklistId, card_number: card.number, owned_count: card.owned }, { onConflict: 'checklist_id,card_number' });
   downloadBackup(Object.fromEntries(state.cards.map(item => [item.id, item.owned])));
 };
+const loadAdminUsers = async () => {
+  const { data, error } = await supabase
+    .from('project_memberships')
+    .select('id, role, status, plan, user_id, project_id, trial_started_at, trial_ends_at, deactivated_at, payment_note, app_users!left(email,display_name)')
+    .eq('project_id', state.projectId)
+    .order('created_at', { ascending: true });
+  if (error) throw error;
+  return (data || []).map(item => ({
+    ...item,
+    email: item.app_users?.email || item.user_id,
+    displayName: item.app_users?.display_name || ''
+  }));
+};
 const renderAdmin = async () => {
-  const { data } = await supabase.from('project_memberships').select('id, role, status, plan, user_id, trial_ends_at').eq('project_id', state.projectId).order('created_at');
-  const userIds = [...new Set((data || []).map(item => item.user_id))];
-  let userMap = new Map();
-  if (userIds.length) {
-    const { data: usersResponse, error: usersError } = await supabase.from('app_users').select('id,email').in('id', userIds);
-    const users = Array.isArray(usersResponse) ? usersResponse : [];
-    if (usersError) {
-      console.error(usersError);
-      setAdminMessage(usersError.message || t('errors.loadAdminUsers'), true);
+  try {
+    setAdminMessage('');
+    const members = await loadAdminUsers();
+    if (!members.length) {
+      el.adminTable.innerHTML = `<div class="admin-empty">Sin usuarios todavía.</div>`;
+      return;
     }
-    userMap = new Map(users.map(user => [user.id, user.email]));
+    const rows = members.map(item => `
+      <tr data-membership-id="${item.id}">
+        <td><strong>${item.email}</strong>${item.displayName ? `<div class="admin-subline">${item.displayName}</div>` : ''}</td>
+        <td>${item.role}</td>
+        <td>
+          <select data-plan="${item.id}" ${item.role === 'admin' ? 'disabled' : ''}>
+            <option value="basic" ${item.plan === 'basic' ? 'selected' : ''}>${t('admin.trial')}</option>
+            <option value="paid" ${item.plan === 'paid' ? 'selected' : ''}>${t('admin.paid')}</option>
+          </select>
+        </td>
+        <td>${item.status}</td>
+        <td>${formatDate(item.trial_ends_at)}</td>
+        <td>
+          ${item.role === 'admin' ? '<span class="admin-lock">Admin</span>' : `<button data-action="toggle" data-id="${item.id}">${item.status === 'active' ? t('admin.disable') : t('admin.enable')}</button>`}
+        </td>
+      </tr>`).join('');
+    el.adminTable.innerHTML = `<table><thead><tr><th>${t('admin.email')}</th><th>${t('admin.role')}</th><th>${t('admin.plan')}</th><th>${t('admin.status')}</th><th>${t('admin.trialEnds')}</th><th>${t('admin.actions')}</th></tr></thead><tbody>${rows}</tbody></table>`;
+    el.adminTable.querySelectorAll('button[data-action="toggle"]').forEach(button => {
+      button.onclick = async () => {
+        const membership = members.find(item => item.id === button.dataset.id);
+        if (!membership) return;
+        const nextStatus = membership.status === 'active' ? 'disabled' : 'active';
+        const patch = nextStatus === 'disabled'
+          ? { status: nextStatus, deactivated_at: new Date().toISOString() }
+          : { status: nextStatus, deactivated_at: null };
+        const { error: updateError } = await supabase.from('project_memberships').update(patch).eq('id', membership.id);
+        if (updateError) return setAdminMessage(updateError.message || t('errors.loadAdminUsers'), true);
+        await renderAdmin();
+      };
+    });
+    el.adminTable.querySelectorAll('select[data-plan]').forEach(select => {
+      select.onchange = async () => {
+        const membership = members.find(item => item.id === select.dataset.plan);
+        if (!membership) return;
+        const plan = select.value;
+        const now = new Date();
+        const trialEnds = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+        const patch = {
+          plan,
+          checklist_limit: plan === 'paid' ? 10 : 1,
+          trial_started_at: plan === 'paid' ? null : (membership.trial_started_at || now.toISOString()),
+          trial_ends_at: plan === 'paid' ? null : trialEnds.toISOString(),
+          deactivated_at: null,
+          status: 'active'
+        };
+        const { error: updateError } = await supabase.from('project_memberships').update(patch).eq('id', membership.id);
+        if (updateError) return setAdminMessage(updateError.message || t('errors.loadAdminUsers'), true);
+        await renderAdmin();
+      };
+    });
+  } catch (error) {
+    console.error(error);
+    setAdminMessage(error.message || t('errors.loadAdminUsers'), true);
+    el.adminTable.innerHTML = `<div class="admin-empty">No se pudo cargar la lista.</div>`;
   }
-  const rows = (data || []).map(item => `
-    <tr>
-      <td>${userMap.get(item.user_id) || item.user_id}</td>
-      <td>${item.role}</td>
-      <td>
-        <select data-plan="${item.id}">
-          <option value="basic" ${item.plan === 'basic' ? 'selected' : ''}>${t('admin.trial')}</option>
-          <option value="paid" ${item.plan === 'paid' ? 'selected' : ''}>${t('admin.paid')}</option>
-        </select>
-      </td>
-      <td>${item.status}</td>
-      <td>${formatDate(item.trial_ends_at)}</td>
-      <td>
-        <button data-action="toggle" data-id="${item.id}">${item.status === 'active' ? t('admin.disable') : t('admin.enable')}</button>
-      </td>
-    </tr>`).join('');
-  el.adminTable.innerHTML = `<table><thead><tr><th>${t('admin.email')}</th><th>${t('admin.role')}</th><th>${t('admin.plan')}</th><th>${t('admin.status')}</th><th>${t('admin.trialEnds')}</th><th>${t('admin.actions')}</th></tr></thead><tbody>${rows}</tbody></table>`;
-  el.adminTable.querySelectorAll('button').forEach(button => {
-    button.onclick = async () => {
-      const membership = data.find(item => item.id === button.dataset.id);
-      const nextStatus = membership.status === 'active' ? 'disabled' : 'active';
-      await supabase.from('project_memberships').update({ status: nextStatus }).eq('id', membership.id);
-      await renderAdmin();
-    };
-  });
-  el.adminTable.querySelectorAll('select[data-plan]').forEach(select => {
-    select.onchange = async () => {
-      const membership = data.find(item => item.id === select.dataset.plan);
-      const plan = select.value;
-      const now = new Date();
-      const trialEnds = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
-      await supabase.from('project_memberships').update({
-        plan,
-        checklist_limit: plan === 'paid' ? 10 : 1,
-        trial_started_at: plan === 'paid' ? null : now.toISOString(),
-        trial_ends_at: plan === 'paid' ? null : trialEnds.toISOString(),
-        deactivated_at: null,
-        status: 'active'
-      }).eq('id', membership.id);
-      await renderAdmin();
-    };
-  });
 };
 const showAdmin = async () => {
   state.isAdminView = true;
