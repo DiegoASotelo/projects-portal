@@ -17,7 +17,10 @@
           <h1>Usuarios de la plataforma</h1>
           <p>Listado simple para revisar cuentas registradas.</p>
         </div>
-        <a class="trial-upgrade-fallback" href="./">Volver</a>
+        <div class="session-actions">
+          <button id="adminBackButton" class="trial-upgrade-fallback" type="button">Volver</button>
+          <button id="adminLogoutButton" class="trial-upgrade-fallback" type="button">Salir</button>
+        </div>
       </div>
       <div id="adminUsersStatus" class="admin-empty">Cargando usuarios…</div>
       <div id="adminUsersTable" class="admin-table"></div>
@@ -28,8 +31,18 @@
     const PROJECT_KEY = 'checklist-adrenalyn-xl-worldcup-26';
     const statusEl = document.getElementById('adminUsersStatus');
     const tableEl = document.getElementById('adminUsersTable');
+    const backButton = document.getElementById('adminBackButton');
+    const logoutButton = document.getElementById('adminLogoutButton');
 
     const formatDate = value => value ? new Intl.DateTimeFormat('es-ES').format(new Date(value)) : '-';
+
+    const goLogin = async () => {
+      await supabase.auth.signOut();
+      window.location.href = './';
+    };
+
+    backButton.addEventListener('click', goLogin);
+    logoutButton.addEventListener('click', goLogin);
 
     const load = async () => {
       const { data: sessionData } = await supabase.auth.getSession();
