@@ -257,17 +257,31 @@ const persistChecklistCard = async card => {
   downloadBackup(Object.fromEntries(state.cards.map(item => [item.id, item.owned])));
 };
 const loadAdminUsers = async () => {
-  const { data, error } = await supabase
+  const { data: memberships, error: membershipsError } = await supabase
     .from('project_memberships')
-    .select('id, role, status, plan, user_id, project_id, trial_started_at, trial_ends_at, deactivated_at, payment_note, app_users!left(email,display_name)')
+    .select('id, role, status, plan, user_id, project_id, trial_started_at, trial_ends_at, deactivated_at, payment_note')
     .eq('project_id', state.projectId)
     .order('created_at', { ascending: true });
-  if (error) throw error;
-  return (data || []).map(item => ({
-    ...item,
-    email: item.app_users?.email || item.user_id,
-    displayName: item.app_users?.display_name || ''
-  }));
+  if (membershipsError) throw membershipsError;
+  const members = memberships || [];
+  const userIds = [...new Set(members.map(item => item.user_id).filter(Boolean))];
+  let usersById = new Map();
+  if (userIds.length) {
+    const { data: users, error: usersError } = await supabase
+      .from('app_users')
+      .select('id,email,display_name')
+      .in('id', userIds);
+    if (usersError) throw usersError;
+    usersById = new Map((users || []).map(user => [user.id, user]));
+  }
+  return members.map(item => {
+    const user = usersById.get(item.user_id);
+    return {
+      ...item,
+      email: user?.email || item.user_id,
+      displayName: user?.display_name || ''
+    };
+  });
 };
 const renderAdmin = async () => {
   try {
