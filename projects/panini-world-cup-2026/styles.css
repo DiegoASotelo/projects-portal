@@ -13,3 +13,4 @@
 @media (max-width:768px){.album-editor-toolbar{width:100%;justify-content:flex-end}}
 @media (max-width:480px){.album-editor-toolbar button{flex:1}}
 .install-app-modal{width:min(92vw,560px);color:var(--text-primary)}.install-app-content h2,.install-app-content h3{font-family:'Bebas Neue',sans-serif;letter-spacing:.04em;margin:0 0 10px}.install-app-content h2{font-size:28px}.install-app-content h3{font-size:20px;margin-top:18px}.install-app-content p{margin:0 0 12px;color:var(--text-secondary);line-height:1.5}.install-app-content ol{margin:0;padding-left:20px;color:var(--text-primary)}.install-app-content li{margin:0 0 8px;line-height:1.45}.backup-link{background:none}
+.trial-upgrade-inline{display:flex;justify-content:center;padding:20px 0 8px}

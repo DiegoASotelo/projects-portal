@@ -321,6 +321,13 @@ const renderCards = () => {
     });
     wrapper.append(head, row); el.cardsGrid.appendChild(wrapper);
   });
+  if (state.trialMode && state.membership?.role !== 'admin' && state.membership?.plan !== 'paid') {
+    const ctaWrap = document.createElement('div');
+    ctaWrap.className = 'trial-upgrade-inline';
+    ctaWrap.innerHTML = `<button class="trial-upgrade-fallback" type="button">${t('login.unlockFull')}</button>`;
+    ctaWrap.querySelector('button').onclick = () => window.open('https://ko-fi.com/U7U51ZIXYB', '_blank', 'noopener,noreferrer');
+    el.cardsGrid.appendChild(ctaWrap);
+  }
 };
 const fillFilters = () => {
   const currentSection = state.filters.section; const currentType = state.filters.type; const visibleCards = visiblePool(); const visibleSections = buildSections(visibleCards).map(s => s.key); const visibleTypes = [...new Set(visibleCards.map(c => c.type))];
