@@ -628,7 +628,7 @@ const bindEvents = () => {
   if (el.adminCreateButton) el.adminCreateButton.addEventListener('click', () => setAdminMessage('PENDIENTE DE CONFIRMAR: crear/invitar usuario requiere flujo seguro fuera del frontend público.', true));
 };
 const init = async () => {
-  state.cards = await fetch('./data/cards.json').then(r => r.json());
+  state.cards = await fetch(`./data/cards.json?ts=${Date.now()}`, { cache: 'no-store' }).then(r => r.json());
   bindEvents();
   const params = new URLSearchParams(window.location.search);
   const forceLogout = params.get('logout') === '1';
