@@ -115,6 +115,7 @@ const el = {
   adminCreateButton: document.getElementById('adminCreateButton')
 };
 const placeholder = './placeholder-card.svg';
+const rotatedLandscapeCodes = new Set(['MEX13', 'BRA13', 'MAR13', 'JPN13', 'URU13', 'FRA13', 'NOR13', 'ARG13']);
 const t = key => key.split('.').reduce((acc, part) => acc?.[part], dictionaries[state.locale]) || key;
 const queuedImageChange = card => state.pendingImageChanges.get(card.id);
 const setLoginMessage = (text, error = false) => { el.loginMessage.textContent = text; el.loginMessage.dataset.error = error ? 'true' : 'false'; };
@@ -299,9 +300,11 @@ const renderCards = () => {
     section.items.forEach(card => {
       const node = el.template.content.firstElementChild.cloneNode(true);
       node.dataset.cardNumber = card.number;
+      node.dataset.cardCode = card.albumCode || card.id || '';
       node.classList.toggle('owned', card.owned >= 1);
       node.classList.toggle('pending-image', !!queuedImageChange(card));
       node.classList.toggle('landscape', !!card.landscape);
+      node.classList.toggle('rotated-landscape', rotatedLandscapeCodes.has(card.albumCode || card.id));
       node.querySelector('.num').textContent = card.albumCode;
       node.querySelector('.badge').textContent = card.owned > 1 ? `${card.owned}` : '';
       node.querySelector('.badge').style.display = card.owned > 1 ? 'grid' : 'none';
@@ -313,7 +316,12 @@ const renderCards = () => {
       const metaNode = node.querySelector('.meta');
       if (metaNode) metaNode.textContent = '';
       const img = node.querySelector('.thumb'); img.loading = 'lazy'; img.decoding = 'async'; img.src = cardImage(card); img.alt = `${card.name} ${getTeamLabel(card.teamCode)}`;
-      node.querySelector('.thumb-button').onclick = () => { state.lastScrollY = window.scrollY; el.modalImage.src = cardImage(card); el.imageModal.showModal(); };
+      node.querySelector('.thumb-button').onclick = () => {
+        state.lastScrollY = window.scrollY;
+        el.modalImage.src = cardImage(card);
+        el.modalImage.classList.toggle('rotated-landscape', rotatedLandscapeCodes.has(card.albumCode || card.id));
+        el.imageModal.showModal();
+      };
       node.querySelector('[data-action="increment"]').onclick = () => updateCard(card, 1);
       node.querySelector('[data-action="decrement"]').onclick = () => updateCard(card, -1);
       bindImageEditor(node, card);
