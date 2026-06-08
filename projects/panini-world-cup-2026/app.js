@@ -31,7 +31,12 @@ const state = {
   }
 };
 window.__checklistDebug = { state };
-const trialSections = new Set(['intro', 'group-a-mex', 'group-a-rsa', 'group-a-kor', 'group-a-cze']);
+const trialSections = new Set([
+  'intro',
+  'group-a-mex', 'group-a-rsa', 'group-a-kor', 'group-a-cze',
+  'group-b-can', 'group-b-bih', 'group-b-qat', 'group-b-sui',
+  'group-c-bra', 'group-c-mar', 'group-c-hai', 'group-c-sco'
+]);
 const GROUP_TEAMS = {
   'A': [['Mexico','MEX'],['South Africa','RSA'],['South Korea','KOR'],['Czechia','CZE']],
   'B': [['Canada','CAN'],['Bosnia and Herzegovina','BIH'],['Qatar','QAT'],['Switzerland','SUI']],
