@@ -143,6 +143,7 @@ const placeholderDataUrl = label => `data:image/svg+xml;utf8,${encodeURIComponen
 const cardImage = card => queuedImageChange(card)?.previewUrl || (card.image && card.image !== placeholder ? card.image : placeholderDataUrl(card.placeholderLabel || card.albumCode || card.id));
 const downloadBackup = stateObj => { const blob = new Blob([JSON.stringify(stateObj, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); el.backupSlot.innerHTML = `<a id="backupLink" class="backup-link" download="checklist-backup.json" href="${url}">${t('app.backup')}</a>`; };
 const renderInstallAppHelp = () => {
+  if (!el.installAppTitle || !el.installAppAndroidSteps || !dictionaries[state.locale]?.installApp) return;
   const copy = dictionaries[state.locale].installApp;
   el.installAppTitle.textContent = copy.title;
   el.installAppIntro.textContent = copy.intro;
@@ -157,6 +158,7 @@ const renderDashboard = () => { const total = visiblePool().length; const owned 
 const getAccessToken = async () => (await supabase.auth.getSession()).data.session?.access_token || '';
 const askImageReplacement = card => `¿Quieres cambiar la imagen del cromo ${card.albumCode || card.id} · ${card.playerName || card.name}?`;
 const updateAlbumEditorToolbar = () => {
+  if (!el.albumEditorToolbar || !el.albumEditorPendingCount || !el.albumEditorSaveButton || !el.albumEditorDiscardButton) return;
   const pendingCount = state.pendingImageChanges.size;
   const visible = state.isAlbumEditMode && isPlatformAdmin();
   el.albumEditorToolbar.hidden = !visible;
@@ -257,8 +259,9 @@ const openManualUploadWindow = async (card, file, { waitForDeploy = false } = {}
 };
 const bindImageEditor = (node, card) => {
   if (!state.isAlbumEditMode || !isPlatformAdmin()) return;
-  node.classList.add('edit-mode');
   const input = node.querySelector('.image-upload-input');
+  if (!input) return;
+  node.classList.add('edit-mode');
   const runUpload = async file => {
     if (!file) return;
     if (!window.confirm(askImageReplacement(card))) {
@@ -298,9 +301,12 @@ const renderCards = () => {
       node.querySelector('.badge').textContent = card.owned > 1 ? `${card.owned}` : '';
       node.querySelector('.badge').style.display = card.owned > 1 ? 'grid' : 'none';
       node.querySelector('.name').textContent = card.playerName || card.name;
-      node.querySelector('.card-id').textContent = card.albumCode || card.id;
-      node.querySelector('.team').innerHTML = '';
-      node.querySelector('.meta').textContent = '';
+      const cardIdNode = node.querySelector('.card-id');
+      if (cardIdNode) cardIdNode.textContent = card.albumCode || card.id;
+      const teamNode = node.querySelector('.team');
+      if (teamNode) teamNode.innerHTML = '';
+      const metaNode = node.querySelector('.meta');
+      if (metaNode) metaNode.textContent = '';
       const img = node.querySelector('.thumb'); img.loading = 'lazy'; img.decoding = 'async'; img.src = cardImage(card); img.alt = `${card.name} ${getTeamLabel(card.teamCode)}`;
       node.querySelector('.thumb-button').onclick = () => { state.lastScrollY = window.scrollY; el.modalImage.src = cardImage(card); el.imageModal.showModal(); };
       node.querySelector('[data-action="increment"]').onclick = () => updateCard(card, 1);
@@ -563,7 +569,7 @@ const applyTranslations = () => {
   document.getElementById('appTitle').textContent = t('app.title');
   document.getElementById('appSubtitle').textContent = t('app.subtitle');
   el.adminLink.textContent = 'Admin';
-  el.albumEditorLink.textContent = 'Editar imágenes del álbum';
+  if (el.albumEditorLink) el.albumEditorLink.textContent = 'Editar imágenes del álbum';
   el.logoutButton.textContent = t('app.logout');
   document.getElementById('labelOwned').textContent = t('app.owned');
   document.getElementById('labelMissing').textContent = t('app.missing');
@@ -574,7 +580,7 @@ const applyTranslations = () => {
   document.getElementById('legendOwned').textContent = t('app.statusOwned');
   document.getElementById('legendMissing').textContent = t('app.statusMissing');
   document.getElementById('legendDuplicates').textContent = t('app.statusDuplicates');
-  el.installAppHelpButton.textContent = t('app.installApp');
+  if (el.installAppHelpButton) el.installAppHelpButton.textContent = t('app.installApp');
   el.backupUploadLabel.textContent = t('app.uploadBackup');
   document.getElementById('adminPanelTitle').textContent = t('admin.panelTitle');
   el.backToAppButton.textContent = t('admin.back');
@@ -595,19 +601,19 @@ const bindEvents = () => {
   el.closeModal.onclick = () => { el.imageModal.close(); window.scrollTo(0, state.lastScrollY || 0); };
   el.imageModal.addEventListener('click', event => { if (event.target === el.imageModal) { el.imageModal.close(); window.scrollTo(0, state.lastScrollY || 0); } });
   el.imageModal.addEventListener('close', () => { window.scrollTo(0, state.lastScrollY || 0); });
-  el.installAppHelpButton.addEventListener('click', () => el.installAppModal.showModal());
-  el.closeInstallAppModal.addEventListener('click', () => el.installAppModal.close());
-  el.installAppModal.addEventListener('click', event => { if (event.target === el.installAppModal) el.installAppModal.close(); });
+  if (el.installAppHelpButton && el.installAppModal) el.installAppHelpButton.addEventListener('click', () => el.installAppModal.showModal());
+  if (el.closeInstallAppModal && el.installAppModal) el.closeInstallAppModal.addEventListener('click', () => el.installAppModal.close());
+  if (el.installAppModal) el.installAppModal.addEventListener('click', event => { if (event.target === el.installAppModal) el.installAppModal.close(); });
   el.emailLoginForm.addEventListener('submit', event => event.preventDefault());
   el.togglePasswordButton.addEventListener('click', () => { const hidden = el.passwordInput.type === 'password'; el.passwordInput.type = hidden ? 'text' : 'password'; el.togglePasswordButton.textContent = hidden ? t('login.hidePassword') : t('login.showPassword'); });
   el.emailSignInButton.addEventListener('click', handleEmailSignIn);
   el.emailSignUpButton.addEventListener('click', handleEmailSignUp);
   el.logoutButton.addEventListener('click', logout);
   el.adminLink.addEventListener('click', showAdmin);
-  el.albumEditorLink.addEventListener('click', showAlbumEditor);
+  if (el.albumEditorLink) el.albumEditorLink.addEventListener('click', showAlbumEditor);
   el.backToAppButton.addEventListener('click', showApp);
-  el.albumEditorSaveButton.addEventListener('click', savePendingImageChanges);
-  el.albumEditorDiscardButton.addEventListener('click', () => {
+  if (el.albumEditorSaveButton) el.albumEditorSaveButton.addEventListener('click', savePendingImageChanges);
+  if (el.albumEditorDiscardButton) el.albumEditorDiscardButton.addEventListener('click', () => {
     clearPendingImageChanges();
     renderCards();
   });
@@ -615,11 +621,11 @@ const bindEvents = () => {
   el.localeSelectorLogin.addEventListener('change', event => setLocale(event.target.value));
   el.rememberMeCheckbox.addEventListener('change', persistRememberMe);
   el.backupUploadInput.addEventListener('change', async event => { const file = event.target.files?.[0]; if (!file) return; try { await importBackup(file); setLoginMessage(''); } catch (error) { console.error(error); setLoginMessage('Backup no válido.', true); } event.target.value = ''; });
-  el.adminSearchInput.addEventListener('input', () => { state.admin.filters.q = el.adminSearchInput.value.trim().toLowerCase(); renderAdmin(); });
-  el.adminProjectFilter.addEventListener('change', () => { state.admin.filters.projectId = el.adminProjectFilter.value; renderAdmin(); });
-  el.adminPlanFilter.addEventListener('change', () => { state.admin.filters.plan = el.adminPlanFilter.value; renderAdmin(); });
-  el.adminStatusFilter.addEventListener('change', () => { state.admin.filters.status = el.adminStatusFilter.value; renderAdmin(); });
-  el.adminCreateButton.addEventListener('click', () => setAdminMessage('PENDIENTE DE CONFIRMAR: crear/invitar usuario requiere flujo seguro fuera del frontend público.', true));
+  if (el.adminSearchInput) el.adminSearchInput.addEventListener('input', () => { state.admin.filters.q = el.adminSearchInput.value.trim().toLowerCase(); renderAdmin(); });
+  if (el.adminProjectFilter) el.adminProjectFilter.addEventListener('change', () => { state.admin.filters.projectId = el.adminProjectFilter.value; renderAdmin(); });
+  if (el.adminPlanFilter) el.adminPlanFilter.addEventListener('change', () => { state.admin.filters.plan = el.adminPlanFilter.value; renderAdmin(); });
+  if (el.adminStatusFilter) el.adminStatusFilter.addEventListener('change', () => { state.admin.filters.status = el.adminStatusFilter.value; renderAdmin(); });
+  if (el.adminCreateButton) el.adminCreateButton.addEventListener('click', () => setAdminMessage('PENDIENTE DE CONFIRMAR: crear/invitar usuario requiere flujo seguro fuera del frontend público.', true));
 };
 const init = async () => {
   state.cards = await fetch('./data/cards.json').then(r => r.json());
